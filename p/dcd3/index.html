@@ -1,0 +1,163 @@
+<!doctype html><html lang=zh-cn dir=ltr><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><meta name=description content="用Qt和C++开发了一个基于TCP协议的通信程序，源码放在文章底部了。 TCP是一种传输协议，以服务器和客户端的形式运行。 Qt中提供了QTcp"><title>【Qt C++】TCP聊天程序DuckChat</title>
+<link rel=canonical href=https://blog.fiveth.cc/p/dcd3/><link rel=stylesheet href=/scss/style.min.d79474f72ee8f2092a869588d474fdc6f525a3b6cf8235ef1f3d90ad91111d3c.css><meta property='og:title' content="【Qt C++】TCP聊天程序DuckChat"><meta property='og:description' content="用Qt和C++开发了一个基于TCP协议的通信程序，源码放在文章底部了。 TCP是一种传输协议，以服务器和客户端的形式运行。 Qt中提供了QTcp"><meta property='og:url' content='https://blog.fiveth.cc/p/dcd3/'><meta property='og:site_name' content='Fiveth'><meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='C++'><meta property='article:tag' content='Qt'><meta property='article:tag' content='TCP'><meta property='article:published_time' content='2023-04-25T00:00:00+00:00'><meta property='article:modified_time' content='2023-04-25T00:00:00+00:00'><meta property='og:image' content='https://p.fiveth.cc/img/m/duckchat.jpg'><meta name=twitter:title content="【Qt C++】TCP聊天程序DuckChat"><meta name=twitter:description content="用Qt和C++开发了一个基于TCP协议的通信程序，源码放在文章底部了。 TCP是一种传输协议，以服务器和客户端的形式运行。 Qt中提供了QTcp"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content='https://p.fiveth.cc/img/m/duckchat.jpg'><link rel="shortcut icon" href=/img/favicon.ico></head><body class=article-page><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex on-phone--column extended"><div id=article-toolbar style=position:sticky;top:5px;z-index:1000><a href=/ class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
+<span>返回</span></a></div><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">目录</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#查询ip和端口>查询ip和端口</a></li><li><a href=#监听>监听</a></li><li><a href=#连入>连入</a></li><li><a href=#读取>读取</a></li><li><a href=#发送>发送</a></li></ol><ol><li><a href=#接受和发送>接受和发送</a></li></ol><ol><li><a href=#界面背景>界面背景</a></li><li><a href=#按钮样式表>按钮样式表</a></li><li><a href=#全局样式表>全局样式表</a></li></ol></nav></div></section></aside><main class="main full-width"><article class="has-image main-article"><header class=article-header><div class=article-image><a href=/p/dcd3/><img src=https://p.fiveth.cc/img/m/duckchat.jpg loading=lazy alt="Featured image of post 【Qt C++】TCP聊天程序DuckChat"></a></div><div class=article-details><header class=article-category><a href=/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/>我的项目</a></header><div class=article-title-wrapper><h2 class=article-title><a href=/p/dcd3/>【Qt C++】TCP聊天程序DuckChat</a></h2></div><footer class=article-time><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Apr 25, 2023</time></div><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>阅读时长: 2 分钟</time></div></footer></div></header><section class=article-content><p>用Qt和C++开发了一个基于TCP协议的通信程序，源码放在文章底部了。</p><p>TCP是一种传输协议，以服务器和客户端的形式运行。</p><p>Qt中提供了QTcpServer类来编写服务器端程序，以及QTcpSocket类来编写客户端程序。</p><p>服务端开启对一个端口的监听，等待客户端连入。</p><img src=https://p.fiveth.cc/img/m/duckchat.webp style=zoom:30%><h1 id=服务端>服务端</h1><p>服务端继承于QTcpServer类，加上Q_OBJECT</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-c++ data-lang=c++><span class=line><span class=cl><span class=c1>//头文件
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=k>class</span> <span class=nc>Server</span> <span class=o>:</span> <span class=k>public</span> <span class=n>QTcpServer</span>
+</span></span><span class=line><span class=cl><span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=n>Q_OBJECT</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=c1>//源文件
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>Server</span><span class=o>::</span><span class=n>Server</span><span class=p>(</span><span class=n>QObject</span> <span class=o>*</span><span class=n>parent</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=o>:</span> <span class=n>QTcpServer</span><span class=p>{</span><span class=n>parent</span><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>{</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=查询ip和端口>查询ip和端口</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>netstat -ano 活动连接列表
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>ipconfig /all 查看ip
+</span></span></code></pre></td></tr></table></div></div><h2 id=监听>监听</h2><p>服务端用QTcpServer监听端口，用QTcpSocket 读取和写入</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-C++ data-lang=C++><span class=line><span class=cl><span class=n>server</span><span class=o>-&gt;</span><span class=n>listen</span><span class=p>(</span><span class=n>QHostAddress</span><span class=o>::</span><span class=n>Any</span><span class=p>,</span><span class=mi>8888</span><span class=p>);</span> <span class=c1>//开始监听端口
+</span></span></span></code></pre></td></tr></table></div></div><h2 id=连入>连入</h2><p>连接后自动触发的函数，开始接受数据</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-c++ data-lang=c++><span class=line><span class=cl><span class=kt>void</span> <span class=n>Server</span><span class=o>::</span><span class=n>incomingConnection</span><span class=p>(</span><span class=n>qintptr</span> <span class=n>handle</span><span class=p>){</span>
+</span></span><span class=line><span class=cl>    <span class=n>socket</span><span class=p>.</span><span class=n>setSocketDescriptor</span><span class=p>(</span><span class=n>handle</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=n>connect</span><span class=p>(</span><span class=o>&amp;</span><span class=n>socket</span><span class=p>,</span><span class=n>SIGNAL</span><span class=p>(</span><span class=n>readyRead</span><span class=p>()),</span><span class=k>this</span><span class=p>,</span><span class=n>SLOT</span><span class=p>(</span><span class=n>receiveData</span><span class=p>()));</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=读取>读取</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-c++ data-lang=c++><span class=line><span class=cl><span class=kt>void</span> <span class=n>Server</span><span class=o>::</span><span class=n>receiveData</span><span class=p>()</span>
+</span></span><span class=line><span class=cl><span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=n>QByteArray</span> <span class=n>message</span><span class=o>=</span><span class=n>socket</span><span class=p>.</span><span class=n>readAll</span><span class=p>();</span>
+</span></span><span class=line><span class=cl>    <span class=n>str</span><span class=o>=</span><span class=n>message</span><span class=p>.</span><span class=n>data</span><span class=p>();</span> <span class=c1>//转为QString
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=发送>发送</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-c++ data-lang=c++><span class=line><span class=cl><span class=kt>void</span> <span class=n>Server</span><span class=o>::</span><span class=n>sendData</span><span class=p>(</span><span class=n>QString</span> <span class=n>text</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=n>socket</span><span class=p>.</span><span class=n>write</span><span class=p>(</span><span class=n>text</span><span class=p>.</span><span class=n>toUtf8</span><span class=p>());</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><h1 id=客户端>客户端</h1><p>用QTcpSocket实现连接及收发</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-c++ data-lang=c++><span class=line><span class=cl><span class=n>QTcpSocket</span><span class=o>*</span> <span class=n>socket</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=n>socket</span><span class=p>.</span><span class=n>connectToHost</span><span class=p>(</span><span class=n>IP</span><span class=p>,</span><span class=n>PORT</span><span class=p>);</span> <span class=c1>//连接
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=k>if</span><span class=p>(</span><span class=n>socket</span><span class=p>.</span><span class=n>waitForConnected</span><span class=p>(</span><span class=mi>1000</span><span class=p>)){</span>  <span class=c1>//等待1秒连接
+</span></span></span><span class=line><span class=cl><span class=c1></span>        <span class=n>qDebug</span><span class=p>(</span><span class=s>&#34;成功连接聊天室...</span><span class=se>\n</span><span class=s>&#34;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=k>else</span><span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=n>qDebug</span><span class=p>(</span><span class=s>&#34;连接失败...</span><span class=se>\n</span><span class=s>&#34;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=n>connect</span><span class=p>(</span><span class=o>&amp;</span><span class=n>socket</span><span class=p>,</span><span class=n>SIGNAL</span><span class=p>(</span><span class=n>readyRead</span><span class=p>()),</span><span class=k>this</span><span class=p>,</span><span class=n>SLOT</span><span class=p>(</span><span class=n>receiveData</span><span class=p>()));</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=接受和发送>接受和发送</h2><p>接受和发送与服务端相同</p><h1 id=界面ui>界面UI</h1><p>QSS是QT受CSS启发做的样式表语言，在简单的qt程序制作中非常好用。</p><h2 id=界面背景>界面背景</h2><p>在坐标(0,0)处放QLabel并拉满整个窗口，样式表中放入照片，照片要先导入到qrc资源文件中</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-css data-lang=css><span class=line><span class=cl><span class=nt>QLabel</span>
+</span></span><span class=line><span class=cl><span class=p>{</span>
+</span></span><span class=line><span class=cl>	<span class=k>border-image</span><span class=p>:</span> <span class=nb>url</span><span class=p>(</span><span class=sx>:/Images/duckl.png</span><span class=p>);</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=按钮样式表>按钮样式表</h2><p>hover是鼠标放在上面显示的样式</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-css data-lang=css><span class=line><span class=cl>  <span class=nt>QPushButton</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=k>border</span><span class=p>:</span> <span class=mf>0.5</span><span class=kt>px</span> <span class=kc>solid</span> <span class=kc>white</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=k>border-radius</span><span class=p>:</span> <span class=mi>6</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=k>background-color</span><span class=p>:</span> <span class=nb>rgb</span><span class=p>(</span><span class=mi>90</span><span class=p>,</span><span class=mi>194</span><span class=p>,</span><span class=mi>198</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>      <span class=k>min-width</span><span class=p>:</span> <span class=mi>40</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>	  <span class=k>font-family</span><span class=p>:</span> <span class=s2>&#34;Microsoft YaHei&#34;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>	  <span class=k>font-size</span><span class=p>:</span><span class=mi>11</span><span class=kt>pt</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>	  <span class=k>font-weight</span><span class=p>:</span> <span class=kc>bold</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>	  <span class=k>color</span><span class=p>:</span><span class=kc>white</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl> <span class=nt>QPushButton</span><span class=p>:</span><span class=nd>hover</span> <span class=p>{</span> 
+</span></span><span class=line><span class=cl>	<span class=k>border</span><span class=p>:</span> <span class=mf>0.5</span><span class=kt>px</span> <span class=kc>solid</span> <span class=kc>white</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=k>border-radius</span><span class=p>:</span> <span class=mi>6</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=k>background-color</span><span class=p>:</span> <span class=mh>#1fab89</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=k>min-width</span><span class=p>:</span> <span class=mi>40</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>	  <span class=k>font-family</span><span class=p>:</span> <span class=s2>&#34;Microsoft YaHei&#34;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>	  <span class=k>font-size</span><span class=p>:</span><span class=mi>10</span><span class=kt>pt</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>	  <span class=k>font-weight</span><span class=p>:</span> <span class=kc>bold</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>	  <span class=k>color</span><span class=p>:</span><span class=kc>white</span><span class=p>;</span>
+</span></span><span class=line><span class=cl> <span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=全局样式表>全局样式表</h2><p>编辑基类widget样式表</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-css data-lang=css><span class=line><span class=cl><span class=nt>QWidget</span><span class=p>{</span>
+</span></span><span class=line><span class=cl><span class=k>border</span><span class=p>:</span> <span class=kc>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nt>QLineEdit</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=k>border</span><span class=p>:</span> <span class=mf>0.5</span><span class=kt>px</span> <span class=kc>solid</span> <span class=nb>rgb</span><span class=p>(</span><span class=mi>147</span><span class=p>,</span> <span class=mi>150</span><span class=p>,</span> <span class=mi>154</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>      <span class=k>border-radius</span><span class=p>:</span> <span class=mi>6</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=k>background-color</span><span class=p>:</span> <span class=nb>rgba</span><span class=p>(</span><span class=mi>40</span><span class=p>,</span> <span class=mi>44</span><span class=p>,</span> <span class=mi>52</span><span class=p>,</span><span class=mi>150</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>      <span class=k>min-width</span><span class=p>:</span> <span class=mi>80</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>	  <span class=k>font-family</span><span class=p>:</span> <span class=s2>&#34;Microsoft YaHei&#34;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>	  <span class=k>font-size</span><span class=p>:</span><span class=mi>11</span><span class=kt>pt</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>	  <span class=k>font-weight</span><span class=p>:</span> <span class=kc>bold</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>	  <span class=k>color</span><span class=p>:</span><span class=nb>rgb</span><span class=p>(</span><span class=mi>147</span><span class=p>,</span> <span class=mi>150</span><span class=p>,</span> <span class=mi>154</span><span class=p>);</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><h1 id=程序源码>程序源码</h1><p>源码：https://github.com/kevinwu06/DuckChat</p></section><footer class=article-footer><section class=article-tags><a href=/tags/c++/>C++</a>
+<a href=/tags/qt/>Qt</a>
+<a href=/tags/tcp/>TCP</a></section><section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
+<span>Licensed under CC BY-NC-SA 4.0</span></section></footer></article><aside class=related-content--wrapper><h2 class=section-title>相关文章</h2><div class=related-content><div class="flex article-list--tile"><article class=has-image><a href=/p/1841/><div class=article-image><img src=https://p.fiveth.cc/img/m/rectmans.jpg loading=lazy data-key=1841 data-hash=https://p.fiveth.cc/img/m/rectmans.jpg></div><div class=article-details><h2 class=article-title>【Qt C++】TCP联机小游戏 RectMans</h2></div></a></article><article class=has-image><a href=/p/f1e0/><div class=article-image><img src=https://p.fiveth.cc/img/m/fighterduck.jpg loading=lazy data-key=f1e0 data-hash=https://p.fiveth.cc/img/m/fighterduck.jpg></div><div class=article-details><h2 class=article-title>【Qt C++】Fighter Duck</h2></div></a></article></div></div></aside><script src=//cdn.jsdelivr.net/npm/twikoo@1.6.21/dist/twikoo.all.min.js></script><div id=tcomment></div><style>.twikoo{background-color:var(--card-background);border-radius:var(--card-border-radius);box-shadow:var(--shadow-l1);padding:var(--card-padding)}:root[data-scheme=dark]{--twikoo-body-text-color-main:rgba(255, 255, 255, 0.9);--twikoo-body-text-color:rgba(255, 255, 255, 0.7)}.twikoo .el-input-group__prepend,.twikoo .tk-action-icon,.twikoo .tk-submit-action-icon,.twikoo .tk-time,.twikoo .tk-comments-no,.twikoo .tk-comments-count{color:var(--twikoo-body-text-color)}.twikoo .el-input__inner,.twikoo .el-textarea__inner,.twikoo .tk-preview-container,.twikoo .tk-content,.twikoo .tk-nick,.twikoo .tk-send{color:var(--twikoo-body-text-color-main)}.twikoo .el-button{color:var(--twikoo-body-text-color)!important}.twikoo .el-input__count{color:var(--twikoo-body-text-color)!important}.OwO .OwO-body{background-color:var(--body-background)!important;color:var(--body-text-color)!important}</style><script>twikoo.init({envId:"https://c.fiveth.cc/",el:"#tcomment",lang:"zh-cn"})</script><footer class=site-footer><section class=copyright>&copy;
+2022 -
+2024 Fiveth</section><section class=powerby><a href="https://icp.gov.moe/?keyword=20246616" target=_blank>萌ICP备20246616</a><br>使用 <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> 构建<br>主题 <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.26.0>Stack</a></b> 由 <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a> 设计</section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css crossorigin=anonymous></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.js defer></script><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>

@@ -1,27 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Fiveth</title><link>https://b.fiveth.cc/page/</link><description>Recent content in Pages on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://b.fiveth.cc/page/index.xml" rel="self" type="application/rss+xml"/><item><title>Archives</title><link>https://b.fiveth.cc/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://b.fiveth.cc/archives/</guid><description/></item><item><title>Links</title><link>https://b.fiveth.cc/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://b.fiveth.cc/links/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
-&lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Fiveth</title><link>https://blog.fiveth.cc/page/</link><description>Recent content in Pages on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/page/index.xml" rel="self" type="application/rss+xml"/><item><title>归档</title><link>https://blog.fiveth.cc/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/archives/</guid><description/></item><item><title>关于</title><link>https://blog.fiveth.cc/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/about/</guid><description>&lt;h1 id="hi">🤪Hi
+&lt;/h1>&lt;p>Hiii，我是&lt;code>Fiveth&lt;/code>，一名&lt;code>准计算机学生&lt;/code>，目前在读&lt;code>国际高中&lt;/code>，目标英国G5！&lt;code>Fiveth&lt;/code>这个网名来源于我的真名，谐音听着像五千，英文Five thousand，然后再一缩写就成了Fiveth😋&lt;/p>
+&lt;h2 id="我的人格">😎我的人格
+&lt;/h2>&lt;blockquote>
+&lt;p>&lt;div>
+&lt;img src="https://p.fiveth.cc/img/m/adventurer_small.png" style="width: 150px; height: 150px; margin: 0 10px; display: inline-block;">&lt;div style="display: inline-block;">
+&lt;strong>ISFP-A探险家&lt;/strong>&lt;br>
+- 他能在ddl的压力下焦虑地摸鱼一整天&lt;br>
+- 对感兴趣的有无比强烈的学习欲望&lt;br>
+- 对自己不感兴趣的直接&lt;del>阳痿&lt;/del>
+&lt;/div>
+&lt;/div>
+&lt;/p>&lt;span class="cite">&lt;span>― &lt;/span>&lt;span>ISFP, &lt;/span>&lt;a href="https://www.16personalities.com/ch/isfp-%E4%BA%BA%E6%A0%BC">&lt;cite>16 Personalities&lt;/cite>&lt;/a>&lt;/span>&lt;/blockquote>
+&lt;h2 id="我的最爱">🎮我的最爱
+&lt;/h2>&lt;blockquote>
+&lt;div>
+番剧：&lt;img src="https://p.fiveth.cc/img/m/cyberrunner.webp" style="width: 300px; height: 400px; margin: 0 10px; display: inline-block;">&lt;div style="display: inline-block;">
+游戏：&lt;img src="https://p.fiveth.cc/img/2024/0420165006.jpeg" style="width: 300px; height: 400px; margin: 0 10px; display: inline-block;">
+&lt;/div>
+&lt;/blockquote>
+&lt;p>2022年看了&lt;code>赛博朋克：边缘行者&lt;/code>，被这个世界深深吸引了。看完后买了&lt;code>赛博朋克2077&lt;/code>，2023断断续续地完了一整年，也是我唯一玩完的3A，打了全成就。现在回想，仿佛自己真的在&lt;code>夜之城&lt;/code>活过一生。&lt;/p>
+&lt;h2 id="座右铭">💭座右铭
+&lt;/h2>&lt;blockquote>
+&lt;p>Who looks outside, dreams;&lt;br>
+Who looks inside, awakes.&lt;/p>&lt;span class="cite">&lt;span>― &lt;/span>&lt;span>Carl Jung&lt;/span>&lt;cite>&lt;/cite>&lt;/span>&lt;/blockquote>
+&lt;h2 id="关于本站">💻关于本站
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>2022.11&lt;/code>上网课的时候，跟着教程用hexo搭建了自己的个人博客，开始了折腾之旅。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>2024.5&lt;/code>博客迁移至hugo，主要是为了加快博客流、减少折腾。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>感谢&lt;a class="link" href="https://blog.linsnow.cn/" target="_blank" rel="noopener"
+>L1nSn0w&lt;/a>提供Stack主题美化教程&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>好喜欢这个直观简约的风格，加载速度也非常快。&lt;/p>
+&lt;p>建立本站的目的是&lt;code>分享知识和生活&lt;/code>，在这里你可以看到我的&lt;code>教程干货、生活琐事、思考和想法&lt;/code>。
+有幸我们能在这片互联网的海洋中相遇，相信我们能共同留下美好的回忆。&lt;/p>
+&lt;h2 id="与我联系">☎️与我联系
+&lt;/h2>&lt;p>🐧QQ群：&lt;code>945014756&lt;/code>&lt;/p>
+&lt;p>✉️邮箱：kevinwu06@163.com&lt;/p></description></item><item><title>搜索</title><link>https://blog.fiveth.cc/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/search/</guid><description/></item><item><title>友链</title><link>https://blog.fiveth.cc/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/links/</guid><description>&lt;p>&lt;strong>本站友链&lt;/strong>&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
 &lt;/span>&lt;span class="lnt">3
 &lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;span class="lnt">7
-&lt;/span>&lt;span class="lnt">8
-&lt;/span>&lt;span class="lnt">9
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">links&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub is the world&amp;#39;s largest software development platform.&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.com&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://www.typescriptlang.org&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ts-logo-128.jpg&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">- title: Fiveth
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> website: https://blog.fiveth.cc/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> image: https://p.fiveth.cc/avatar.png
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> description: 分享知识与生活🎈
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item><item><title>Search</title><link>https://b.fiveth.cc/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://b.fiveth.cc/search/</guid><description/></item><item><title>关于</title><link>https://b.fiveth.cc/%E5%85%B3%E4%BA%8E/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://b.fiveth.cc/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p>This is a test page for i18n support.&lt;/p></description></item></channel></rss>
+&lt;/div>&lt;p>&lt;strong>加入本站友链方式😋&lt;/strong>&lt;/p>
+&lt;p>添加本站友链后，参照以下格式留言即可&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">- title: #站点名称
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> website: #站点链接
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> image: #站长头像
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> description: #站点描述
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
