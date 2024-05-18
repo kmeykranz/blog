@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Fiveth</title><link>https://blog.fiveth.cc/post/</link><description>Recent content in Posts on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello Hugo</title><link>https://blog.fiveth.cc/p/hello-hugo/</link><pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/hello-hugo/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/lowsun.webp" alt="Featured image of post Hello Hugo" />&lt;p>hi，大家应该发现了，我把博客从hexo迁移到了hugo&lt;/p></description></item><item><title>618购物攻略：今年规则大改，取消预售</title><link>https://blog.fiveth.cc/p/208b/</link><pubDate>Thu, 09 May 2024 22:11:16 +0000</pubDate><guid>https://blog.fiveth.cc/p/208b/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/lowsun.webp" alt="Featured image of post 618购物攻略：今年规则大改，取消预售" />&lt;p>今天偶然在微信公众号看到天猫618的规则改了，取消了预售制度。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Fiveth</title><link>https://blog.fiveth.cc/post/</link><description>Recent content in Posts on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello Hugo</title><link>https://blog.fiveth.cc/p/hello-hugo/</link><pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/hello-hugo/</guid><description>&lt;img src="https://p.fiveth.cc/img/2024/0518131750.webp" alt="Featured image of post Hello Hugo" />&lt;p>hi，大家应该发现了，我的博客大变样了（不是💩样）&lt;/p>
+&lt;p>因为我把博客从&lt;code>Hexo&lt;/code>迁移到了&lt;code>Hugo&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>2022年疫情上网课的时候，我用&lt;code>Hexo&lt;/code>搭建了我的个人博客&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2024将博客迁移至了&lt;code>Hugo&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;hr>
+&lt;h1 id="原因">😯原因
+&lt;/h1>&lt;h3 id="优点">优点
+&lt;/h3>&lt;ol>
+&lt;li>相比&lt;code>Hexo&lt;/code>，&lt;code>Hugo&lt;/code>的静态&lt;code>生成速度更快&lt;/code>。在本地运行后半秒不到就能在本地生成完页面，方便调试。&lt;/li>
+&lt;li>看了L1nSn0w大佬的博客后，被&lt;code>Stack主题&lt;/code>这个&lt;code>简约舒适&lt;/code>的博客页面狠狠种草了。个人觉得这样的页面阅读体验非常好，没有其他花里胡哨的东西吸引眼球，进来就是一排文章，方便阅读。&lt;/li>
+&lt;li>最主要是为了&lt;code>减少折腾&lt;/code>，这让我可以&lt;code>专心地写文章&lt;/code>。不再反复折腾博客页面。&lt;/li>
+&lt;/ol>
+&lt;h3 id="缺点">缺点
+&lt;/h3>&lt;ol>
+&lt;li>&lt;code>Hugo&lt;/code>在国内的&lt;code>社区&lt;/code>没有&lt;code>Hexo&lt;/code>的大，意味着遇到问题比较难找到解决方法，需要一定Debug能力。&lt;/li>
+&lt;li>没有&lt;code>Hexo&lt;/code>那么多&lt;code>插件功能&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h4 id="so">So
+&lt;/h4>&lt;p>对我来说，Hugo会更加适合我。&lt;/p>
+&lt;p>大家可以根据个人需求和喜好选择，看看自己是要简约的，还是多功能、自定义化高的。&lt;/p>
+&lt;blockquote>
+&lt;p>这里奉上我的&lt;a class="link" href="https://blog.fiveth.cc/tags/hexo/" target="_blank" rel="noopener"
+>Hexo博客搭建教程&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h1 id="关于hugo安装">😎关于Hugo安装
+&lt;/h1>&lt;p>这里列出我在hugo博客搭建过程中阅读的文章：&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://blog.linsnow.cn/p/join-hugo-and-stack/" target="_blank" rel="noopener"
+>【L1nSn0w】(1)带着Stack主题入坑Hugo&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://blog.linsnow.cn/p/deploy-hugo/" target="_blank" rel="noopener"
+>【L1nSn0w】(2)部署你的Hugo博客&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://blog.csdn.net/m0_51993913/article/details/132657065" target="_blank" rel="noopener"
+>【CSDN】GitHub Action自动化部署Hugo博客&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://blog.linsnow.cn/p/modify-hugo/" target="_blank" rel="noopener"
+>【L1nSn0w】(3)Stack主题的自定义&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>到了&lt;a class="link" href="https://blog.linsnow.cn/p/deploy-hugo/" target="_blank" rel="noopener"
+>(2)部署你的Hugo博客&lt;/a>自动部署部分的时候出现了些问题，文章好像缺漏了部分，就是要在仓库设置中添加secret变量&lt;code>ACTIONS_DEPLOY_KEY&lt;/code>。&lt;/p>
+&lt;p>&lt;strong>我的方法是&lt;/strong>：&lt;/p>
+&lt;p>把&lt;code>deploy_key&lt;/code>那行换成&lt;code>PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}&lt;/code>，然后在仓库设置添加secret变量&lt;code>PERSONAL_TOKEN&lt;/code>，里面填&lt;code>token&lt;/code>。&lt;code>token&lt;/code>在用户设置中创建，要勾选&lt;code>repo&lt;/code>和&lt;code>workflow&lt;/code>权限。&lt;/p></description></item><item><title>618购物攻略：今年规则大改，取消预售</title><link>https://blog.fiveth.cc/p/208b/</link><pubDate>Thu, 09 May 2024 22:11:16 +0000</pubDate><guid>https://blog.fiveth.cc/p/208b/</guid><description>&lt;img src="https://p.fiveth.cc/img/2024/0518115531.jpg" alt="Featured image of post 618购物攻略：今年规则大改，取消预售" />&lt;p>今天偶然在微信公众号看到天猫618的规则改了，取消了预售制度。&lt;/p>
 &lt;p>虽然以前的规则我也不太了解，不过想到正好有东西要买，所以就提前做了波攻略，看看怎么样买最省钱。&lt;/p>
 &lt;p>接下来让我们看看吧~&lt;/p>
 &lt;h1 id="今年618规则">🛍️今年618规则
@@ -562,7 +620,7 @@
 &lt;p>我还发现一个非常有用的方法，就是&lt;strong>用英语写日记&lt;/strong>。如果你已经有写日记的习惯，那可以试试改成用英语写，这个方法非常有效，你在表达自己想法和情绪的时候，就必须用英语组织出来，遇到不会讲的也会去查了然后写上去。只需要坚持几天，就会发现自己有时候思考是用英语思考的，非常有意思。&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>总结发现，这两个方法都是将英语作为一种&lt;strong>工具&lt;/strong>去使用，顺带着用英语去做别的事，而不用特意的去学习，我认为这是很好的方法。非常适合真正、长期地地提升英语硬实力，但是如果是应对考试之类的，还是专项训练会效率比较高。&lt;/p></description></item><item><title>一本让我开始觉醒的书：《认知觉醒》</title><link>https://blog.fiveth.cc/p/9c7a/</link><pubDate>Sun, 14 Apr 2024 21:57:47 +0000</pubDate><guid>https://blog.fiveth.cc/p/9c7a/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/lowsun.webp" alt="Featured image of post 一本让我开始觉醒的书：《认知觉醒》" />&lt;p>最近我读了《认知觉醒》这本书，作者是周岭。我非常感谢这本书，对我帮助非常大。如果你想改变自己现在的生活，变得更加优秀，这本书一定会帮到你。书中给出了许多提升自己的方法，其中的每个章节都让我有所感悟。这篇文章我会讲其中一些让我最受感触的点。&lt;/p>
+&lt;p>总结发现，这两个方法都是将英语作为一种&lt;strong>工具&lt;/strong>去使用，顺带着用英语去做别的事，而不用特意的去学习，我认为这是很好的方法。非常适合真正、长期地地提升英语硬实力，但是如果是应对考试之类的，还是专项训练会效率比较高。&lt;/p></description></item><item><title>一本让我开始觉醒的书：《认知觉醒》</title><link>https://blog.fiveth.cc/p/9c7a/</link><pubDate>Sun, 14 Apr 2024 21:57:47 +0000</pubDate><guid>https://blog.fiveth.cc/p/9c7a/</guid><description>&lt;img src="https://p.fiveth.cc/img/2024/0518114933.jpg" alt="Featured image of post 一本让我开始觉醒的书：《认知觉醒》" />&lt;p>最近我读了《认知觉醒》这本书，作者是周岭。我非常感谢这本书，对我帮助非常大。如果你想改变自己现在的生活，变得更加优秀，这本书一定会帮到你。书中给出了许多提升自己的方法，其中的每个章节都让我有所感悟。这篇文章我会讲其中一些让我最受感触的点。&lt;/p>
 &lt;h1 id="元认知">元认知
 &lt;/h1>&lt;p>书中提到了“元认知”这个概念，当我们开启元认知，就会不断的进步、提升。开启元认知，就是&lt;strong>开启第三人称，时刻审视自己在做什么、在想什么&lt;/strong>。有了这种觉知，你就会在玩游戏的时候意识到自己正在过度放纵，并且思考自己的大脑为什么会沉迷于游戏当中；当你分手后无比沮丧的时候，就会思考自己现在处于一个怎样的状态，为什么不开心。当你开启这样一个能力之后，你就会无限进步，你能一直审视自己的行为和思维，在错误的时候意识到并改进。这就相当于自己开了上帝视角，时刻地在监督自己。&lt;/p>
 &lt;p>当你知道了这个概念之后，你就可以开始行动、练习，时刻审视自己。当你受到任何感触，比如开心或沮丧时，问问自己是什么原因，这会让你变得更加了解自己。最近我看到一个句子让我很有感触，&amp;quot;&lt;strong>who looks outisde, dreams; who looks inside, awakes.&lt;/strong>&amp;quot;-Carl Jung，当你开始挖掘自己内心时，你就会清醒，明白自己到底想要什么，了解自己的思维方式，这会帮你打开自我提升的大门。写日记、写每日反思是一个很好的方法，在每天的结尾反思自己做了什么，无需置疑，这绝对是一个改变终身的习惯，孔子说过”吾日三省吾身“。其次，&lt;strong>练习元认知最好的方法是冥想&lt;/strong>，具体关于冥想的知识，大家可以自行去搜索，之后我会单独写一篇文章来讲我的冥想心得，总之这是一个非常有益的习惯，在冥想中，我们会练习将注意力放在呼吸和身体上，当有杂念的时候，我们就需要意识到并注意力拉回。可见冥想是练习元认知能力最直接的方法。&lt;/p>
