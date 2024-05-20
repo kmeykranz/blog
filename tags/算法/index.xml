@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>算法 on Fiveth</title><link>https://blog.fiveth.cc/tags/%E7%AE%97%E6%B3%95/</link><description>Recent content in 算法 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>阿谦教算法：如何学精排序算法？</title><link>https://blog.fiveth.cc/p/92b9/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/92b9/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/sort.webp" alt="Featured image of post 阿谦教算法：如何学精排序算法？" />&lt;h3 id="各种排序">各种排序
-&lt;/h3>&lt;table>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>算法 on Fiveth</title><link>https://blog.fiveth.cc/tags/%E7%AE%97%E6%B3%95/</link><description>Recent content in 算法 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>阿谦教算法：如何学精排序算法？</title><link>https://blog.fiveth.cc/p/92b9/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/92b9/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/sort.webp" alt="Featured image of post 阿谦教算法：如何学精排序算法？" />&lt;h4 id="各种排序">各种排序
+&lt;/h4>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>排序&lt;/th>
@@ -36,8 +36,8 @@
 &lt;/tbody>
 &lt;/table>
 &lt;p>这些排序各适用不同情况，但时间复杂度总体较大。&lt;/p>
-&lt;h3 id="快速排序">快速排序
-&lt;/h3>&lt;p>程序设计竞赛中最普遍的排序。&lt;/p>
+&lt;h4 id="快速排序">快速排序
+&lt;/h4>&lt;p>程序设计竞赛中最普遍的排序。&lt;/p>
 &lt;p>随机选择哨兵，时间复杂度O(n log n)。但极端情况O(n^2^)。&lt;/p>
 &lt;p>&lt;strong>概述：&lt;/strong>&lt;/p>
 &lt;p>选出一个哨兵，比哨兵小的数全放左边，比他大的全放右边。&lt;/p>
@@ -117,13 +117,13 @@
 &lt;/div>
 &lt;/div>&lt;p>当然也可以直接用algorithm头文件中的sort函数，&lt;/p>
 &lt;p>我们学会自己写是为了理解原理，提升思维，&lt;/p>
-&lt;p>同时在有特殊需求的时候可以更自定义化。&lt;/p></description></item><item><title>阿谦读书笔记：Computational Fairy Tales</title><link>https://blog.fiveth.cc/p/ee7c/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/ee7c/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/computa.jpg" alt="Featured image of post 阿谦读书笔记：Computational Fairy Tales" />&lt;h1 id="introduction">Introduction
-&lt;/h1>&lt;p>This is a book on the &lt;strong>Computer Science book list of Oxford&lt;/strong>. It is a good book for crossing the threshold of computer science.&lt;/p>
+&lt;p>同时在有特殊需求的时候可以更自定义化。&lt;/p></description></item><item><title>阿谦读书笔记：Computational Fairy Tales</title><link>https://blog.fiveth.cc/p/ee7c/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/ee7c/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/computa.jpg" alt="Featured image of post 阿谦读书笔记：Computational Fairy Tales" />&lt;h2 id="introduction">Introduction
+&lt;/h2>&lt;p>This is a book on the &lt;strong>Computer Science book list of Oxford&lt;/strong>. It is a good book for crossing the threshold of computer science.&lt;/p>
 &lt;p>The book briefly introduces the some &lt;strong>fundamental knowledges&lt;/strong> of computer science through an interesting adventure story.&lt;/p>
 &lt;p>I recognized many &lt;strong>computational terms&lt;/strong> in the book that I&amp;rsquo;ve already learned in Chinese. So it helped me to know the spelling of the computational terms in English. And I also learned a lot that I&amp;rsquo;ve not learned about. I&amp;rsquo;ll keep on studying computer science and be on the way for fulfilling my dream.&lt;/p>
 &lt;p>I note down all the essential terms in the book to sum it up and help me for review.&lt;/p>
-&lt;h1 id="base">Base
-&lt;/h1>&lt;p>&lt;strong>Computer Science:&lt;/strong> a way of thinking about problems.&lt;/p>
+&lt;h2 id="base">Base
+&lt;/h2>&lt;p>&lt;strong>Computer Science:&lt;/strong> a way of thinking about problems.&lt;/p>
 &lt;p>A set of core concepts-approaches to solving fundamental problems,and how combine them to solve larger and more complex problem.&lt;/p>
 &lt;p>**Algorithm: **a set of specific steps for solving a problem.&lt;/p>
 &lt;p>**Variable: **a place in memory where you can store a single piece of data.&lt;/p>
@@ -133,8 +133,8 @@
 &lt;p>&lt;strong>Binary:&lt;/strong> a number system which each digit can take one of 0 or 1.&lt;/p>
 &lt;p>101=(1x2^2^)(0x2^1^)(1x2^0^)&lt;/p>
 &lt;p>**Pseudocode: **an informal understandable way of writing algorithms.&lt;/p>
-&lt;h1 id="data-structure">Data Structure
-&lt;/h1>&lt;p>&lt;strong>Arrays:&lt;/strong> like a set of bins with a fixed number of slots.&lt;/p>
+&lt;h2 id="data-structure">Data Structure
+&lt;/h2>&lt;p>&lt;strong>Arrays:&lt;/strong> like a set of bins with a fixed number of slots.&lt;/p>
 &lt;p>&lt;strong>Strings:&lt;/strong> sequences(array) of characters&lt;/p>
 &lt;p>&lt;strong>Swapping two values:&lt;/strong>&lt;/p>
 &lt;p>1.put one into temporary storage&lt;/p>
@@ -164,8 +164,8 @@
 &lt;p>&lt;strong>Depth-first search:&lt;/strong> a search algorithm that fully explores a single path before backtracking to test other paths.&lt;/p>
 &lt;p>&lt;strong>Minimum Spanning Tree:&lt;/strong> the smallest set of edges that all of the nodes are connected.&lt;/p>
 &lt;p>&lt;strong>Hamiltonian path:&lt;/strong> visits each node in a graph exactly one time. &lt;em>&lt;strong>NP-Hard&lt;/strong>&lt;/em>&lt;/p>
-&lt;h1 id="computational-thinking">Computational Thinking
-&lt;/h1>&lt;p>Complex algorithms build on a core set of fundamental concepts. Mastering them and learn to combine them is the key to solving to problems.&lt;/p>
+&lt;h2 id="computational-thinking">Computational Thinking
+&lt;/h2>&lt;p>Complex algorithms build on a core set of fundamental concepts. Mastering them and learn to combine them is the key to solving to problems.&lt;/p>
 &lt;p>&lt;strong>NP-Hard:&lt;/strong> computational problems for which there are no known efficient and exact solution.&lt;/p>
 &lt;p>&lt;strong>Quicksort:&lt;/strong> a recursive sorting algorithm that is similar to merge sort but faster.&lt;/p>
 &lt;p>&lt;strong>Comments:&lt;/strong> additional text within code that improve the read ability.&lt;/p></description></item><item><title>阿谦教算法：如何学精链表？</title><link>https://blog.fiveth.cc/p/c8a8/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/c8a8/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/linklist.webp" alt="Featured image of post 阿谦教算法：如何学精链表？" />&lt;p>我们存储很多数的时候，通常使用数组，但是数组不够灵活。&lt;/p>
@@ -316,17 +316,17 @@
 &lt;p>程序的最后，我们用&lt;strong>free()函数&lt;/strong>来&lt;strong>释放&lt;/strong>动态申请的&lt;strong>空间&lt;/strong>，这样可以让我们的程序更安全。&lt;/p>
 &lt;p>我们学习c语言和c++应该追求最大程度地优化，排除可能出现的问题。&lt;/p></description></item><item><title>算法：如何高效地筛出质数？(欧拉筛)</title><link>https://blog.fiveth.cc/p/a680/</link><pubDate>Fri, 23 Dec 2022 11:29:22 +0000</pubDate><guid>https://blog.fiveth.cc/p/a680/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/oula.webp" alt="Featured image of post 算法：如何高效地筛出质数？(欧拉筛)" />&lt;p>如何高效筛素数？让我们来看看&lt;/p>
 &lt;p>**题目：**生成一个1到n范围内的质数数组&lt;/p>
-&lt;h1 id="菜鸟这样做枚举法">菜鸟这样做（枚举法）
-&lt;/h1>&lt;p>从1枚举到n，判断是素数就存入数组&lt;/p>
+&lt;h2 id="菜鸟这样做枚举法">菜鸟这样做（枚举法）
+&lt;/h2>&lt;p>从1枚举到n，判断是素数就存入数组&lt;/p>
 &lt;p>下面是判断方法&lt;/p>
-&lt;h2 id="菜鸟">菜鸟：
-&lt;/h2>&lt;p>从2枚举到n-1，如果有能整除该数的，该数就是质数。&lt;/p>
-&lt;h2 id="进化版菜鸟">进化版菜鸟：
-&lt;/h2>&lt;p>菜鸟进化了，从2枚举到$\sqrt n$&lt;/p>
+&lt;h3 id="菜鸟">菜鸟：
+&lt;/h3>&lt;p>从2枚举到n-1，如果有能整除该数的，该数就是质数。&lt;/p>
+&lt;h3 id="进化版菜鸟">进化版菜鸟：
+&lt;/h3>&lt;p>菜鸟进化了，从2枚举到$\sqrt n$&lt;/p>
 &lt;hr>
-&lt;h1 id="高手版">高手版
-&lt;/h1>&lt;h2 id="埃氏筛">埃氏筛
-&lt;/h2>&lt;p>这样筛掉后每次下一位没被筛掉的数就都是质数&lt;/p>
+&lt;h2 id="高手版">高手版
+&lt;/h2>&lt;h3 id="埃氏筛">埃氏筛
+&lt;/h3>&lt;p>这样筛掉后每次下一位没被筛掉的数就都是质数&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -359,8 +359,8 @@
 &lt;/div>
 &lt;/div>&lt;p>但是这钟筛法还不是最优，因为p的倍数会重复，所以有些数会被重复筛掉。&lt;/p>
 &lt;p>那么就引出了我们的最终筛法。&lt;/p>
-&lt;h2 id="欧拉筛">欧拉筛
-&lt;/h2>&lt;img src="https://p.fiveth.cc/img/m/欧拉.webp">
+&lt;h3 id="欧拉筛">欧拉筛
+&lt;/h3>&lt;img src="https://p.fiveth.cc/img/m/欧拉.webp">
 &lt;p>这个筛法避免了重复筛，思路就是：每个合数只会被其&lt;strong>最大非自身因数&lt;/strong>筛除&lt;/p>
 &lt;p>多说无益，先上代码：&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -442,8 +442,8 @@
 &lt;p>我们只要定义一个数组，把数字分别放入数组序列中就可以储存非常大的数。&lt;/p>
 &lt;p>接下来我们看看怎么使用高精度运算。&lt;/p>
 &lt;p>（注意以下都是我个人的解法，不一定是最优解，借鉴学习即可）&lt;/p>
-&lt;h1 id="ab">A+B
-&lt;/h1>&lt;p>**题目：**高精度加法，相当于 a+b problem，不用考虑负数。（&lt;a class="link" href="https://www.luogu.com.cn/problem/P1601" target="_blank" rel="noopener"
+&lt;h2 id="ab">A+B
+&lt;/h2>&lt;p>**题目：**高精度加法，相当于 a+b problem，不用考虑负数。（&lt;a class="link" href="https://www.luogu.com.cn/problem/P1601" target="_blank" rel="noopener"
 >洛谷P1601题&lt;/a>）&lt;/p>
 &lt;p>输入a和b，然后输出a+b，太简单了！但是，题目要求的是高精度加法，也就是说输入的a和b是非常大的，我们要使用高精度才能储存该数进行处理。&lt;/p>
 &lt;p>首先我们看看加法的竖式&lt;/p>
@@ -509,8 +509,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h1 id="ab-1">A*B
-&lt;/h1>&lt;p>**题目：**给出两个非负整数，求它们的乘积。每个非负整数不超过 10^2000^（&lt;a class="link" href="https://www.luogu.com.cn/problem/P1303" target="_blank" rel="noopener"
+&lt;/div>&lt;h2 id="ab-1">A*B
+&lt;/h2>&lt;p>**题目：**给出两个非负整数，求它们的乘积。每个非负整数不超过 10^2000^（&lt;a class="link" href="https://www.luogu.com.cn/problem/P1303" target="_blank" rel="noopener"
 >洛谷P1303题&lt;/a>）&lt;/p>
 &lt;p>还是一样，看似是道弱智题，但是我们要注意输入值的范围，数值非常大，再加上要相乘，很容易就会超过我们数据类型范围，所以又要用到我们的高精度方法。&lt;/p>
 &lt;p>算乘法，我们就先复习下乘法竖式&lt;/p>
@@ -587,8 +587,8 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;hr>
-&lt;h1 id="阶乘之和">阶乘之和
-&lt;/h1>&lt;p>&lt;strong>题目描述&lt;/strong>&lt;/p>
+&lt;h2 id="阶乘之和">阶乘之和
+&lt;/h2>&lt;p>&lt;strong>题目描述&lt;/strong>&lt;/p>
 &lt;p>用高精度计算出 $S = 1! + 2! + 3! + \cdots + n!$（$n \le 50$）。&lt;/p>
 &lt;p>其中 &lt;code>!&lt;/code> 表示阶乘，定义为 $n!=n\times (n-1)\times (n-2)\times \cdots \times 1$。例如，$5! = 5 \times 4 \times 3 \times 2 \times 1=120$。&lt;/p>
 &lt;p>输入n，输出s。（&lt;a class="link" href="https://www.luogu.com.cn/problem/P1009" target="_blank" rel="noopener"
@@ -670,8 +670,8 @@
 &lt;/div>&lt;hr>
 &lt;p>灵活掌握，举一反三才能在程序竞赛中绽放自我。&lt;/p></description></item><item><title>阿谦教算法：如何求最大公因数？(辗转相除法)</title><link>https://blog.fiveth.cc/p/72c/</link><pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/72c/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/gcd.webp" alt="Featured image of post 阿谦教算法：如何求最大公因数？(辗转相除法)" />&lt;p>辗转相除法是一种求最大公因数的计算方法。&lt;/p>
 &lt;p>这种方法在编程中很常用，在数学计算中也可以用来求很复杂的最大公因数问题。&lt;/p>
-&lt;h1 id="如何使用">如何使用
-&lt;/h1>&lt;p>题目：求最大公因数(36,14)&lt;/p>
+&lt;h2 id="如何使用">如何使用
+&lt;/h2>&lt;p>题目：求最大公因数(36,14)&lt;/p>
 &lt;p>我们如何用辗转相除法做这道题呢？
 $$
 \displaylines{
@@ -686,8 +686,8 @@ $$
 我们算出最大公约数(36,14)=2&lt;/p>
 &lt;p>到这里，我们就知道如何使用辗转相除法了。&lt;/p>
 &lt;p>但是，鲁迅曾说过“我们学公式必须得懂得原理”，我们明白了原理才能灵活运用&lt;/p>
-&lt;h1 id="原理">原理
-&lt;/h1>&lt;p>求最大公因数(a,b)&lt;/p>
+&lt;h2 id="原理">原理
+&lt;/h2>&lt;p>求最大公因数(a,b)&lt;/p>
 &lt;p>首先我们推出这几条式子
 $$
 \displaylines{
@@ -730,8 +730,8 @@ $$&lt;/p>
 &lt;p>反复用(a,b)=(b,r)的方法&lt;/p>
 &lt;p>(36,14)=(14,8)=(8,6)=(6,2)&lt;/p>
 &lt;p>最后得到(6,2)，显而易见最大公约数是2&lt;/p>
-&lt;h1 id="写gcd函数">写gcd函数
-&lt;/h1>&lt;p>接下来看看我们如何在C++中用辗转相除法写gcd函数&lt;/p>
+&lt;h2 id="写gcd函数">写gcd函数
+&lt;/h2>&lt;p>接下来看看我们如何在C++中用辗转相除法写gcd函数&lt;/p>
 &lt;p>gcd函数就是用来求最大公因数的函数&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>我的项目 on Fiveth</title><link>https://blog.fiveth.cc/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/</link><description>Recent content in 我的项目 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Fri, 12 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>【Qt C++】TCP联机小游戏 RectMans</title><link>https://blog.fiveth.cc/p/1841/</link><pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/1841/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/rectmans.jpg" alt="Featured image of post 【Qt C++】TCP联机小游戏 RectMans" />&lt;p>学习TCP后用基于Qt TCP库做了一个联机小游戏🤼&lt;/p>
 &lt;p>断断续续大概写了一周，程序源码放在文章底部了。&lt;/p>
-&lt;h1 id="结构思路">结构思路
-&lt;/h1>&lt;p>游戏通过服务端或者客户端进入，只支持两玩家。&lt;/p>
+&lt;h2 id="结构思路">结构思路
+&lt;/h2>&lt;p>游戏通过服务端或者客户端进入，只支持两玩家。&lt;/p>
 &lt;p>服务端进入：自己显示红色衣服，对方蓝色&lt;/p>
 &lt;p>客户端进入：自己显示蓝色衣服，对方红色&lt;/p>
 &lt;img src="https://p.fiveth.cc/img/m/rectman.webp" style="zoom:30%;" />
-&lt;h1 id="代码">代码
-&lt;/h1>&lt;h2 id="位置传输">位置传输
-&lt;/h2>&lt;h3 id="发送位置">发送位置
-&lt;/h3>&lt;p>将int[]转成QByteArray达到发送多数据的效果&lt;/p>
+&lt;h2 id="代码">代码
+&lt;/h2>&lt;h3 id="位置传输">位置传输
+&lt;/h3>&lt;h4 id="发送位置">发送位置
+&lt;/h4>&lt;p>将int[]转成QByteArray达到发送多数据的效果&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -35,8 +35,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="接收位置">接收位置
-&lt;/h3>&lt;p>将QByteArray转成int[]&lt;/p>
+&lt;/div>&lt;h4 id="接收位置">接收位置
+&lt;/h4>&lt;p>将QByteArray转成int[]&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -73,8 +73,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="相对位置">相对位置
-&lt;/h2>&lt;p>自己始终显示在屏幕中间，只显示方向的改变。&lt;/p>
+&lt;/div>&lt;h3 id="相对位置">相对位置
+&lt;/h3>&lt;p>自己始终显示在屏幕中间，只显示方向的改变。&lt;/p>
 &lt;p>移动时改变坐标但不显示。&lt;/p>
 &lt;p>游戏中的物体显示在 &lt;strong>[屏幕中心坐标+物体坐标-自己坐标]&lt;/strong>&lt;/p>
 &lt;p>物体包括：对方玩家，地图，树木&lt;/p>
@@ -94,8 +94,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="树木伪3d显示">树木伪3D显示
-&lt;/h2>&lt;p>很简单，当玩家y坐标大于树时显示在上，小于时显示在下。&lt;/p>
+&lt;/div>&lt;h3 id="树木伪3d显示">树木伪3D显示
+&lt;/h3>&lt;p>很简单，当玩家y坐标大于树时显示在上，小于时显示在下。&lt;/p>
 &lt;p>这段代码是有bug的，有两名玩家时，树木上下就会出现问题。&lt;/p>
 &lt;p>主要是我没有找到将Label下移或者上移一层的函数，只有置顶和置底，所以代码逻辑很麻烦🤡。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -130,8 +130,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="树木和敌人随机位置生成">树木和敌人随机位置生成
-&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h4 id="树木和敌人随机位置生成">树木和敌人随机位置生成
+&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
@@ -147,8 +147,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="僵尸追踪">僵尸追踪
-&lt;/h3>&lt;p>僵尸首先会判断与两个玩家间的距离，追踪距离更近的玩家。&lt;/p>
+&lt;/div>&lt;h4 id="僵尸追踪">僵尸追踪
+&lt;/h4>&lt;p>僵尸首先会判断与两个玩家间的距离，追踪距离更近的玩家。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -232,16 +232,16 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;hr>
-&lt;h1 id="视频演示">视频演示
-&lt;/h1>&lt;iframe src="//player.bilibili.com/player.html?aid=443100831&amp;bvid=BV1oL411h7Ms&amp;cid=1112953964&amp;page=1&amp;autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> &lt;/iframe>
-&lt;h1 id="源码">源码
-&lt;/h1>&lt;p>源码：https://github.com/kevinwu06/RectMans&lt;/p></description></item><item><title>【Qt C++】TCP聊天程序DuckChat</title><link>https://blog.fiveth.cc/p/dcd3/</link><pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/dcd3/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/duckchat.jpg" alt="Featured image of post 【Qt C++】TCP聊天程序DuckChat" />&lt;p>用Qt和C++开发了一个基于TCP协议的通信程序，源码放在文章底部了。&lt;/p>
+&lt;h2 id="视频演示">视频演示
+&lt;/h2>&lt;iframe src="//player.bilibili.com/player.html?aid=443100831&amp;bvid=BV1oL411h7Ms&amp;cid=1112953964&amp;page=1&amp;autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> &lt;/iframe>
+&lt;h2 id="源码">源码
+&lt;/h2>&lt;p>源码：https://github.com/kevinwu06/RectMans&lt;/p></description></item><item><title>【Qt C++】TCP聊天程序DuckChat</title><link>https://blog.fiveth.cc/p/dcd3/</link><pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/dcd3/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/duckchat.jpg" alt="Featured image of post 【Qt C++】TCP聊天程序DuckChat" />&lt;p>用Qt和C++开发了一个基于TCP协议的通信程序，源码放在文章底部了。&lt;/p>
 &lt;p>TCP是一种传输协议，以服务器和客户端的形式运行。&lt;/p>
 &lt;p>Qt中提供了QTcpServer类来编写服务器端程序，以及QTcpSocket类来编写客户端程序。&lt;/p>
 &lt;p>服务端开启对一个端口的监听，等待客户端连入。&lt;/p>
 &lt;img src="https://p.fiveth.cc/img/m/duckchat.webp" style="zoom:30%;" />
-&lt;h1 id="服务端">服务端
-&lt;/h1>&lt;p>服务端继承于QTcpServer类，加上Q_OBJECT&lt;/p>
+&lt;h2 id="服务端">服务端
+&lt;/h2>&lt;p>服务端继承于QTcpServer类，加上Q_OBJECT&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -268,8 +268,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="查询ip和端口">查询ip和端口
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h3 id="查询ip和端口">查询ip和端口
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
@@ -281,8 +281,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ipconfig /all 查看ip
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="监听">监听
-&lt;/h2>&lt;p>服务端用QTcpServer监听端口，用QTcpSocket 读取和写入&lt;/p>
+&lt;/div>&lt;h3 id="监听">监听
+&lt;/h3>&lt;p>服务端用QTcpServer监听端口，用QTcpSocket 读取和写入&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -291,8 +291,8 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-C++" data-lang="C++">&lt;span class="line">&lt;span class="cl">&lt;span class="n">server&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="n">listen&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">QHostAddress&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="n">Any&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">8888&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">//开始监听端口
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="连入">连入
-&lt;/h2>&lt;p>连接后自动触发的函数，开始接受数据&lt;/p>
+&lt;/div>&lt;h3 id="连入">连入
+&lt;/h3>&lt;p>连接后自动触发的函数，开始接受数据&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -307,8 +307,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="读取">读取
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h3 id="读取">读取
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
@@ -324,8 +324,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="发送">发送
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h3 id="发送">发送
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
@@ -339,8 +339,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h1 id="客户端">客户端
-&lt;/h1>&lt;p>用QTcpSocket实现连接及收发&lt;/p>
+&lt;/div>&lt;h2 id="客户端">客户端
+&lt;/h2>&lt;p>用QTcpSocket实现连接及收发&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -367,12 +367,12 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">connect&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">socket&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">SIGNAL&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">readyRead&lt;/span>&lt;span class="p">()),&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">SLOT&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">receiveData&lt;/span>&lt;span class="p">()));&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="接受和发送">接受和发送
-&lt;/h2>&lt;p>接受和发送与服务端相同&lt;/p>
-&lt;h1 id="界面ui">界面UI
-&lt;/h1>&lt;p>QSS是QT受CSS启发做的样式表语言，在简单的qt程序制作中非常好用。&lt;/p>
-&lt;h2 id="界面背景">界面背景
-&lt;/h2>&lt;p>在坐标(0,0)处放QLabel并拉满整个窗口，样式表中放入照片，照片要先导入到qrc资源文件中&lt;/p>
+&lt;/div>&lt;h3 id="接受和发送">接受和发送
+&lt;/h3>&lt;p>接受和发送与服务端相同&lt;/p>
+&lt;h2 id="界面ui">界面UI
+&lt;/h2>&lt;p>QSS是QT受CSS启发做的样式表语言，在简单的qt程序制作中非常好用。&lt;/p>
+&lt;h3 id="界面背景">界面背景
+&lt;/h3>&lt;p>在坐标(0,0)处放QLabel并拉满整个窗口，样式表中放入照片，照片要先导入到qrc资源文件中&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -387,8 +387,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="按钮样式表">按钮样式表
-&lt;/h2>&lt;p>hover是鼠标放在上面显示的样式&lt;/p>
+&lt;/div>&lt;h3 id="按钮样式表">按钮样式表
+&lt;/h3>&lt;p>hover是鼠标放在上面显示的样式&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -435,8 +435,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="全局样式表">全局样式表
-&lt;/h2>&lt;p>编辑基类widget样式表&lt;/p>
+&lt;/div>&lt;h3 id="全局样式表">全局样式表
+&lt;/h3>&lt;p>编辑基类widget样式表&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -469,18 +469,18 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h1 id="程序源码">程序源码
-&lt;/h1>&lt;p>源码：https://github.com/kevinwu06/DuckChat&lt;/p></description></item><item><title>【Qt C++】Fighter Duck</title><link>https://blog.fiveth.cc/p/f1e0/</link><pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/f1e0/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/fighterduck.jpg" alt="Featured image of post 【Qt C++】Fighter Duck" />&lt;p>最近在学习Qt，做了个游戏当练手项目。&lt;/p>
+&lt;/div>&lt;h2 id="程序源码">程序源码
+&lt;/h2>&lt;p>源码：https://github.com/kevinwu06/DuckChat&lt;/p></description></item><item><title>【Qt C++】Fighter Duck</title><link>https://blog.fiveth.cc/p/f1e0/</link><pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/f1e0/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/fighterduck.jpg" alt="Featured image of post 【Qt C++】Fighter Duck" />&lt;p>最近在学习Qt，做了个游戏当练手项目。&lt;/p>
 &lt;p>断断续续大概写了两周，程序源码放在文章底部了。&lt;/p>
-&lt;h1 id="游戏美术">游戏美术
-&lt;/h1>&lt;p>用软件Aseprite自己绘制。Aseprite是一款专门针对像素画的软件，界面简洁，适合快速上手，没有ps那些繁琐的功能。&lt;/p>
+&lt;h2 id="游戏美术">游戏美术
+&lt;/h2>&lt;p>用软件Aseprite自己绘制。Aseprite是一款专门针对像素画的软件，界面简洁，适合快速上手，没有ps那些繁琐的功能。&lt;/p>
 &lt;p>游戏动态背景用ps做成，因为ps的动画功能可以实现流畅的帧变换。&lt;/p>
 &lt;img src="https://p.fiveth.cc/img/m/drawduck.webp" style="zoom: 25%;" />
-&lt;h1 id="游戏代码">游戏代码
-&lt;/h1>&lt;p>接下来是如何用Qt提供的接口来实现一些游戏的基本功能&lt;/p>
+&lt;h2 id="游戏代码">游戏代码
+&lt;/h2>&lt;p>接下来是如何用Qt提供的接口来实现一些游戏的基本功能&lt;/p>
 &lt;img src="https://p.fiveth.cc/img/m/duckgame.webp" style="zoom: 50%;" />
-&lt;h2 id="动画">动画
-&lt;/h2>&lt;p>游戏人物的动态用的是gif动图&lt;/p>
+&lt;h3 id="动画">动画
+&lt;/h3>&lt;p>游戏人物的动态用的是gif动图&lt;/p>
 &lt;p>用QLabel和QMovie实现&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -502,8 +502,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">duck&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="n">move&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">x&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">y&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">//移动位置
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="图片">图片
-&lt;/h2>&lt;p>显示静态图片用QLabel和QPixmap&lt;/p>
+&lt;/div>&lt;h3 id="图片">图片
+&lt;/h3>&lt;p>显示静态图片用QLabel和QPixmap&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -518,8 +518,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">QLabel&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="n">setMovie&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">duck_stand&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="事件处理">事件处理
-&lt;/h2>&lt;p>在head文件中加入，再在源文件中定义&lt;/p>
+&lt;/div>&lt;h3 id="事件处理">事件处理
+&lt;/h3>&lt;p>在head文件中加入，再在源文件中定义&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -532,8 +532,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">void&lt;/span> &lt;span class="nf">keyReleaseEvent&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">QKeyEvent&lt;/span>&lt;span class="o">*&lt;/span> &lt;span class="n">e&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="游戏主循环">游戏主循环
-&lt;/h2>&lt;p>控制帧率，一秒循环多少次&lt;/p>
+&lt;/div>&lt;h3 id="游戏主循环">游戏主循环
+&lt;/h3>&lt;p>控制帧率，一秒循环多少次&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -546,8 +546,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">timer&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="n">start&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1000&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">FRAME&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">//FRAME帧率
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="delay函数">Delay函数
-&lt;/h2>&lt;p>Qt中要使用delay函数可以自己定义，代码如下。&lt;/p>
+&lt;/div>&lt;h3 id="delay函数">Delay函数
+&lt;/h3>&lt;p>Qt中要使用delay函数可以自己定义，代码如下。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -566,8 +566,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="显示文字">显示文字
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h3 id="显示文字">显示文字
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
@@ -584,5 +584,5 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;img src="https://p.fiveth.cc/img/m/fighterduck.webp" style="zoom: 30%;" />
-&lt;h1 id="源码">源码
-&lt;/h1>&lt;p>源码：https://github.com/kevinwu06/FighterDuck&lt;/p></description></item></channel></rss>
+&lt;h2 id="源码">源码
+&lt;/h2>&lt;p>源码：https://github.com/kevinwu06/FighterDuck&lt;/p></description></item></channel></rss>

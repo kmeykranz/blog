@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>筛质数 on Fiveth</title><link>https://blog.fiveth.cc/tags/%E7%AD%9B%E8%B4%A8%E6%95%B0/</link><description>Recent content in 筛质数 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Fri, 23 Dec 2022 11:29:22 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E7%AD%9B%E8%B4%A8%E6%95%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>算法：如何高效地筛出质数？(欧拉筛)</title><link>https://blog.fiveth.cc/p/a680/</link><pubDate>Fri, 23 Dec 2022 11:29:22 +0000</pubDate><guid>https://blog.fiveth.cc/p/a680/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/oula.webp" alt="Featured image of post 算法：如何高效地筛出质数？(欧拉筛)" />&lt;p>如何高效筛素数？让我们来看看&lt;/p>
 &lt;p>**题目：**生成一个1到n范围内的质数数组&lt;/p>
-&lt;h1 id="菜鸟这样做枚举法">菜鸟这样做（枚举法）
-&lt;/h1>&lt;p>从1枚举到n，判断是素数就存入数组&lt;/p>
+&lt;h2 id="菜鸟这样做枚举法">菜鸟这样做（枚举法）
+&lt;/h2>&lt;p>从1枚举到n，判断是素数就存入数组&lt;/p>
 &lt;p>下面是判断方法&lt;/p>
-&lt;h2 id="菜鸟">菜鸟：
-&lt;/h2>&lt;p>从2枚举到n-1，如果有能整除该数的，该数就是质数。&lt;/p>
-&lt;h2 id="进化版菜鸟">进化版菜鸟：
-&lt;/h2>&lt;p>菜鸟进化了，从2枚举到$\sqrt n$&lt;/p>
+&lt;h3 id="菜鸟">菜鸟：
+&lt;/h3>&lt;p>从2枚举到n-1，如果有能整除该数的，该数就是质数。&lt;/p>
+&lt;h3 id="进化版菜鸟">进化版菜鸟：
+&lt;/h3>&lt;p>菜鸟进化了，从2枚举到$\sqrt n$&lt;/p>
 &lt;hr>
-&lt;h1 id="高手版">高手版
-&lt;/h1>&lt;h2 id="埃氏筛">埃氏筛
-&lt;/h2>&lt;p>这样筛掉后每次下一位没被筛掉的数就都是质数&lt;/p>
+&lt;h2 id="高手版">高手版
+&lt;/h2>&lt;h3 id="埃氏筛">埃氏筛
+&lt;/h3>&lt;p>这样筛掉后每次下一位没被筛掉的数就都是质数&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -43,8 +43,8 @@
 &lt;/div>
 &lt;/div>&lt;p>但是这钟筛法还不是最优，因为p的倍数会重复，所以有些数会被重复筛掉。&lt;/p>
 &lt;p>那么就引出了我们的最终筛法。&lt;/p>
-&lt;h2 id="欧拉筛">欧拉筛
-&lt;/h2>&lt;img src="https://p.fiveth.cc/img/m/欧拉.webp">
+&lt;h3 id="欧拉筛">欧拉筛
+&lt;/h3>&lt;img src="https://p.fiveth.cc/img/m/欧拉.webp">
 &lt;p>这个筛法避免了重复筛，思路就是：每个合数只会被其&lt;strong>最大非自身因数&lt;/strong>筛除&lt;/p>
 &lt;p>多说无益，先上代码：&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">

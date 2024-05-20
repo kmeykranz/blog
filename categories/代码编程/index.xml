@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>代码编程 on Fiveth</title><link>https://blog.fiveth.cc/categories/%E4%BB%A3%E7%A0%81%E7%BC%96%E7%A8%8B/</link><description>Recent content in 代码编程 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/categories/%E4%BB%A3%E7%A0%81%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>阿谦教算法：如何学精排序算法？</title><link>https://blog.fiveth.cc/p/92b9/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/92b9/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/sort.webp" alt="Featured image of post 阿谦教算法：如何学精排序算法？" />&lt;h3 id="各种排序">各种排序
-&lt;/h3>&lt;table>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>代码编程 on Fiveth</title><link>https://blog.fiveth.cc/categories/%E4%BB%A3%E7%A0%81%E7%BC%96%E7%A8%8B/</link><description>Recent content in 代码编程 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/categories/%E4%BB%A3%E7%A0%81%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>阿谦教算法：如何学精排序算法？</title><link>https://blog.fiveth.cc/p/92b9/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/92b9/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/sort.webp" alt="Featured image of post 阿谦教算法：如何学精排序算法？" />&lt;h4 id="各种排序">各种排序
+&lt;/h4>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>排序&lt;/th>
@@ -36,8 +36,8 @@
 &lt;/tbody>
 &lt;/table>
 &lt;p>这些排序各适用不同情况，但时间复杂度总体较大。&lt;/p>
-&lt;h3 id="快速排序">快速排序
-&lt;/h3>&lt;p>程序设计竞赛中最普遍的排序。&lt;/p>
+&lt;h4 id="快速排序">快速排序
+&lt;/h4>&lt;p>程序设计竞赛中最普遍的排序。&lt;/p>
 &lt;p>随机选择哨兵，时间复杂度O(n log n)。但极端情况O(n^2^)。&lt;/p>
 &lt;p>&lt;strong>概述：&lt;/strong>&lt;/p>
 &lt;p>选出一个哨兵，比哨兵小的数全放左边，比他大的全放右边。&lt;/p>
@@ -119,8 +119,8 @@
 &lt;p>我们学会自己写是为了理解原理，提升思维，&lt;/p>
 &lt;p>同时在有特殊需求的时候可以更自定义化。&lt;/p></description></item><item><title>如何用SDL开发游戏？</title><link>https://blog.fiveth.cc/p/b01b/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/b01b/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/sdl.jpg" alt="Featured image of post 如何用SDL开发游戏？" />&lt;p>SDL（Simple DirectMedia Layer）是一套开放源代码的&lt;strong>跨平台多媒体开发库&lt;/strong>，使用C语言写成。SDL提供了数种控制图像、声音、输出入的函数，让开发者只要用相同或是相似的代码就可以开发出跨多个平台的应用软件。现SDL多用于开发游戏、模拟器、媒体播放器等多媒体应用领域。&lt;/p>
 &lt;p>最近前段时间浅学习了下SDL，以及做游戏。这篇文章总结下。&lt;/p>
-&lt;h1 id="游戏结构">游戏结构
-&lt;/h1>&lt;p>做游戏这里最主要的是&lt;strong>面向对象&lt;/strong>编程思想。&lt;/p>
+&lt;h2 id="游戏结构">游戏结构
+&lt;/h2>&lt;p>做游戏这里最主要的是&lt;strong>面向对象&lt;/strong>编程思想。&lt;/p>
 &lt;p>&lt;strong>多创建类文件&lt;/strong>可以帮助我们更好的理清逻辑，管理代码。&lt;/p>
 &lt;p>整个游戏的结构：&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -146,8 +146,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>这样把整个游戏结构写成函数形式可以让我们更好的管理代码。这应该就是我们main函数大概的样子。&lt;/p>
-&lt;h1 id="sdl函数">SDL函数
-&lt;/h1>&lt;p>接下来我们来看看SDL给我们提供的函数，让我们怎么去实现游戏功能。&lt;/p>
+&lt;h2 id="sdl函数">SDL函数
+&lt;/h2>&lt;p>接下来我们来看看SDL给我们提供的函数，让我们怎么去实现游戏功能。&lt;/p>
 &lt;p>首先我们来看看一个简单的SDL&lt;strong>创建窗口&lt;/strong>的程序。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -197,14 +197,14 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="检测故障">检测故障
-&lt;/h2>&lt;p>我们可以看到我们在初始化和创建的时候&lt;strong>会写一个判断语句&lt;/strong>。&lt;/p>
+&lt;/div>&lt;h3 id="检测故障">检测故障
+&lt;/h3>&lt;p>我们可以看到我们在初始化和创建的时候&lt;strong>会写一个判断语句&lt;/strong>。&lt;/p>
 &lt;p>这是为什么？&lt;/p>
 &lt;p>因为有时可能会因为各种原因导致&lt;strong>初始化失败&lt;/strong>或者&lt;strong>创建失败&lt;/strong>，到后面代码多了如果某个环节失败了，我们想要找出问题所在会非常困难。&lt;/p>
 &lt;p>所以我们在初始化和创建的时候写判断语句，比如第一个&lt;strong>SDL_Init()&lt;/strong>，这个SDL给出的函数如果失败了会返回1(可以右键进入定义代码查看)，所以如果返回了1，我们就用**SDL_Log()&lt;strong>函数(SDL给出的输出函数,也可以用cout或者printf)输出问题，后面的&lt;/strong>SDL_Error()**可以获取问题。&lt;/p>
 &lt;p>这样的检测故障的判断是必须的。&lt;/p>
-&lt;h2 id="清除">清除
-&lt;/h2>&lt;p>可以看到我们最后使用了&lt;/p>
+&lt;h3 id="清除">清除
+&lt;/h3>&lt;p>可以看到我们最后使用了&lt;/p>
 &lt;pre>&lt;code>SDL_DestroyWindow(win);
 SDL_Quit();
 &lt;/code>&lt;/pre>
@@ -212,8 +212,8 @@ SDL_Quit();
 &lt;p>在我们初始化了SDL的功能后，在程序末尾我们必须用SDL_Quit()将其清除。&lt;/p>
 &lt;p>同样道理，我们用SDL创建的数据变量也应该销毁/释放掉。&lt;/p>
 &lt;p>(每个数据变量都有对应的销毁/释放函数，如SDL_DestroyRenderer,SDL_FreeSurface)&lt;/p>
-&lt;h1 id="sdl学习">SDL学习
-&lt;/h1>&lt;p>SDL给出了非常非常多的功能函数。&lt;/p>
+&lt;h2 id="sdl学习">SDL学习
+&lt;/h2>&lt;p>SDL给出了非常非常多的功能函数。&lt;/p>
 &lt;p>大家使用时应该学会查看官方文档，里面都给出了详细的使用方法。&lt;/p>
 &lt;p>这是我之前学习SDL的文件，里面有一些最基本功能的实现，大家可以看看。&lt;/p>
 &lt;p>&lt;a class="link" href="https://kevinwu06.lanzout.com/i3Stw0lrzw4f" target="_blank" rel="noopener"
@@ -365,17 +365,17 @@ SDL_Quit();
 &lt;p>程序的最后，我们用&lt;strong>free()函数&lt;/strong>来&lt;strong>释放&lt;/strong>动态申请的&lt;strong>空间&lt;/strong>，这样可以让我们的程序更安全。&lt;/p>
 &lt;p>我们学习c语言和c++应该追求最大程度地优化，排除可能出现的问题。&lt;/p></description></item><item><title>算法：如何高效地筛出质数？(欧拉筛)</title><link>https://blog.fiveth.cc/p/a680/</link><pubDate>Fri, 23 Dec 2022 11:29:22 +0000</pubDate><guid>https://blog.fiveth.cc/p/a680/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/oula.webp" alt="Featured image of post 算法：如何高效地筛出质数？(欧拉筛)" />&lt;p>如何高效筛素数？让我们来看看&lt;/p>
 &lt;p>**题目：**生成一个1到n范围内的质数数组&lt;/p>
-&lt;h1 id="菜鸟这样做枚举法">菜鸟这样做（枚举法）
-&lt;/h1>&lt;p>从1枚举到n，判断是素数就存入数组&lt;/p>
+&lt;h2 id="菜鸟这样做枚举法">菜鸟这样做（枚举法）
+&lt;/h2>&lt;p>从1枚举到n，判断是素数就存入数组&lt;/p>
 &lt;p>下面是判断方法&lt;/p>
-&lt;h2 id="菜鸟">菜鸟：
-&lt;/h2>&lt;p>从2枚举到n-1，如果有能整除该数的，该数就是质数。&lt;/p>
-&lt;h2 id="进化版菜鸟">进化版菜鸟：
-&lt;/h2>&lt;p>菜鸟进化了，从2枚举到$\sqrt n$&lt;/p>
+&lt;h3 id="菜鸟">菜鸟：
+&lt;/h3>&lt;p>从2枚举到n-1，如果有能整除该数的，该数就是质数。&lt;/p>
+&lt;h3 id="进化版菜鸟">进化版菜鸟：
+&lt;/h3>&lt;p>菜鸟进化了，从2枚举到$\sqrt n$&lt;/p>
 &lt;hr>
-&lt;h1 id="高手版">高手版
-&lt;/h1>&lt;h2 id="埃氏筛">埃氏筛
-&lt;/h2>&lt;p>这样筛掉后每次下一位没被筛掉的数就都是质数&lt;/p>
+&lt;h2 id="高手版">高手版
+&lt;/h2>&lt;h3 id="埃氏筛">埃氏筛
+&lt;/h3>&lt;p>这样筛掉后每次下一位没被筛掉的数就都是质数&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -408,8 +408,8 @@ SDL_Quit();
 &lt;/div>
 &lt;/div>&lt;p>但是这钟筛法还不是最优，因为p的倍数会重复，所以有些数会被重复筛掉。&lt;/p>
 &lt;p>那么就引出了我们的最终筛法。&lt;/p>
-&lt;h2 id="欧拉筛">欧拉筛
-&lt;/h2>&lt;img src="https://p.fiveth.cc/img/m/欧拉.webp">
+&lt;h3 id="欧拉筛">欧拉筛
+&lt;/h3>&lt;img src="https://p.fiveth.cc/img/m/欧拉.webp">
 &lt;p>这个筛法避免了重复筛，思路就是：每个合数只会被其&lt;strong>最大非自身因数&lt;/strong>筛除&lt;/p>
 &lt;p>多说无益，先上代码：&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -491,8 +491,8 @@ SDL_Quit();
 &lt;p>我们只要定义一个数组，把数字分别放入数组序列中就可以储存非常大的数。&lt;/p>
 &lt;p>接下来我们看看怎么使用高精度运算。&lt;/p>
 &lt;p>（注意以下都是我个人的解法，不一定是最优解，借鉴学习即可）&lt;/p>
-&lt;h1 id="ab">A+B
-&lt;/h1>&lt;p>**题目：**高精度加法，相当于 a+b problem，不用考虑负数。（&lt;a class="link" href="https://www.luogu.com.cn/problem/P1601" target="_blank" rel="noopener"
+&lt;h2 id="ab">A+B
+&lt;/h2>&lt;p>**题目：**高精度加法，相当于 a+b problem，不用考虑负数。（&lt;a class="link" href="https://www.luogu.com.cn/problem/P1601" target="_blank" rel="noopener"
 >洛谷P1601题&lt;/a>）&lt;/p>
 &lt;p>输入a和b，然后输出a+b，太简单了！但是，题目要求的是高精度加法，也就是说输入的a和b是非常大的，我们要使用高精度才能储存该数进行处理。&lt;/p>
 &lt;p>首先我们看看加法的竖式&lt;/p>
@@ -558,8 +558,8 @@ SDL_Quit();
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h1 id="ab-1">A*B
-&lt;/h1>&lt;p>**题目：**给出两个非负整数，求它们的乘积。每个非负整数不超过 10^2000^（&lt;a class="link" href="https://www.luogu.com.cn/problem/P1303" target="_blank" rel="noopener"
+&lt;/div>&lt;h2 id="ab-1">A*B
+&lt;/h2>&lt;p>**题目：**给出两个非负整数，求它们的乘积。每个非负整数不超过 10^2000^（&lt;a class="link" href="https://www.luogu.com.cn/problem/P1303" target="_blank" rel="noopener"
 >洛谷P1303题&lt;/a>）&lt;/p>
 &lt;p>还是一样，看似是道弱智题，但是我们要注意输入值的范围，数值非常大，再加上要相乘，很容易就会超过我们数据类型范围，所以又要用到我们的高精度方法。&lt;/p>
 &lt;p>算乘法，我们就先复习下乘法竖式&lt;/p>
@@ -636,8 +636,8 @@ SDL_Quit();
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;hr>
-&lt;h1 id="阶乘之和">阶乘之和
-&lt;/h1>&lt;p>&lt;strong>题目描述&lt;/strong>&lt;/p>
+&lt;h2 id="阶乘之和">阶乘之和
+&lt;/h2>&lt;p>&lt;strong>题目描述&lt;/strong>&lt;/p>
 &lt;p>用高精度计算出 $S = 1! + 2! + 3! + \cdots + n!$（$n \le 50$）。&lt;/p>
 &lt;p>其中 &lt;code>!&lt;/code> 表示阶乘，定义为 $n!=n\times (n-1)\times (n-2)\times \cdots \times 1$。例如，$5! = 5 \times 4 \times 3 \times 2 \times 1=120$。&lt;/p>
 &lt;p>输入n，输出s。（&lt;a class="link" href="https://www.luogu.com.cn/problem/P1009" target="_blank" rel="noopener"
@@ -719,8 +719,8 @@ SDL_Quit();
 &lt;/div>&lt;hr>
 &lt;p>灵活掌握，举一反三才能在程序竞赛中绽放自我。&lt;/p></description></item><item><title>阿谦教算法：如何求最大公因数？(辗转相除法)</title><link>https://blog.fiveth.cc/p/72c/</link><pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/72c/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/gcd.webp" alt="Featured image of post 阿谦教算法：如何求最大公因数？(辗转相除法)" />&lt;p>辗转相除法是一种求最大公因数的计算方法。&lt;/p>
 &lt;p>这种方法在编程中很常用，在数学计算中也可以用来求很复杂的最大公因数问题。&lt;/p>
-&lt;h1 id="如何使用">如何使用
-&lt;/h1>&lt;p>题目：求最大公因数(36,14)&lt;/p>
+&lt;h2 id="如何使用">如何使用
+&lt;/h2>&lt;p>题目：求最大公因数(36,14)&lt;/p>
 &lt;p>我们如何用辗转相除法做这道题呢？
 $$
 \displaylines{
@@ -735,8 +735,8 @@ $$
 我们算出最大公约数(36,14)=2&lt;/p>
 &lt;p>到这里，我们就知道如何使用辗转相除法了。&lt;/p>
 &lt;p>但是，鲁迅曾说过“我们学公式必须得懂得原理”，我们明白了原理才能灵活运用&lt;/p>
-&lt;h1 id="原理">原理
-&lt;/h1>&lt;p>求最大公因数(a,b)&lt;/p>
+&lt;h2 id="原理">原理
+&lt;/h2>&lt;p>求最大公因数(a,b)&lt;/p>
 &lt;p>首先我们推出这几条式子
 $$
 \displaylines{
@@ -779,8 +779,8 @@ $$&lt;/p>
 &lt;p>反复用(a,b)=(b,r)的方法&lt;/p>
 &lt;p>(36,14)=(14,8)=(8,6)=(6,2)&lt;/p>
 &lt;p>最后得到(6,2)，显而易见最大公约数是2&lt;/p>
-&lt;h1 id="写gcd函数">写gcd函数
-&lt;/h1>&lt;p>接下来看看我们如何在C++中用辗转相除法写gcd函数&lt;/p>
+&lt;h2 id="写gcd函数">写gcd函数
+&lt;/h2>&lt;p>接下来看看我们如何在C++中用辗转相除法写gcd函数&lt;/p>
 &lt;p>gcd函数就是用来求最大公因数的函数&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">

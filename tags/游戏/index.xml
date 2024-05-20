@@ -20,15 +20,15 @@
 &lt;p>然后我们就能看到游戏的exe文件在目录中显示出来了，我们可以右键然后将快捷方式创建到桌面，之后我们就不需要用3dm启动器来打开游戏了😎。&lt;/p>
 &lt;img src="https://p.fiveth.cc/img/m/3dmexe.webp"/></description></item><item><title>【Qt C++】TCP联机小游戏 RectMans</title><link>https://blog.fiveth.cc/p/1841/</link><pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/1841/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/rectmans.jpg" alt="Featured image of post 【Qt C++】TCP联机小游戏 RectMans" />&lt;p>学习TCP后用基于Qt TCP库做了一个联机小游戏🤼&lt;/p>
 &lt;p>断断续续大概写了一周，程序源码放在文章底部了。&lt;/p>
-&lt;h1 id="结构思路">结构思路
-&lt;/h1>&lt;p>游戏通过服务端或者客户端进入，只支持两玩家。&lt;/p>
+&lt;h2 id="结构思路">结构思路
+&lt;/h2>&lt;p>游戏通过服务端或者客户端进入，只支持两玩家。&lt;/p>
 &lt;p>服务端进入：自己显示红色衣服，对方蓝色&lt;/p>
 &lt;p>客户端进入：自己显示蓝色衣服，对方红色&lt;/p>
 &lt;img src="https://p.fiveth.cc/img/m/rectman.webp" style="zoom:30%;" />
-&lt;h1 id="代码">代码
-&lt;/h1>&lt;h2 id="位置传输">位置传输
-&lt;/h2>&lt;h3 id="发送位置">发送位置
-&lt;/h3>&lt;p>将int[]转成QByteArray达到发送多数据的效果&lt;/p>
+&lt;h2 id="代码">代码
+&lt;/h2>&lt;h3 id="位置传输">位置传输
+&lt;/h3>&lt;h4 id="发送位置">发送位置
+&lt;/h4>&lt;p>将int[]转成QByteArray达到发送多数据的效果&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -55,8 +55,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="接收位置">接收位置
-&lt;/h3>&lt;p>将QByteArray转成int[]&lt;/p>
+&lt;/div>&lt;h4 id="接收位置">接收位置
+&lt;/h4>&lt;p>将QByteArray转成int[]&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -93,8 +93,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="相对位置">相对位置
-&lt;/h2>&lt;p>自己始终显示在屏幕中间，只显示方向的改变。&lt;/p>
+&lt;/div>&lt;h3 id="相对位置">相对位置
+&lt;/h3>&lt;p>自己始终显示在屏幕中间，只显示方向的改变。&lt;/p>
 &lt;p>移动时改变坐标但不显示。&lt;/p>
 &lt;p>游戏中的物体显示在 &lt;strong>[屏幕中心坐标+物体坐标-自己坐标]&lt;/strong>&lt;/p>
 &lt;p>物体包括：对方玩家，地图，树木&lt;/p>
@@ -114,8 +114,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="树木伪3d显示">树木伪3D显示
-&lt;/h2>&lt;p>很简单，当玩家y坐标大于树时显示在上，小于时显示在下。&lt;/p>
+&lt;/div>&lt;h3 id="树木伪3d显示">树木伪3D显示
+&lt;/h3>&lt;p>很简单，当玩家y坐标大于树时显示在上，小于时显示在下。&lt;/p>
 &lt;p>这段代码是有bug的，有两名玩家时，树木上下就会出现问题。&lt;/p>
 &lt;p>主要是我没有找到将Label下移或者上移一层的函数，只有置顶和置底，所以代码逻辑很麻烦🤡。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -150,8 +150,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="树木和敌人随机位置生成">树木和敌人随机位置生成
-&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h4 id="树木和敌人随机位置生成">树木和敌人随机位置生成
+&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
@@ -167,8 +167,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="僵尸追踪">僵尸追踪
-&lt;/h3>&lt;p>僵尸首先会判断与两个玩家间的距离，追踪距离更近的玩家。&lt;/p>
+&lt;/div>&lt;h4 id="僵尸追踪">僵尸追踪
+&lt;/h4>&lt;p>僵尸首先会判断与两个玩家间的距离，追踪距离更近的玩家。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -252,20 +252,20 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;hr>
-&lt;h1 id="视频演示">视频演示
-&lt;/h1>&lt;iframe src="//player.bilibili.com/player.html?aid=443100831&amp;bvid=BV1oL411h7Ms&amp;cid=1112953964&amp;page=1&amp;autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> &lt;/iframe>
-&lt;h1 id="源码">源码
-&lt;/h1>&lt;p>源码：https://github.com/kevinwu06/RectMans&lt;/p></description></item><item><title>【Qt C++】Fighter Duck</title><link>https://blog.fiveth.cc/p/f1e0/</link><pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/f1e0/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/fighterduck.jpg" alt="Featured image of post 【Qt C++】Fighter Duck" />&lt;p>最近在学习Qt，做了个游戏当练手项目。&lt;/p>
+&lt;h2 id="视频演示">视频演示
+&lt;/h2>&lt;iframe src="//player.bilibili.com/player.html?aid=443100831&amp;bvid=BV1oL411h7Ms&amp;cid=1112953964&amp;page=1&amp;autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> &lt;/iframe>
+&lt;h2 id="源码">源码
+&lt;/h2>&lt;p>源码：https://github.com/kevinwu06/RectMans&lt;/p></description></item><item><title>【Qt C++】Fighter Duck</title><link>https://blog.fiveth.cc/p/f1e0/</link><pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/f1e0/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/fighterduck.jpg" alt="Featured image of post 【Qt C++】Fighter Duck" />&lt;p>最近在学习Qt，做了个游戏当练手项目。&lt;/p>
 &lt;p>断断续续大概写了两周，程序源码放在文章底部了。&lt;/p>
-&lt;h1 id="游戏美术">游戏美术
-&lt;/h1>&lt;p>用软件Aseprite自己绘制。Aseprite是一款专门针对像素画的软件，界面简洁，适合快速上手，没有ps那些繁琐的功能。&lt;/p>
+&lt;h2 id="游戏美术">游戏美术
+&lt;/h2>&lt;p>用软件Aseprite自己绘制。Aseprite是一款专门针对像素画的软件，界面简洁，适合快速上手，没有ps那些繁琐的功能。&lt;/p>
 &lt;p>游戏动态背景用ps做成，因为ps的动画功能可以实现流畅的帧变换。&lt;/p>
 &lt;img src="https://p.fiveth.cc/img/m/drawduck.webp" style="zoom: 25%;" />
-&lt;h1 id="游戏代码">游戏代码
-&lt;/h1>&lt;p>接下来是如何用Qt提供的接口来实现一些游戏的基本功能&lt;/p>
+&lt;h2 id="游戏代码">游戏代码
+&lt;/h2>&lt;p>接下来是如何用Qt提供的接口来实现一些游戏的基本功能&lt;/p>
 &lt;img src="https://p.fiveth.cc/img/m/duckgame.webp" style="zoom: 50%;" />
-&lt;h2 id="动画">动画
-&lt;/h2>&lt;p>游戏人物的动态用的是gif动图&lt;/p>
+&lt;h3 id="动画">动画
+&lt;/h3>&lt;p>游戏人物的动态用的是gif动图&lt;/p>
 &lt;p>用QLabel和QMovie实现&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -287,8 +287,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">duck&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="n">move&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">x&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">y&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">//移动位置
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="图片">图片
-&lt;/h2>&lt;p>显示静态图片用QLabel和QPixmap&lt;/p>
+&lt;/div>&lt;h3 id="图片">图片
+&lt;/h3>&lt;p>显示静态图片用QLabel和QPixmap&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -303,8 +303,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">QLabel&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="n">setMovie&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">duck_stand&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="事件处理">事件处理
-&lt;/h2>&lt;p>在head文件中加入，再在源文件中定义&lt;/p>
+&lt;/div>&lt;h3 id="事件处理">事件处理
+&lt;/h3>&lt;p>在head文件中加入，再在源文件中定义&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -317,8 +317,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">void&lt;/span> &lt;span class="nf">keyReleaseEvent&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">QKeyEvent&lt;/span>&lt;span class="o">*&lt;/span> &lt;span class="n">e&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="游戏主循环">游戏主循环
-&lt;/h2>&lt;p>控制帧率，一秒循环多少次&lt;/p>
+&lt;/div>&lt;h3 id="游戏主循环">游戏主循环
+&lt;/h3>&lt;p>控制帧率，一秒循环多少次&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -331,8 +331,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">timer&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="n">start&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1000&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">FRAME&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">//FRAME帧率
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="delay函数">Delay函数
-&lt;/h2>&lt;p>Qt中要使用delay函数可以自己定义，代码如下。&lt;/p>
+&lt;/div>&lt;h3 id="delay函数">Delay函数
+&lt;/h3>&lt;p>Qt中要使用delay函数可以自己定义，代码如下。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -351,8 +351,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="显示文字">显示文字
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h3 id="显示文字">显示文字
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
@@ -369,11 +369,11 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;img src="https://p.fiveth.cc/img/m/fighterduck.webp" style="zoom: 30%;" />
-&lt;h1 id="源码">源码
-&lt;/h1>&lt;p>源码：https://github.com/kevinwu06/FighterDuck&lt;/p></description></item><item><title>如何用SDL开发游戏？</title><link>https://blog.fiveth.cc/p/b01b/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/b01b/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/sdl.jpg" alt="Featured image of post 如何用SDL开发游戏？" />&lt;p>SDL（Simple DirectMedia Layer）是一套开放源代码的&lt;strong>跨平台多媒体开发库&lt;/strong>，使用C语言写成。SDL提供了数种控制图像、声音、输出入的函数，让开发者只要用相同或是相似的代码就可以开发出跨多个平台的应用软件。现SDL多用于开发游戏、模拟器、媒体播放器等多媒体应用领域。&lt;/p>
+&lt;h2 id="源码">源码
+&lt;/h2>&lt;p>源码：https://github.com/kevinwu06/FighterDuck&lt;/p></description></item><item><title>如何用SDL开发游戏？</title><link>https://blog.fiveth.cc/p/b01b/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/b01b/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/sdl.jpg" alt="Featured image of post 如何用SDL开发游戏？" />&lt;p>SDL（Simple DirectMedia Layer）是一套开放源代码的&lt;strong>跨平台多媒体开发库&lt;/strong>，使用C语言写成。SDL提供了数种控制图像、声音、输出入的函数，让开发者只要用相同或是相似的代码就可以开发出跨多个平台的应用软件。现SDL多用于开发游戏、模拟器、媒体播放器等多媒体应用领域。&lt;/p>
 &lt;p>最近前段时间浅学习了下SDL，以及做游戏。这篇文章总结下。&lt;/p>
-&lt;h1 id="游戏结构">游戏结构
-&lt;/h1>&lt;p>做游戏这里最主要的是&lt;strong>面向对象&lt;/strong>编程思想。&lt;/p>
+&lt;h2 id="游戏结构">游戏结构
+&lt;/h2>&lt;p>做游戏这里最主要的是&lt;strong>面向对象&lt;/strong>编程思想。&lt;/p>
 &lt;p>&lt;strong>多创建类文件&lt;/strong>可以帮助我们更好的理清逻辑，管理代码。&lt;/p>
 &lt;p>整个游戏的结构：&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -399,8 +399,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>这样把整个游戏结构写成函数形式可以让我们更好的管理代码。这应该就是我们main函数大概的样子。&lt;/p>
-&lt;h1 id="sdl函数">SDL函数
-&lt;/h1>&lt;p>接下来我们来看看SDL给我们提供的函数，让我们怎么去实现游戏功能。&lt;/p>
+&lt;h2 id="sdl函数">SDL函数
+&lt;/h2>&lt;p>接下来我们来看看SDL给我们提供的函数，让我们怎么去实现游戏功能。&lt;/p>
 &lt;p>首先我们来看看一个简单的SDL&lt;strong>创建窗口&lt;/strong>的程序。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -450,14 +450,14 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="检测故障">检测故障
-&lt;/h2>&lt;p>我们可以看到我们在初始化和创建的时候&lt;strong>会写一个判断语句&lt;/strong>。&lt;/p>
+&lt;/div>&lt;h3 id="检测故障">检测故障
+&lt;/h3>&lt;p>我们可以看到我们在初始化和创建的时候&lt;strong>会写一个判断语句&lt;/strong>。&lt;/p>
 &lt;p>这是为什么？&lt;/p>
 &lt;p>因为有时可能会因为各种原因导致&lt;strong>初始化失败&lt;/strong>或者&lt;strong>创建失败&lt;/strong>，到后面代码多了如果某个环节失败了，我们想要找出问题所在会非常困难。&lt;/p>
 &lt;p>所以我们在初始化和创建的时候写判断语句，比如第一个&lt;strong>SDL_Init()&lt;/strong>，这个SDL给出的函数如果失败了会返回1(可以右键进入定义代码查看)，所以如果返回了1，我们就用**SDL_Log()&lt;strong>函数(SDL给出的输出函数,也可以用cout或者printf)输出问题，后面的&lt;/strong>SDL_Error()**可以获取问题。&lt;/p>
 &lt;p>这样的检测故障的判断是必须的。&lt;/p>
-&lt;h2 id="清除">清除
-&lt;/h2>&lt;p>可以看到我们最后使用了&lt;/p>
+&lt;h3 id="清除">清除
+&lt;/h3>&lt;p>可以看到我们最后使用了&lt;/p>
 &lt;pre>&lt;code>SDL_DestroyWindow(win);
 SDL_Quit();
 &lt;/code>&lt;/pre>
@@ -465,8 +465,8 @@ SDL_Quit();
 &lt;p>在我们初始化了SDL的功能后，在程序末尾我们必须用SDL_Quit()将其清除。&lt;/p>
 &lt;p>同样道理，我们用SDL创建的数据变量也应该销毁/释放掉。&lt;/p>
 &lt;p>(每个数据变量都有对应的销毁/释放函数，如SDL_DestroyRenderer,SDL_FreeSurface)&lt;/p>
-&lt;h1 id="sdl学习">SDL学习
-&lt;/h1>&lt;p>SDL给出了非常非常多的功能函数。&lt;/p>
+&lt;h2 id="sdl学习">SDL学习
+&lt;/h2>&lt;p>SDL给出了非常非常多的功能函数。&lt;/p>
 &lt;p>大家使用时应该学会查看官方文档，里面都给出了详细的使用方法。&lt;/p>
 &lt;p>这是我之前学习SDL的文件，里面有一些最基本功能的实现，大家可以看看。&lt;/p>
 &lt;p>&lt;a class="link" href="https://kevinwu06.lanzout.com/i3Stw0lrzw4f" target="_blank" rel="noopener"

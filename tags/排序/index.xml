@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>排序 on Fiveth</title><link>https://blog.fiveth.cc/tags/%E6%8E%92%E5%BA%8F/</link><description>Recent content in 排序 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>阿谦教算法：如何学精排序算法？</title><link>https://blog.fiveth.cc/p/92b9/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/92b9/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/sort.webp" alt="Featured image of post 阿谦教算法：如何学精排序算法？" />&lt;h3 id="各种排序">各种排序
-&lt;/h3>&lt;table>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>排序 on Fiveth</title><link>https://blog.fiveth.cc/tags/%E6%8E%92%E5%BA%8F/</link><description>Recent content in 排序 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>阿谦教算法：如何学精排序算法？</title><link>https://blog.fiveth.cc/p/92b9/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/92b9/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/sort.webp" alt="Featured image of post 阿谦教算法：如何学精排序算法？" />&lt;h4 id="各种排序">各种排序
+&lt;/h4>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>排序&lt;/th>
@@ -36,8 +36,8 @@
 &lt;/tbody>
 &lt;/table>
 &lt;p>这些排序各适用不同情况，但时间复杂度总体较大。&lt;/p>
-&lt;h3 id="快速排序">快速排序
-&lt;/h3>&lt;p>程序设计竞赛中最普遍的排序。&lt;/p>
+&lt;h4 id="快速排序">快速排序
+&lt;/h4>&lt;p>程序设计竞赛中最普遍的排序。&lt;/p>
 &lt;p>随机选择哨兵，时间复杂度O(n log n)。但极端情况O(n^2^)。&lt;/p>
 &lt;p>&lt;strong>概述：&lt;/strong>&lt;/p>
 &lt;p>选出一个哨兵，比哨兵小的数全放左边，比他大的全放右边。&lt;/p>
