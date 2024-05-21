@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on Fiveth</title><link>https://blog.fiveth.cc/tags/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Mon, 29 Apr 2024 21:33:53 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title><link>https://blog.fiveth.cc/p/138e/</link><pubDate>Mon, 29 Apr 2024 21:33:53 +0000</pubDate><guid>https://blog.fiveth.cc/p/138e/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo搭建进阶：Vercel部署、主题安装、基础用法" />&lt;p>{% note info flat %}&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on Fiveth</title><link>https://blog.fiveth.cc/tags/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello Hugo</title><link>https://blog.fiveth.cc/p/hello-hugo/</link><pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/hello-hugo/</guid><description>&lt;img src="https://p.fiveth.cc/img/2024/0518131750.webp" alt="Featured image of post Hello Hugo" />&lt;p>hi，大家应该发现了，我的博客大变样了（不是💩样）&lt;/p>
+&lt;p>因为我把博客从&lt;code>Hexo&lt;/code>迁移到了&lt;code>Hugo&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>2022年疫情上网课的时候，我用&lt;code>Hexo&lt;/code>搭建了我的个人博客&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2024将博客迁移至了&lt;code>Hugo&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="原因">😯原因
+&lt;/h2>&lt;h3 id="优点">优点
+&lt;/h3>&lt;ol>
+&lt;li>相比&lt;code>Hexo&lt;/code>，&lt;code>Hugo&lt;/code>的静态&lt;code>生成速度更快&lt;/code>。在本地运行后半秒不到就能在本地生成完页面，方便调试。&lt;/li>
+&lt;li>看了L1nSn0w大佬的博客后，被&lt;code>Stack主题&lt;/code>这个&lt;code>简约舒适&lt;/code>的博客页面狠狠种草了。个人觉得这样的页面阅读体验非常好，没有其他花里胡哨的东西吸引眼球，进来就是一排文章，方便阅读。&lt;/li>
+&lt;li>最主要是为了&lt;code>减少折腾&lt;/code>，这让我可以&lt;code>专心地写文章&lt;/code>。不再反复折腾博客页面。&lt;/li>
+&lt;/ol>
+&lt;h3 id="缺点">缺点
+&lt;/h3>&lt;ol>
+&lt;li>&lt;code>Hugo&lt;/code>在国内的&lt;code>社区&lt;/code>没有&lt;code>Hexo&lt;/code>的大，意味着遇到问题比较难找到解决方法，需要一定Debug能力。&lt;/li>
+&lt;li>没有&lt;code>Hexo&lt;/code>那么多&lt;code>插件功能&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h3 id="so">So
+&lt;/h3>&lt;p>对我来说，Hugo会更加适合我。&lt;/p>
+&lt;p>大家可以根据个人需求和喜好选择，看看自己是要简约的，还是多功能、自定义化高的。&lt;/p>
+&lt;blockquote>
+&lt;p>这里奉上我的&lt;a class="link" href="https://blog.fiveth.cc/tags/hexo/" target="_blank" rel="noopener"
+>Hexo博客搭建教程&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="关于hugo安装">😎关于Hugo安装
+&lt;/h2>&lt;p>这里列出我在hugo博客搭建过程中阅读的文章：&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://blog.linsnow.cn/p/join-hugo-and-stack/" target="_blank" rel="noopener"
+>【L1nSn0w】(1)带着Stack主题入坑Hugo&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://blog.linsnow.cn/p/deploy-hugo/" target="_blank" rel="noopener"
+>【L1nSn0w】(2)部署你的Hugo博客&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://blog.csdn.net/m0_51993913/article/details/132657065" target="_blank" rel="noopener"
+>【CSDN】GitHub Action自动化部署Hugo博客&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://blog.linsnow.cn/p/modify-hugo/" target="_blank" rel="noopener"
+>【L1nSn0w】(3)Stack主题的自定义&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>&lt;strong>我在自动部署处做了些改动&lt;/strong>：&lt;/p>
+&lt;p>把&lt;code>deploy_key&lt;/code>那行换成&lt;code>PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}&lt;/code>，然后在仓库设置添加secret变量&lt;code>PERSONAL_TOKEN&lt;/code>，里面填&lt;code>token&lt;/code>。&lt;code>token&lt;/code>在用户设置中创建，要勾选&lt;code>repo&lt;/code>和&lt;code>workflow&lt;/code>权限。&lt;/p></description></item><item><title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title><link>https://blog.fiveth.cc/p/138e/</link><pubDate>Mon, 29 Apr 2024 21:33:53 +0000</pubDate><guid>https://blog.fiveth.cc/p/138e/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo搭建进阶：Vercel部署、主题安装、基础用法" />&lt;p>{% note info flat %}&lt;/p>
 &lt;ul>
 &lt;li>本篇前文：&lt;a class="link" href="https://blog.fiveth.cc/p/bb32.html" >如何用Hexo搭建个人博客?&lt;/a>&lt;/li>
 &lt;li>本文基于&lt;a class="link" href="https://www.fomal.cc/posts/4aa2d85f.html" target="_blank" rel="noopener"
