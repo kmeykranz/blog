@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客相关 on Fiveth</title><link>https://blog.fiveth.cc/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/</link><description>Recent content in 博客相关 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello Hugo</title><link>https://blog.fiveth.cc/p/hello-hugo/</link><pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/hello-hugo/</guid><description>&lt;img src="https://p.fiveth.cc/img/2024/0518131750.webp" alt="Featured image of post Hello Hugo" />&lt;p>hi，大家应该发现了，我的博客大变样了（不是💩样）&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客相关 on Fiveth</title><link>https://blog.fiveth.cc/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/</link><description>Recent content in 博客相关 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello Hugo</title><link>https://blog.fiveth.cc/p/hello-hugo/</link><pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/hello-hugo/</guid><description>&lt;img src="https://p.fiveth.cc/img/2024/0518131750.webp" alt="Featured image of post Hello Hugo" />&lt;p>hi，大家应该发现了，我的博客变样了&lt;/p>
 &lt;p>因为我把博客从&lt;code>Hexo&lt;/code>迁移到了&lt;code>Hugo&lt;/code>&lt;/p>
 &lt;blockquote>
 &lt;ul>
@@ -172,62 +172,62 @@
 &lt;/div>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:left">写法&lt;/th>
-&lt;th>解释&lt;/th>
+&lt;th style="text-align: left">写法&lt;/th>
+&lt;th style="text-align: left">解释&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:left">title&lt;/td>
-&lt;td>【必需】页面标题&lt;/td>
+&lt;td style="text-align: left">title&lt;/td>
+&lt;td style="text-align: left">【必需】页面标题&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">date&lt;/td>
-&lt;td>【必需】页面创建日期&lt;/td>
+&lt;td style="text-align: left">date&lt;/td>
+&lt;td style="text-align: left">【必需】页面创建日期&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">type&lt;/td>
-&lt;td>【必需】标籤、分类和友情链接三个页面需要配置&lt;/td>
+&lt;td style="text-align: left">type&lt;/td>
+&lt;td style="text-align: left">【必需】标籤、分类和友情链接三个页面需要配置&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">updated&lt;/td>
-&lt;td>【可选】页面更新日期&lt;/td>
+&lt;td style="text-align: left">updated&lt;/td>
+&lt;td style="text-align: left">【可选】页面更新日期&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">description&lt;/td>
-&lt;td>【可选】页面描述&lt;/td>
+&lt;td style="text-align: left">description&lt;/td>
+&lt;td style="text-align: left">【可选】页面描述&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">keywords&lt;/td>
-&lt;td>【可选】页面关键字&lt;/td>
+&lt;td style="text-align: left">keywords&lt;/td>
+&lt;td style="text-align: left">【可选】页面关键字&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">comments&lt;/td>
-&lt;td>【可选】显示页面评论模块(默认 true)&lt;/td>
+&lt;td style="text-align: left">comments&lt;/td>
+&lt;td style="text-align: left">【可选】显示页面评论模块(默认 true)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">top_img&lt;/td>
-&lt;td>【可选】页面顶部图片&lt;/td>
+&lt;td style="text-align: left">top_img&lt;/td>
+&lt;td style="text-align: left">【可选】页面顶部图片&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">mathjax&lt;/td>
-&lt;td>【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)&lt;/td>
+&lt;td style="text-align: left">mathjax&lt;/td>
+&lt;td style="text-align: left">【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">kates&lt;/td>
-&lt;td>【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)&lt;/td>
+&lt;td style="text-align: left">kates&lt;/td>
+&lt;td style="text-align: left">【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">aside&lt;/td>
-&lt;td>【可选】显示侧边栏 (默认 true)&lt;/td>
+&lt;td style="text-align: left">aside&lt;/td>
+&lt;td style="text-align: left">【可选】显示侧边栏 (默认 true)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">aplayer&lt;/td>
-&lt;td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置&lt;/td>
+&lt;td style="text-align: left">aplayer&lt;/td>
+&lt;td style="text-align: left">【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">highlight_shrink&lt;/td>
-&lt;td>【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)&lt;/td>
+&lt;td style="text-align: left">highlight_shrink&lt;/td>
+&lt;td style="text-align: left">【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -291,102 +291,102 @@
 &lt;/div>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>写法&lt;/th>
-&lt;th>解释&lt;/th>
+&lt;th style="text-align: left">写法&lt;/th>
+&lt;th style="text-align: left">解释&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>title&lt;/td>
-&lt;td>【必需】文章标题&lt;/td>
+&lt;td style="text-align: left">title&lt;/td>
+&lt;td style="text-align: left">【必需】文章标题&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>date&lt;/td>
-&lt;td>【必需】文章创建日期&lt;/td>
+&lt;td style="text-align: left">date&lt;/td>
+&lt;td style="text-align: left">【必需】文章创建日期&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>updated&lt;/td>
-&lt;td>【可选】文章更新日期&lt;/td>
+&lt;td style="text-align: left">updated&lt;/td>
+&lt;td style="text-align: left">【可选】文章更新日期&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>tags&lt;/td>
-&lt;td>【可选】文章标籤&lt;/td>
+&lt;td style="text-align: left">tags&lt;/td>
+&lt;td style="text-align: left">【可选】文章标籤&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>categories&lt;/td>
-&lt;td>【可选】文章分类&lt;/td>
+&lt;td style="text-align: left">categories&lt;/td>
+&lt;td style="text-align: left">【可选】文章分类&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>keywords&lt;/td>
-&lt;td>【可选】文章关键字&lt;/td>
+&lt;td style="text-align: left">keywords&lt;/td>
+&lt;td style="text-align: left">【可选】文章关键字&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>description&lt;/td>
-&lt;td>【可选】文章描述&lt;/td>
+&lt;td style="text-align: left">description&lt;/td>
+&lt;td style="text-align: left">【可选】文章描述&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>top_img&lt;/td>
-&lt;td>【可选】文章顶部图片&lt;/td>
+&lt;td style="text-align: left">top_img&lt;/td>
+&lt;td style="text-align: left">【可选】文章顶部图片&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>cover&lt;/td>
-&lt;td>【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)&lt;/td>
+&lt;td style="text-align: left">cover&lt;/td>
+&lt;td style="text-align: left">【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>comments&lt;/td>
-&lt;td>【可选】显示文章评论模块(默认 true)&lt;/td>
+&lt;td style="text-align: left">comments&lt;/td>
+&lt;td style="text-align: left">【可选】显示文章评论模块(默认 true)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>toc&lt;/td>
-&lt;td>【可选】显示文章TOC(默认为设置中toc的enable配置)&lt;/td>
+&lt;td style="text-align: left">toc&lt;/td>
+&lt;td style="text-align: left">【可选】显示文章TOC(默认为设置中toc的enable配置)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>toc_number&lt;/td>
-&lt;td>【可选】显示toc_number(默认为设置中toc的number配置)&lt;/td>
+&lt;td style="text-align: left">toc_number&lt;/td>
+&lt;td style="text-align: left">【可选】显示toc_number(默认为设置中toc的number配置)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>toc_style_simple&lt;/td>
-&lt;td>【可选】显示 toc 简洁模式&lt;/td>
+&lt;td style="text-align: left">toc_style_simple&lt;/td>
+&lt;td style="text-align: left">【可选】显示 toc 简洁模式&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>copyright&lt;/td>
-&lt;td>【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)&lt;/td>
+&lt;td style="text-align: left">copyright&lt;/td>
+&lt;td style="text-align: left">【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>copyright_author&lt;/td>
-&lt;td>【可选】文章版权模块的文章作者&lt;/td>
+&lt;td style="text-align: left">copyright_author&lt;/td>
+&lt;td style="text-align: left">【可选】文章版权模块的文章作者&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>copyright_author_href&lt;/td>
-&lt;td>【可选】文章版权模块的文章作者链接&lt;/td>
+&lt;td style="text-align: left">copyright_author_href&lt;/td>
+&lt;td style="text-align: left">【可选】文章版权模块的文章作者链接&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>copyright_url&lt;/td>
-&lt;td>【可选】文章版权模块的文章连结链接&lt;/td>
+&lt;td style="text-align: left">copyright_url&lt;/td>
+&lt;td style="text-align: left">【可选】文章版权模块的文章连结链接&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>copyright_info&lt;/td>
-&lt;td>【可选】文章版权模块的版权声明文字&lt;/td>
+&lt;td style="text-align: left">copyright_info&lt;/td>
+&lt;td style="text-align: left">【可选】文章版权模块的版权声明文字&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>mathjax&lt;/td>
-&lt;td>【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)&lt;/td>
+&lt;td style="text-align: left">mathjax&lt;/td>
+&lt;td style="text-align: left">【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>katex&lt;/td>
-&lt;td>【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)&lt;/td>
+&lt;td style="text-align: left">katex&lt;/td>
+&lt;td style="text-align: left">【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>aplayer&lt;/td>
-&lt;td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置&lt;/td>
+&lt;td style="text-align: left">aplayer&lt;/td>
+&lt;td style="text-align: left">【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>highlight_shrink&lt;/td>
-&lt;td>【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)&lt;/td>
+&lt;td style="text-align: left">highlight_shrink&lt;/td>
+&lt;td style="text-align: left">【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>aside&lt;/td>
-&lt;td>【可选】显示侧边栏 (默认 true)&lt;/td>
+&lt;td style="text-align: left">aside&lt;/td>
+&lt;td style="text-align: left">【可选】显示侧边栏 (默认 true)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Fiveth</title><link>https://blog.fiveth.cc/page/</link><description>Recent content in Pages on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/page/index.xml" rel="self" type="application/rss+xml"/><item><title>归档</title><link>https://blog.fiveth.cc/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/archives/</guid><description/></item><item><title>说说</title><link>https://blog.fiveth.cc/say/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/say/</guid><description>&lt;h3 id="说说">说说
-&lt;/h3></description></item><item><title>关于</title><link>https://blog.fiveth.cc/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/about/</guid><description>&lt;h2 id="hi">🤪Hi
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Fiveth</title><link>https://blog.fiveth.cc/page/</link><description>Recent content in Pages on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/page/index.xml" rel="self" type="application/rss+xml"/><item><title>归档</title><link>https://blog.fiveth.cc/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/archives/</guid><description/></item><item><title>关于</title><link>https://blog.fiveth.cc/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/about/</guid><description>&lt;h2 id="hi">🤪Hi
 &lt;/h2>&lt;p>Hiii，我是&lt;code>Fiveth&lt;/code>，一名&lt;code>准计算机学生&lt;/code>，目前在读&lt;code>国际高中&lt;/code>，目标英国G5！&lt;code>Fiveth&lt;/code>这个网名来源于我的真名，谐音听着像五千，英文Five thousand，然后再一缩写就成了Fiveth😋&lt;/p>
 &lt;h2 id="我的人格">😎我的人格
 &lt;/h2>&lt;blockquote>
@@ -21,7 +20,7 @@
 游戏：&lt;img src="https://p.fiveth.cc/img/2024/0420165006.jpeg" style="width: 300px; height: 400px; margin: 0 10px; display: inline-block;">
 &lt;/div>
 &lt;/blockquote>
-&lt;p>2022年看了&lt;code>赛博朋克：边缘行者&lt;/code>，被这个世界深深吸引了。看完后买了&lt;code>赛博朋克2077&lt;/code>，2023断断续续地完了一整年，也是我唯一玩完的3A，打了全成就。现在回想，仿佛自己真的在&lt;code>夜之城&lt;/code>活过一生。&lt;/p>
+2022年看了`赛博朋克：边缘行者`，被这个世界深深吸引了。看完后买了`赛博朋克2077`，2023断断续续地完了一整年，也是我唯一玩完的3A，打了全成就。现在回想，仿佛自己真的在`夜之城`活过一生。
 &lt;blockquote>
 &lt;p>“你是愿意当个无名之辈，一辈子安生，插着尿管，死在床上。还是就算活不到30岁，也要名留青史呢。”&lt;/p>
 &lt;/blockquote>
@@ -119,8 +118,6 @@ fill: #eee
 &lt;ul>
 &lt;li>&lt;code>2022.11&lt;/code>上网课的时候，跟着教程用hexo搭建了自己的个人博客，开始了折腾之旅。&lt;/li>
 &lt;li>&lt;code>2024.5&lt;/code>博客迁移至hugo，主要是为了加快博客流、减少折腾。&lt;/li>
-&lt;li>感谢&lt;a class="link" href="https://blog.linsnow.cn/" target="_blank" rel="noopener"
->L1nSn0w&lt;/a>提供Stack主题美化教程&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;p>建立本站的目的是&lt;code>分享知识和生活&lt;/code>，在这里你可以看到我的&lt;code>教程干货、生活琐事、思考和想法&lt;/code>。
