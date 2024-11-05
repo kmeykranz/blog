@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数学 on Fiveth</title><link>https://blog.fiveth.cc/tags/%E6%95%B0%E5%AD%A6/</link><description>Recent content in 数学 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Wed, 14 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>辗转相除法-求最大公因数</title><link>https://blog.fiveth.cc/p/72c/</link><pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/72c/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/gcd.webp" alt="Featured image of post 辗转相除法-求最大公因数" />&lt;p>辗转相除法是一种求最大公因数的计算方法。&lt;/p>
+&lt;p>这种方法在编程中很常用，在数学计算中也可以用来求很复杂的最大公因数问题。&lt;/p>
+&lt;h2 id="如何使用">如何使用
+&lt;/h2>&lt;p>题目：求最大公因数(36,14)&lt;/p>
+&lt;p>我们如何用辗转相除法做这道题呢？
+$$
+\displaylines{
+反复用除数除以余数直到除尽\
+36{\div}14=2\dots8\
+14{\div}8=1\dots6\
+8{\div}6=1\dots2\
+6{\div}2=3\
+最后一个除数就是最大公约数，也就是2
+}
+$$
+我们算出最大公约数(36,14)=2&lt;/p>
+&lt;p>到这里，我们就知道如何使用辗转相除法了。&lt;/p>
+&lt;p>但是，鲁迅曾说过“我们学公式必须得懂得原理”，我们明白了原理才能灵活运用&lt;/p>
+&lt;h2 id="原理">原理
+&lt;/h2>&lt;p>求最大公因数(a,b)&lt;/p>
+&lt;p>首先我们推出这几条式子
+$$
+\displaylines{
+a{\div}b=q\dots r \
+a=bq+r \
+r=a-bq
+}
+$$
+&lt;strong>这是我们辗转法的原理&lt;/strong>
+$$
+\displaylines{
+(a,b)=(b,r) \a和b的最大公约数就等于b和r的最大公约数
+}
+$$
+接下来让我们证明这条公式
+$$
+\displaylines{
+(1)设(a,b)=d\
+那么a=dm,b=dn\
+然后我们将其带入r=a-bq\
+得r=d(m-nq)\
+因为m,n,q都是整数，所以r是d的倍数，d是r的因数\
+所以：只要是a,b的因数，就一定是d,r的约数\
+}
+$$&lt;/p>
+&lt;p>$$
+\displaylines{
+(2)设(b,r)=d\
+和之前一样，那么b=dx,r=dy\
+然后将其代入a=bq+r\
+得a=d(xq+y)\
+因为x,q,y都是整数，所以a是d的倍数，d是a的因数\
+所以：只要是d,r的因数，就一定是a的因数\
+}
+$$&lt;/p>
+&lt;p>这样，我们就得出(a,b)的因数和(b,r)的因数相同，它们的因数都相同，那么它们的最大公因数也就相同。&lt;/p>
+&lt;p>所以我们要求(a,b)的最大公因数，我们就通过可以求(b,r)的最大公因数来得到。&lt;/p>
+&lt;p>&lt;strong>现在我们再来看看开头的题&lt;/strong>&lt;/p>
+&lt;p>题目：求最大公因数(36,14)&lt;/p>
+&lt;p>反复用(a,b)=(b,r)的方法&lt;/p>
+&lt;p>(36,14)=(14,8)=(8,6)=(6,2)&lt;/p>
+&lt;p>最后得到(6,2)，显而易见最大公约数是2&lt;/p>
+&lt;h2 id="写gcd函数">写gcd函数
+&lt;/h2>&lt;p>接下来看看我们如何在C++中用辗转相除法写gcd函数&lt;/p>
+&lt;p>gcd函数就是用来求最大公因数的函数&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">gcd&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">b&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">while&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">a&lt;/span> &lt;span class="o">%&lt;/span> &lt;span class="n">b&lt;/span> &lt;span class="o">!=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="c1">//a能被b整除时就终止循环
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">r&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">a&lt;/span> &lt;span class="o">%&lt;/span> &lt;span class="n">b&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">a&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">b&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">b&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">r&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">//讲a换成除数b，b换成余数r
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>当然也可以直接用algorithm头文件中的gcd函数，&lt;/p>
+&lt;p>我们学会自己写是为了理解原理，提升思维，&lt;/p>
+&lt;p>自己写还可以在有特殊需求的时候更自定义化。&lt;/p></description></item></channel></rss>
