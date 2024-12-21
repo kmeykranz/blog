@@ -1,185 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Fiveth</title><link>https://blog.fiveth.cc/page/</link><description>Recent content in Pages on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/page/index.xml" rel="self" type="application/rss+xml"/><item><title>归档</title><link>https://blog.fiveth.cc/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/archives/</guid><description/></item><item><title>关于</title><link>https://blog.fiveth.cc/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/about/</guid><description>&lt;h2 id="hi">🤪Hi
-&lt;/h2>&lt;p>Hiii，我是&lt;code>Fiveth&lt;/code>，一名&lt;code>准计算机学生&lt;/code>，目前在读&lt;code>国际高中&lt;/code>，目标英国G5！&lt;code>Fiveth&lt;/code>这个网名来源于我的真名，谐音听着像五千，英文Five thousand，然后再一缩写就成了Fiveth😋&lt;/p>
-&lt;h2 id="我的人格">😎我的人格
-&lt;/h2>&lt;blockquote>
-&lt;p>&lt;div>
-&lt;img src="https://p.fiveth.cc/img/m/adventurer_small.png" style="width: 150px; height: 150px; margin: 0 10px; display: inline-block;">&lt;div style="display: inline-block;">
-&lt;strong>ISFP-A探险家&lt;/strong>&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Example Site</title><link>https://example.com/page/</link><description>Recent content in Pages on Example Site</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Example Person</copyright><lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml"/><item><title>Archives</title><link>https://example.com/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://example.com/archives/</guid><description/></item><item><title>About</title><link>https://example.com/about/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://example.com/about/</guid><description>&lt;p>Written in Go, Hugo is an open source static site generator available under the &lt;a class="link" href="https://github.com/gohugoio/hugo/blob/master/LICENSE" target="_blank" rel="noopener"
+>Apache License 2.0.&lt;/a> Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p>
+&lt;p>Hugo makes use of a variety of open source projects including:&lt;/p>
 &lt;ul>
-&lt;li>他能在ddl的压力下焦虑地摸鱼一整天&lt;br>&lt;/li>
-&lt;li>对感兴趣的有无比强烈的学习欲望&lt;br>&lt;/li>
-&lt;li>对自己不感兴趣的直接&lt;del>阳痿&lt;/del>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/yuin/goldmark" target="_blank" rel="noopener"
+>https://github.com/yuin/goldmark&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/alecthomas/chroma" target="_blank" rel="noopener"
+>https://github.com/alecthomas/chroma&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/muesli/smartcrop" target="_blank" rel="noopener"
+>https://github.com/muesli/smartcrop&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/spf13/cobra" target="_blank" rel="noopener"
+>https://github.com/spf13/cobra&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/spf13/viper" target="_blank" rel="noopener"
+>https://github.com/spf13/viper&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;/div>
-&lt;/div>
-&lt;/p>&lt;span class="cite">&lt;span>― &lt;/span>&lt;span>ISFP, &lt;/span>&lt;a href="https://www.16personalities.com/ch/isfp-%E4%BA%BA%E6%A0%BC">&lt;cite>16 Personalities&lt;/cite>&lt;/a>&lt;/span>&lt;/blockquote>
-&lt;h2 id="我的最爱">🎮我的最爱
-&lt;/h2>&lt;blockquote>
-&lt;div>
-番剧：&lt;img src="https://p.fiveth.cc/img/m/cyberrunner.webp" style="width: 300px; height: 400px; margin: 0 10px; display: inline-block;">&lt;div style="display: inline-block;">
-游戏：&lt;img src="https://p.fiveth.cc/img/2024/0420165006.jpeg" style="width: 300px; height: 400px; margin: 0 10px; display: inline-block;">
-&lt;/div>
-&lt;/blockquote>
-2022年看了`赛博朋克：边缘行者`，被这个世界深深吸引了。看完后买了`赛博朋克2077`，2023断断续续地完了一整年，也是我唯一玩完的3A，打了全成就。现在回想，仿佛自己真的在`夜之城`活过一生。
-&lt;blockquote>
-&lt;p>“你是愿意当个无名之辈，一辈子安生，插着尿管，死在床上。还是就算活不到30岁，也要名留青史呢。”&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="座右铭">💭座右铭
-&lt;/h2>&lt;blockquote>
-&lt;p>Who looks outside, dreams;&lt;br>
-Who looks inside, awakes.&lt;/p>&lt;span class="cite">&lt;span>― &lt;/span>&lt;span>Carl Jung&lt;/span>&lt;cite>&lt;/cite>&lt;/span>&lt;/blockquote>
-&lt;h2 id="听听音乐">🎵听听音乐
-&lt;/h2>&lt;p>最近爱听的音乐：&lt;/p>
-&lt;link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-&lt;style type="text/css">
-[data-scheme="dark"] {
-.aplayer {
-background: #212121
-}
-.aplayer.aplayer-withlist .aplayer-info {
-border-bottom-color: #5c5c5c
-}
-.aplayer.aplayer-fixed .aplayer-list {
-border-color: #5c5c5c
-}
-.aplayer .aplayer-body {
-background-color: #212121
-}
-.aplayer .aplayer-info {
-border-top-color: #212121
-}
-.aplayer .aplayer-info .aplayer-music .aplayer-title {
-color: #fff
-}
-.aplayer .aplayer-info .aplayer-music .aplayer-author {
-color: #fff
-}
-.aplayer .aplayer-info .aplayer-controller .aplayer-time {
-color: #eee
-}
-.aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon path {
-fill: #eee
-}
-.aplayer .aplayer-list {
-background-color: #212121
-}
-.aplayer .aplayer-list::-webkit-scrollbar-thumb {
-background-color: #999
-}
-.aplayer .aplayer-list::-webkit-scrollbar-thumb:hover {
-background-color: #bbb
-}
-.aplayer .aplayer-list li {
-color: #fff;
-border-top-color: #666
-}
-.aplayer .aplayer-list li:hover {
-background: #4e4e4e
-}
-.aplayer .aplayer-list li.aplayer-list-light {
-background: #6c6c6c
-}
-.aplayer .aplayer-list li .aplayer-list-index {
-color: #ddd
-}
-.aplayer .aplayer-list li .aplayer-list-author {
-color: #ddd
-}
-.aplayer .aplayer-lrc {
-text-shadow: -1px -1px 0 #666
-}
-.aplayer .aplayer-lrc:before {
-background: -moz-linear-gradient(top, #212121 0%, rgba(33, 33, 33, 0) 100%);
-background: -webkit-linear-gradient(top, #212121 0%, rgba(33, 33, 33, 0) 100%);
-background: linear-gradient(to bottom, #212121 0%, rgba(33, 33, 33, 0) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#212121', endColorstr='#00212121', GradientType=0)
-}
-.aplayer .aplayer-lrc:after {
-background: -moz-linear-gradient(top, rgba(33, 33, 33, 0) 0%, rgba(33, 33, 33, 0.8) 100%);
-background: -webkit-linear-gradient(top, rgba(33, 33, 33, 0) 0%, rgba(33, 33, 33, 0.8) 100%);
-background: linear-gradient(to bottom, rgba(33, 33, 33, 0) 0%, rgba(33, 33, 33, 0.8) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00212121', endColorstr='#cc212121', GradientType=0)
-}
-.aplayer .aplayer-lrc p {
-color: #fff
-}
-.aplayer .aplayer-miniswitcher {
-background: #484848
-}
-.aplayer .aplayer-miniswitcher .aplayer-icon path {
-fill: #eee
-}
-}
-&lt;/style>
-&lt;script src="https://fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.js">&lt;/script>
-&lt;script src="https://fastly.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js">&lt;/script>&lt;meting-js auto="https://music.163.com/#/playlist?id=9917671143" theme="#2980b9">&lt;/meting-js>
-&lt;h2 id="关于本站">💻关于本站
-&lt;/h2>&lt;blockquote>
-&lt;ul>
-&lt;li>&lt;code>2022.11&lt;/code>上网课的时候，跟着教程用hexo搭建了自己的个人博客，开始了折腾之旅。&lt;/li>
-&lt;li>&lt;code>2024.5&lt;/code>博客迁移至hugo，主要是为了加快博客流、减少折腾。&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>建立本站的目的是&lt;code>分享知识和生活&lt;/code>，在这里你可以看到我的&lt;code>教程干货、生活琐事、思考和想法&lt;/code>。
-有幸我们能在这片互联网的海洋中相遇，相信我们能共同留下美好的回忆。&lt;/p>
-&lt;h2 id="与我联系">☎️与我联系
-&lt;/h2>&lt;p>🐧QQ群：&lt;code>945014756&lt;/code>&lt;/p>
-&lt;p>✉️邮箱：kevinwu06@163.com&lt;/p></description></item><item><title>搜索</title><link>https://blog.fiveth.cc/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/search/</guid><description/></item><item><title>友链</title><link>https://blog.fiveth.cc/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/links/</guid><description>&lt;h2 id="本站信息">本站信息🙂
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">我的名称: Fiveth
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">网站地址: https://blog.fiveth.cc/
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">描述: 分享知识与生活🎈
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">头像: https://p.fiveth.cc/avatar.png
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="加入本站友链方式">加入本站友链方式🥳
-&lt;/h2>&lt;p>添加本站友链后，参照以下格式留言即可&lt;/p>
+&lt;p>Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p>
+&lt;p>Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p>
+&lt;p>Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p>
+&lt;p>Learn more and contribute on &lt;a class="link" href="https://github.com/gohugoio" target="_blank" rel="noopener"
+>GitHub&lt;/a>.&lt;/p></description></item><item><title>Links</title><link>https://example.com/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/links/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
+&lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
 &lt;/span>&lt;span class="lnt">3
 &lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">- title: #站点名称
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> website: #站点链接
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> description: #站点描述
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> image: #站长头像
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">links&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub is the world&amp;#39;s largest software development platform.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.com&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://www.typescriptlang.org&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ts-logo-128.jpg&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="友链交换须知">友链交换须知🤔
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">🧂正常安全的网址，有一个稳定的域名.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">🍿站点至少正常运行一个星期.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">🍗只接受双向友链.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">😀不要接入广告.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">🍖不接受内容加载不完全的站点，不接受加载速度极慢的站点
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">😁尽量定期更新,如果长期不更新或者不维护的话我可能会将其撤掉!!!!!
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">😑文章需以生活类折腾类为主.（不接受纯技术类）
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">😅至少有10篇及以上原创文章.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">🧨本站目前不再接受资源类、工具类、导航类、文章搬运类、纯技术文章搬运类等站点.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">😗有时可能为了保持友链页质量删除一些较低质量的友链
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item><item><title>Search</title><link>https://example.com/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/search/</guid><description/></item></channel></rss>

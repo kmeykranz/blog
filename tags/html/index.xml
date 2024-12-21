@@ -1,112 +1,217 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>HTML on Fiveth</title>
-        <link>http://localhost:1313/tags/html/</link>
-        <description>Recent content in HTML on Fiveth</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>Fiveth</copyright>
-        <lastBuildDate>Wed, 21 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/html/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>阿谦学习笔记：HTML</title>
-        <link>http://localhost:1313/p/c57/</link>
-        <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/c57/</guid>
-        <description>&lt;img src="https://p.fiveth.cc/img/m/html.jpg" alt="Featured image of post 阿谦学习笔记：HTML" /&gt;&lt;p&gt;这是我之前学习html做的一点笔记，是一些基础，非常简单好学。&lt;/p&gt;
-&lt;h2 id=&#34;网页基本信息&#34;&gt;·网页基本信息
-&lt;/h2&gt;&lt;p&gt;doctype声明&lt;/p&gt;
-&lt;h4 id=&#34;meta描述性标签&#34;&gt;meta描述性标签
-&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/meta.webp&#34; style=&#34;zoom:50%;&#34; /&gt; 
-&lt;hr&gt;
-&lt;h2 id=&#34;网页基本标签&#34;&gt;·网页基本标签
-&lt;/h2&gt;&lt;h5 id=&#34;标题标签&#34;&gt;标题标签
-&lt;/h5&gt;&lt;p&gt;h1~h6&lt;/p&gt;
-&lt;h5 id=&#34;段落标签&#34;&gt;段落标签
-&lt;/h5&gt;&lt;p&gt;p&lt;/p&gt;
-&lt;h4 id=&#34;换行标签&#34;&gt;换行标签
-&lt;/h4&gt;&lt;p&gt;br&lt;/p&gt;
-&lt;h4 id=&#34;粗体斜体&#34;&gt;粗体斜体
-&lt;/h4&gt;&lt;p&gt;粗体b 斜体i&lt;/p&gt;
-&lt;h4 id=&#34;特殊符号&#34;&gt;特殊符号
-&lt;/h4&gt;&lt;p&gt;（&amp;amp;        ;）&lt;/p&gt;
-&lt;p&gt;空格 nbsp&lt;/p&gt;
-&lt;p&gt;大于gt 小于lt&lt;/p&gt;
-&lt;p&gt;版权copy&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;图像标签&#34;&gt;·图像标签
-&lt;/h2&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/图像.webp&#34; style=&#34;zoom: 25%;&#34; /&gt; 
-&lt;hr&gt;
-&lt;h2 id=&#34;超链接标签&#34;&gt;·超链接标签
-&lt;/h2&gt;&lt;h4 id=&#34;页面跳转&#34;&gt;页面跳转
-&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/超链接.webp&#34; style=&#34;zoom: 33%;&#34; /&gt;
-&lt;h4 id=&#34;锚链接&#34;&gt;锚链接
-&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;锚标记&lt;/strong&gt; a id=“top”&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;邮件链接&lt;/strong&gt; mailto:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;QQ链接&lt;/strong&gt; 上“qq推广”官网&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;概念行内元素和块元素&#34;&gt;·*概念:行内元素和块元素
-&lt;/h2&gt;&lt;h4 id=&#34;块元素&#34;&gt;块元素
-&lt;/h4&gt;&lt;p&gt;独占一行的元素&lt;/p&gt;
-&lt;h4 id=&#34;行内元素&#34;&gt;行内元素
-&lt;/h4&gt;&lt;p&gt;撑开宽度的元素&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;列表&#34;&gt;·列表
-&lt;/h2&gt;&lt;h4 id=&#34;有序列表无序列表&#34;&gt;有序列表、无序列表
-&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/有序无序列表.webp&#34; style=&#34;zoom: 33%;&#34; /&gt; 
-&lt;h4 id=&#34;自定义列表&#34;&gt;自定义列表
-&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/自定义列表.webp&#34; style=&#34;zoom: 50%;&#34; /&gt; 
-&lt;hr&gt;
-&lt;h2 id=&#34;表格标签&#34;&gt;·表格标签
-&lt;/h2&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/表格.webp&#34; style=&#34;zoom:33%;&#34; /&gt; 
-&lt;hr&gt;
-&lt;h2 id=&#34;媒体元素&#34;&gt;·媒体元素
-&lt;/h2&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/媒体.webp&#34; style=&#34;zoom: 33%;&#34; /&gt; 
-&lt;hr&gt;
-&lt;h2 id=&#34;页面结构&#34;&gt;·页面结构
-&lt;/h2&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/页面结构.webp&#34; style=&#34;zoom: 25%;&#34; /&gt; 
-&lt;hr&gt;
-&lt;h2 id=&#34;iframe内联框架&#34;&gt;·iframe内联框架
-&lt;/h2&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/iframe.webp&#34; style=&#34;zoom: 33%;&#34; /&gt;
-&lt;p&gt;链接控制iframe窗口跳转&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;表单&#34;&gt;·表单
-&lt;/h2&gt;&lt;h4 id=&#34;表单-1&#34;&gt;表单
-&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/表单.webp&#34; style=&#34;zoom:33%;&#34; /&gt; 
-&lt;h4 id=&#34;元素表单格式&#34;&gt;元素表单格式
-&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/表单元素格式.webp&#34; style=&#34;zoom: 25%;&#34; /&gt; 
-&lt;h4 id=&#34;文本框&#34;&gt;文本框
-&lt;/h4&gt;&lt;p&gt;text&lt;/p&gt;
-&lt;img src=&#34;https://p.fiveth.cc/img/m/文本框.webp&#34; style=&#34;zoom: 50%;&#34; /&gt; 
-&lt;h4 id=&#34;单选框&#34;&gt;单选框
-&lt;/h4&gt;&lt;p&gt;radio&lt;/p&gt;
-&lt;img src=&#34;https://p.fiveth.cc/img/m/单选框.webp&#34; style=&#34;zoom: 50%;&#34; /&gt; 
-&lt;h4 id=&#34;多选框&#34;&gt;多选框
-&lt;/h4&gt;&lt;p&gt;checkbox&lt;/p&gt;
-&lt;img src=&#34;https://p.fiveth.cc/img/m/多选框.webp&#34; style=&#34;zoom: 50%;&#34; /&gt; 
-&lt;h4 id=&#34;按钮&#34;&gt;按钮
-&lt;/h4&gt;&lt;p&gt;button&lt;/p&gt;
-&lt;img src=&#34;https://p.fiveth.cc/img/m/按钮.webp&#34; style=&#34;zoom: 50%;&#34; /&gt; 
-&lt;h4 id=&#34;下拉框&#34;&gt;下拉框
-&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/下拉框.webp&#34; style=&#34;zoom: 50%;&#34; /&gt; 
-&lt;h4 id=&#34;文本域文件域&#34;&gt;文本域、文件域
-&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/文本文件域.webp&#34; style=&#34;zoom: 33%;&#34; /&gt; 
-&lt;h4 id=&#34;滑块搜索框&#34;&gt;滑块、搜索框
-&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/滑块、搜索框.webp&#34; style=&#34;zoom: 33%;&#34; /&gt;
-&lt;h4 id=&#34;简单验证&#34;&gt;简单验证
-&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/功能表单.webp&#34; style=&#34;zoom: 40%;&#34; /&gt; 
-&lt;h2 id=&#34;表单应用&#34;&gt;表单应用
-&lt;/h2&gt;&lt;p&gt;只读 readonly&lt;/p&gt;
-&lt;p&gt;禁用 disabled&lt;/p&gt;
-&lt;p&gt;隐藏 hidden&lt;/p&gt;
-&lt;h2 id=&#34;表单初级验证&#34;&gt;表单初级验证
-&lt;/h2&gt;&lt;p&gt;placeholder 提示信息&lt;/p&gt;
-&lt;p&gt;required 必填&lt;/p&gt;
-&lt;p&gt;pattern 正则表达式（百度上搜索各种）&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;图片来源于b站狂神说的html课程，推荐。&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Html on Example Site</title><link>https://example.com/tags/html/</link><description>Recent content in Html on Example Site</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Example Person</copyright><lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/html/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Syntax Guide</title><link>https://example.com/p/markdown-syntax-guide/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://example.com/p/markdown-syntax-guide/</guid><description>&lt;img src="https://example.com/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" />&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
+&lt;h2 id="headings">Headings
+&lt;/h2>&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
+&lt;h1 id="h1">H1
+&lt;/h1>&lt;h2 id="h2">H2
+&lt;/h2>&lt;h3 id="h3">H3
+&lt;/h3>&lt;h4 id="h4">H4
+&lt;/h4>&lt;h5 id="h5">H5
+&lt;/h5>&lt;h6 id="h6">H6
+&lt;/h6>&lt;h2 id="paragraph">Paragraph
+&lt;/h2>&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p>
+&lt;p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p>
+&lt;h2 id="blockquotes">Blockquotes
+&lt;/h2>&lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
+&lt;h4 id="blockquote-without-attribution">Blockquote without attribution
+&lt;/h4>&lt;blockquote>
+&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="blockquote-with-attribution">Blockquote with attribution
+&lt;/h4>&lt;blockquote>
+&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br>
+— &lt;cite>Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="tables">Tables
+&lt;/h2>&lt;p>Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Age&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Bob&lt;/td>
+&lt;td>27&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alice&lt;/td>
+&lt;td>23&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="inline-markdown-within-tables">Inline Markdown within tables
+&lt;/h4>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Italics&lt;/th>
+&lt;th>Bold&lt;/th>
+&lt;th>Code&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;em>italics&lt;/em>&lt;/td>
+&lt;td>&lt;strong>bold&lt;/strong>&lt;/td>
+&lt;td>&lt;code>code&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>A&lt;/th>
+&lt;th>B&lt;/th>
+&lt;th>C&lt;/th>
+&lt;th>D&lt;/th>
+&lt;th>E&lt;/th>
+&lt;th>F&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/td>
+&lt;td>Phasellus ultricies, sapien non euismod aliquam, dui ligula tincidunt odio, at accumsan nulla sapien eget ex.&lt;/td>
+&lt;td>Proin eleifend dictum ipsum, non euismod ipsum pulvinar et. Vivamus sollicitudin, quam in pulvinar aliquam, metus elit pretium purus&lt;/td>
+&lt;td>Proin sit amet velit nec enim imperdiet vehicula.&lt;/td>
+&lt;td>Ut bibendum vestibulum quam, eu egestas turpis gravida nec&lt;/td>
+&lt;td>Sed scelerisque nec turpis vel viverra. Vivamus vitae pretium sapien&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="code-blocks">Code Blocks
+&lt;/h2>&lt;h4 id="code-block-with-backticks">Code block with backticks
+&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces
+&lt;/h4>&lt;pre>&lt;code>&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&amp;rsquo;s internal highlight shortcode
+&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;h4 id="diff-code-block">Diff code block
+&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-diff" data-lang="diff">&lt;span class="line">&lt;span class="cl">[dependencies.bevy]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git = &amp;#34;https://github.com/bevyengine/bevy&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">rev = &amp;#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gd">- features = [&amp;#34;dynamic&amp;#34;]
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gd">&lt;/span>&lt;span class="gi">+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="list-types">List Types
+&lt;/h2>&lt;h4 id="ordered-list">Ordered List
+&lt;/h4>&lt;ol>
+&lt;li>First item&lt;/li>
+&lt;li>Second item&lt;/li>
+&lt;li>Third item&lt;/li>
+&lt;/ol>
+&lt;h4 id="unordered-list">Unordered List
+&lt;/h4>&lt;ul>
+&lt;li>List item&lt;/li>
+&lt;li>Another item&lt;/li>
+&lt;li>And another item&lt;/li>
+&lt;/ul>
+&lt;h4 id="nested-list">Nested list
+&lt;/h4>&lt;ul>
+&lt;li>Fruit
+&lt;ul>
+&lt;li>Apple&lt;/li>
+&lt;li>Orange&lt;/li>
+&lt;li>Banana&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Dairy
+&lt;ul>
+&lt;li>Milk&lt;/li>
+&lt;li>Cheese&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark
+&lt;/h2>&lt;p>&lt;abbr title="Graphics Interchange Format">GIF&lt;/abbr> is a bitmap image format.&lt;/p>
+&lt;p>H&lt;sub>2&lt;/sub>O&lt;/p>
+&lt;p>X&lt;sup>n&lt;/sup> + Y&lt;sup>n&lt;/sup> = Z&lt;sup>n&lt;/sup>&lt;/p>
+&lt;p>Press &lt;kbd>CTRL&lt;/kbd> + &lt;kbd>ALT&lt;/kbd> + &lt;kbd>Delete&lt;/kbd> to end the session.&lt;/p>
+&lt;p>Most &lt;mark>salamanders&lt;/mark> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
+&lt;h2 id="hyperlinked-image">Hyperlinked image
+&lt;/h2>&lt;p>&lt;a class="link" href="https://google.com" target="_blank" rel="noopener"
+>&lt;img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
+loading="lazy"
+alt="Google"
+>&lt;/a>&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class="link" href="https://www.youtube.com/watch?v=PAAkCSZUG1c" target="_blank" rel="noopener"
+>talk&lt;/a> during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>
