@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Fiveth</title><link>https://blog.fiveth.cc/tags/python/</link><description>Recent content in Python on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Tue, 09 Apr 2024 11:51:10 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Hexo博客优化：批量修改md文件名</title><link>https://blog.fiveth.cc/p/fbe8/</link><pubDate>Tue, 09 Apr 2024 11:51:10 +0000</pubDate><guid>https://blog.fiveth.cc/p/fbe8/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo博客优化：批量修改md文件名" />&lt;p>今天整理博客，发现我给文章取的文件名比较混乱，要找文章的时候会很不方便。&lt;/p>
+&lt;p>一般我们都是用&lt;code>hexo new file_name&lt;/code>创建文章的md文件的，然后文章的标题是在md文件的信息栏定义的。而我们很多时候是开始写文章才想好标题，随着写作标题也会发生变动，这导致最后我们文章标题和文件名是不同的，加大了我们的管理难度。&lt;/p>
+&lt;p>所以我们会在改动文章标题的时候，将文件名也改成一样的。但是这样手动改非常麻烦。因此我配合ChatGPT用Python写了个一键批量修改文件名的小脚本。这样我们就可以很方便的一键将文件名全部都同步成文章的标题。&lt;/p>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2024/04/09144430.webp"
+loading="lazy"
+alt="image1"
+>&lt;/p>
+&lt;h2 id="使用方法">使用方法
+&lt;/h2>&lt;h3 id="方法1-exe文件">方法1. exe文件
+&lt;/h3>&lt;p>脚本已经打包成exe文件，大家可以直接下载使用，下载后放到&lt;code>_posts&lt;/code>文件夹下运行即可。&lt;/p>
+&lt;p>&lt;a class="link" href="https://wwf.lanzoum.com/icY4q1ufi7na" target="_blank" rel="noopener"
+>https://wwf.lanzoum.com/icY4q1ufi7na&lt;/a> 密码:ff6u&lt;/p>
+&lt;blockquote>
+&lt;p>注意：如果标题中有不支持的特殊符号，会导致运行失败。可以往下看，自行用python调整源代码后运行&lt;/p>
+&lt;/blockquote>
+&lt;p>记得运行完后将脚本移出文件夹，防止被上传。&lt;/p>
+&lt;h3 id="方法2-python运行">方法2. python运行
+&lt;/h3>&lt;p>如果有调试需求，大家也可以自己用python编译使用。&lt;/p>
+&lt;p>&lt;strong>下面是方法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>首先要安装&lt;a class="link" href="https://www.python.org/" target="_blank" rel="noopener"
+>python&lt;/a>。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在&lt;code>_posts&lt;/code>文件夹中创建一个&lt;code>rename.txt&lt;/code>文件，复制粘贴下列代码进去：&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">os&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">dir_path&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;./&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">for&lt;/span> &lt;span class="n">file&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">os&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">listdir&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">dir_path&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">## Skip &amp;#39;.&amp;#39; and &amp;#39;..&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="n">file&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="s2">&amp;#34;.&amp;#34;&lt;/span> &lt;span class="ow">or&lt;/span> &lt;span class="n">file&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="s2">&amp;#34;..&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">continue&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">## Construct the full path to the file&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">file_path&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">os&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">path&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">join&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">dir_path&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">file&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">## Read the file&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">try&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">with&lt;/span> &lt;span class="nb">open&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">file_path&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;r&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">encoding&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;utf-8&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="n">f&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">lines&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">f&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">readlines&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">except&lt;/span> &lt;span class="ne">UnicodeDecodeError&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sa">f&lt;/span>&lt;span class="s2">&amp;#34;Skipping file due to encoding issue: &lt;/span>&lt;span class="si">{&lt;/span>&lt;span class="n">file&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">continue&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">## Skip files with less than 2 lines&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="nb">len&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">lines&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">continue&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">## Extract and process the title from the second line&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">title&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">lines&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">replace&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;title:&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">## Remove any marks from the title&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">title&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">title&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">replace&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;?&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">title&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">title&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">replace&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;|&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;-&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">## Rename&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">new_filename&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">title&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="s1">&amp;#39;.md&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">new_file_path&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">os&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">path&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">join&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">dir_path&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">new_filename&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">os&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">rename&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">file_path&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">new_file_path&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">i&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="mi">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>然后将文件名后缀修改成&lt;code>.py&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在文件夹空白处右键，点击&lt;code>在终端中打开&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在终端中输入&lt;code>python rename.py&lt;/code>即可运行脚本&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>自己做脚本优化了一下博客工作流，成就感满满。&lt;/p>
+&lt;p>另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊&lt;/p></description></item></channel></rss>
