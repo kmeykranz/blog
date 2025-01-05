@@ -54,20 +54,18 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;p>&lt;strong>我在自动部署处做了些改动&lt;/strong>：&lt;/p>
-&lt;p>把&lt;code>deploy_key&lt;/code>那行换成&lt;code>PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}&lt;/code>，然后在仓库设置添加secret变量&lt;code>PERSONAL_TOKEN&lt;/code>，里面填&lt;code>token&lt;/code>。&lt;code>token&lt;/code>在用户设置中创建，要勾选&lt;code>repo&lt;/code>和&lt;code>workflow&lt;/code>权限。&lt;/p></description></item><item><title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title><link>https://blog.fiveth.cc/p/138e/</link><pubDate>Mon, 29 Apr 2024 21:33:53 +0000</pubDate><guid>https://blog.fiveth.cc/p/138e/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo搭建进阶：Vercel部署、主题安装、基础用法" />&lt;p>{% note info flat %}&lt;/p>
-&lt;ul>
+&lt;p>把&lt;code>deploy_key&lt;/code>那行换成&lt;code>PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}&lt;/code>，然后在仓库设置添加secret变量&lt;code>PERSONAL_TOKEN&lt;/code>，里面填&lt;code>token&lt;/code>。&lt;code>token&lt;/code>在用户设置中创建，要勾选&lt;code>repo&lt;/code>和&lt;code>workflow&lt;/code>权限。&lt;/p></description></item><item><title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title><link>https://blog.fiveth.cc/p/138e/</link><pubDate>Mon, 29 Apr 2024 21:33:53 +0000</pubDate><guid>https://blog.fiveth.cc/p/138e/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo搭建进阶：Vercel部署、主题安装、基础用法" />&lt;ul>
 &lt;li>本篇前文：&lt;a class="link" href="https://blog.fiveth.cc/p/bb32.html" >如何用Hexo搭建个人博客?&lt;/a>&lt;/li>
 &lt;li>本文基于&lt;a class="link" href="https://www.fomal.cc/posts/4aa2d85f.html" target="_blank" rel="noopener"
 >Hexo博客搭建基础教程(二)&lt;/a>修改，部分转载&lt;/li>
-&lt;li>我的&lt;strong>Hexo优化系列&lt;/strong>：&lt;a class="link" href="https://blog.fiveth.cc/tags/hexo" >Hexo文章目录&lt;/a>
-{% endnote %}&lt;/li>
+&lt;li>我的&lt;strong>Hexo优化系列&lt;/strong>：&lt;a class="link" href="https://blog.fiveth.cc/tags/hexo" >Hexo文章目录&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>我的博客搭建教程是一年前写的了，非常感谢&lt;a class="link" href="https://www.fomal.cc/" target="_blank" rel="noopener"
 >fomalhaut&lt;/a>，当时我是跟着他的教程一步步搭建的。最近我终于在b站发了视频版的博客搭建教程，有很多朋友想进一步优化博客。这篇文章接上一篇，教大家将博客部署到vercel、主题安装、Hexo博客的基础用法。&lt;/p>
 &lt;h2 id="vercel部署">Vercel部署
 &lt;/h2>&lt;p>Github提供的网址在国内的访问速度较慢，所以推荐在搭建完后用&lt;a class="link" href="https://vercel.com/" target="_blank" rel="noopener"
 >Vercel&lt;/a>部署，再通过Vercel绑定到自己的域名上，这样会速度会很快。&lt;/p>
-&lt;p>因为Vercel给我们分配的域名在国内是无法访问的，所以我们需要把在Vercel部署的绑定到自己的域名上，这样就可以访问了。&lt;/p>
+&lt;p>因为Vercel给我们分配的域名在国内是&lt;strong>无法访问的&lt;/strong>，所以我们需要把在Vercel部署的绑定到自己的域名上，这样就可以访问了。&lt;/p>
 &lt;p>域名可以在&lt;a class="link" href="https://www.aliyun.com/" target="_blank" rel="noopener"
 >阿里云&lt;/a>等域名供应商购买，我用的是&lt;a class="link" href="https://www.west.cn/" target="_blank" rel="noopener"
 >西部数码&lt;/a>，便宜好用。&lt;/p>
@@ -549,8 +547,10 @@ alt="image1"
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">meting_js&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://npm.elemecdn.com/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="总结">总结
 &lt;/h2>&lt;p>这些大概就是我对我的网站做的优化总结了，其实还有很多地方可以再提升，但是对我来说已经够用了。&lt;/p>
-&lt;p>希望大家都可以积极地去优化网站的性能，这样才可以收获更多的游客🙂&lt;/p></description></item><item><title>如何用Hexo搭建个人博客?</title><link>https://blog.fiveth.cc/p/bb32/</link><pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/bb32/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post 如何用Hexo搭建个人博客?" />&lt;p>{% tip info %}&lt;code>2024.4&lt;/code> 我出了视频版教程啦：&lt;a class="link" href="https://www.bilibili.com/video/BV1Ju4m1c7WR/" target="_blank" rel="noopener"
->bilibili视频链接&lt;/a>{% endtip %}&lt;/p>
+&lt;p>希望大家都可以积极地去优化网站的性能，这样才可以收获更多的游客🙂&lt;/p></description></item><item><title>如何用Hexo搭建个人博客?</title><link>https://blog.fiveth.cc/p/bb32/</link><pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/bb32/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post 如何用Hexo搭建个人博客?" />&lt;blockquote>
+&lt;p>&lt;code>2024.4&lt;/code> 我出了视频版教程啦：&lt;a class="link" href="https://www.bilibili.com/video/BV1Ju4m1c7WR/" target="_blank" rel="noopener"
+>bilibili视频链接&lt;/a>&lt;/p>
+&lt;/blockquote>
 &lt;p>我的个人博客搭建成功啦！&lt;/p>
 &lt;p>这篇文章会给大家分享我是如何从0开始搭建我的个人独立博客的&lt;/p>
 &lt;p>接下来我们开始吧&lt;/p>

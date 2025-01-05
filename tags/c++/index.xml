@@ -255,7 +255,7 @@
 &lt;p>每次输入数据前，我们就用p指向一个动态申请的新空间，然后存入数据。&lt;/p>
 &lt;p>程序的最后，我们用&lt;strong>free()函数&lt;/strong>来&lt;strong>释放&lt;/strong>动态申请的&lt;strong>空间&lt;/strong>，这样可以让我们的程序更安全。&lt;/p>
 &lt;p>我们学习c语言和c++应该追求最大程度地优化，排除可能出现的问题。&lt;/p></description></item><item><title>欧拉筛-高效筛选质数</title><link>https://blog.fiveth.cc/p/a680/</link><pubDate>Fri, 23 Dec 2022 11:29:22 +0000</pubDate><guid>https://blog.fiveth.cc/p/a680/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/oula.webp" alt="Featured image of post 欧拉筛-高效筛选质数" />&lt;p>如何高效筛素数？让我们来看看&lt;/p>
-&lt;p>**题目：**生成一个1到n范围内的质数数组&lt;/p>
+&lt;p>&lt;strong>题目&lt;/strong>：生成一个1到n范围内的质数数组&lt;/p>
 &lt;h2 id="菜鸟这样做枚举法">菜鸟这样做（枚举法）
 &lt;/h2>&lt;p>从1枚举到n，判断是素数就存入数组&lt;/p>
 &lt;p>下面是判断方法&lt;/p>
@@ -470,42 +470,42 @@
 &lt;p>这种方法在编程中很常用，在数学计算中也可以用来求很复杂的最大公因数问题。&lt;/p>
 &lt;h2 id="如何使用">如何使用
 &lt;/h2>&lt;p>题目：求最大公因数(36,14)&lt;/p>
+&lt;p>我们如何用辗转相除法做这道题呢？&lt;/p>
 $$
-\displaylines{
-反复用除数除以余数直到除尽\\
+{
+反复用除数除以余数直到除尽 \\\\
 36{\div}14=2\dots8\\
 14{\div}8=1\dots6\\
 8{\div}6=1\dots2\\
 6{\div}2=3\\
 最后一个除数就是最大公约数，也就是2
 }
-$$&lt;p>
-我们算出最大公约数(36,14)=2&lt;/p>
+$$&lt;p>我们算出最大公约数(36,14)=2&lt;/p>
 &lt;p>到这里，我们就知道如何使用辗转相除法了。&lt;/p>
 &lt;p>但是，鲁迅曾说过“我们学公式必须得懂得原理”，我们明白了原理才能灵活运用&lt;/p>
 &lt;h2 id="原理">原理
 &lt;/h2>&lt;p>求最大公因数(a,b)&lt;/p>
+&lt;p>首先我们推出这几条式子&lt;/p>
 $$
-\displaylines{
+{
 a{\div}b=q\dots r \\
 a=bq+r \\
 r=a-bq
 }
-$$$$
-\displaylines{
+$$&lt;p>&lt;strong>这是我们辗转法的原理&lt;/strong>&lt;/p>
+$${
 (a,b)=(b,r) \\a和b的最大公约数就等于b和r的最大公约数
 }
-$$$$
-\displaylines{
-(1)设(a,b)=d\\
-那么a=dm,b=dn\\
-然后我们将其带入r=a-bq\\
+$$&lt;p>接下来让我们证明这条公式&lt;/p>
+$$
+{
+(1)设(a,b)=d \\那么a=dm,b=dn \\然后我们将其带入r=a-bq \\
 得r=d(m-nq)\\
 因为m,n,q都是整数，所以r是d的倍数，d是r的因数\\
 所以：只要是a,b的因数，就一定是d,r的约数\\
 }
 $$$$
-\displaylines{
+{
 (2)设(b,r)=d\\
 和之前一样，那么b=dx,r=dy\\
 然后将其代入a=bq+r\\
