@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fiveth</title><link>https://blog.fiveth.cc/</link><description>Recent content on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/index.xml" rel="self" type="application/rss+xml"/><item><title>我的知识管理工具：笔记软件UpNote和PARA系统</title><link>https://blog.fiveth.cc/p/note-tools/</link><pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/note-tools/</guid><description>&lt;p>之前也折腾过很多笔记软件，从 &lt;code>Typora&lt;/code> 到 &lt;code>Notion&lt;/code> 到 &lt;code>Obsidian&lt;/code>。直到最近发现了 &lt;code>UpNote&lt;/code>。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fiveth</title><link>https://blog.fiveth.cc/</link><description>Recent content on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/index.xml" rel="self" type="application/rss+xml"/><item><title>Medium解锁：用脚本一键解锁Medium付费文章</title><link>https://blog.fiveth.cc/p/medium-unlock/</link><pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/medium-unlock/</guid><description>&lt;img src="https://p.fiveth.cc/img/2025/0109193039.png" alt="Featured image of post Medium解锁：用脚本一键解锁Medium付费文章" />&lt;p>Medium 是外网一个阅读文章的平台，他的特点是&lt;strong>文章质量高&lt;/strong>，在里面可以学到很多知识，涉及各种领域，非常适合日常浏览，打破信息差。但是很多的高质量的内容需要订阅会员才能阅读。这篇文章就给大家提供一个白嫖的方法。&lt;/p>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109174219.png"
+loading="lazy"
+alt="image.png"
+>&lt;/p>
+&lt;p>我们要用到的破解网站是 &lt;a class="link" href="https://readmedium.com/" target="_blank" rel="noopener"
+>ReadMedium&lt;/a>，在这个网站内填入 Medium 的付费文章链接，就可以自动获取隐藏的文章内容，进行阅读。网站还提供了一个方法，就是在 medium 的文章页面，把域名改成 readmedium.com 就可以跳转。网站还提供了一个 AI 概览的功能。&lt;/p>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109174335.png"
+loading="lazy"
+alt="image.png"
+>&lt;/p>
+&lt;p>但是这样还是略显麻烦，所以我们可以用油猴上的一个脚本 &lt;a class="link" href="https://greasyfork.org/zh-CN/scripts/481493-medium-unlocker-2023-12-06-updated" target="_blank" rel="noopener"
+>Medium-Unlock&lt;/a> ，它会在 medium 页面上加入一个快捷按钮，点击就会自动跳转到对应的 readmedium 页面。&lt;/p>
+&lt;p>接下来，我会教大家怎么安装这个脚本，以及如何在 ios 系统 Safari上使用这个脚本，这样我们在手机上也可以使用。&lt;/p>
+&lt;hr>
+&lt;h2 id="在chrome上安装">在Chrome上安装
+&lt;/h2>&lt;blockquote>
+&lt;p>这里演示 &lt;code>chrome 浏览器&lt;/code>（edge 同理），首先打开谷歌应用商店，然后搜索 &lt;code>Tampermonkey&lt;/code> 安装油猴扩展。&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109174736.png"
+loading="lazy"
+alt="image.png"
+>&lt;/p>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109174857.png"
+loading="lazy"
+alt="image.png"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>然后我们打开这个链接 &lt;a class="link" href="https://greasyfork.org/zh-CN/scripts/481493-medium-unlocker-2023-12-06-updated" target="_blank" rel="noopener"
+>Medium-Unlock&lt;/a> ，点击安装脚本，然后在弹出的页面再次点击安装即可。&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="ios系统在safari上安装">IOS系统在Safari上安装
+&lt;/h2>&lt;p>要在 Safari 上安装拓展，我们要先安装这个软件：&lt;code>Userscript &lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109175638.jpg"
+loading="lazy"
+alt="35999d1fb9c881cfae2615d677ad834.jpg"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>打开后，我们点击 change directory，在文件中新建一个文件夹用于储存脚本，名称随意。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>接下来，我们到 &lt;code>设置-&amp;gt;App-&amp;gt;扩展 &lt;/code> 中打开 &lt;code>userscript&lt;/code> 的权限。&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109175952.jpg"
+loading="lazy"
+alt="df532cf29104145e27ef0bd0112d777.jpg"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>然后打开浏览器，在上方扩展按钮，点管理拓展，然后打开 &lt;code>userscript&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109175957.jpg"
+loading="lazy"
+alt="fd0a2a307f4b787901a94bd2b3ba0c3.jpg"
+>&lt;/p>
+&lt;p>现在我们再打开 medium，就可以看到旁边的解锁按钮啦。&lt;/p></description></item><item><title>我的知识管理工具：笔记软件UpNote和PARA系统</title><link>https://blog.fiveth.cc/p/note-tools/</link><pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/note-tools/</guid><description>&lt;img src="https://p.fiveth.cc/img/2025/0109192517.png" alt="Featured image of post 我的知识管理工具：笔记软件UpNote和PARA系统" />&lt;p>之前也折腾过很多笔记软件，从 &lt;code>Typora&lt;/code> 到 &lt;code>Notion&lt;/code> 到 &lt;code>Obsidian&lt;/code>。直到最近发现了 &lt;code>UpNote&lt;/code>。&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>Obsidian&lt;/code> 的问题：多端同步不方便，我经常用ipad写笔记，&lt;code>obsidian&lt;/code> 在手机端显得有些拥挤，操作不方便。&lt;/li>
 &lt;li>我的需求：我的电脑是 &lt;code>windows&lt;/code>，手机和ipad是 &lt;code>ios&lt;/code>，需要全平台同步。我在ipad上使用较多，所以需要app在 &lt;code>ios&lt;/code> 上方便好用。偏向文件夹式的笔记管理方式，文件夹要能多层嵌套。&lt;/li>
@@ -34,7 +89,7 @@ loading="lazy"
 alt="image.png"
 >&lt;/p>
 &lt;p>如果有哪个文件夹，你不再往里面添加新的笔记了，就可以把整个文件夹移动到Archive归档内。但是要注意一个误区：Archive不是一个垃圾桶，Archive里的文件是自己之后可能会看的。完全没有价值的笔记应该直接删掉。&lt;/p>
-&lt;p>这套系统主要是帮助我们有条理的组织笔记，在需要的时候能快速找到一篇笔记。所以我们不一定要循规蹈矩，也可以衍伸出一些自己的理解，做一些改动。怎么样好用怎么来，重要的是自己顺手。&lt;/p></description></item><item><title>我的2024年度总结</title><link>https://blog.fiveth.cc/p/review-2024/</link><pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/review-2024/</guid><description>&lt;p>2024 发生了很多事，是我人生重大的一个节点。今年是我 18 岁成年了，今年是我个人提升最大的一年。在今年，我曾陷入谷底，痛苦不堪，而这痛苦和失败也让我迎来重生。&lt;/p>
+&lt;p>这套系统主要是帮助我们有条理的组织笔记，在需要的时候能快速找到一篇笔记。所以我们不一定要循规蹈矩，也可以衍伸出一些自己的理解，做一些改动。怎么样好用怎么来，重要的是自己顺手。&lt;/p></description></item><item><title>我的2024年度总结</title><link>https://blog.fiveth.cc/p/review-2024/</link><pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/review-2024/</guid><description>&lt;img src="https://p.fiveth.cc/img/2025/0109193303.png" alt="Featured image of post 我的2024年度总结" />&lt;p>2024 发生了很多事，是我人生重大的一个节点。今年是我 18 岁成年了，今年是我个人提升最大的一年。在今年，我曾陷入谷底，痛苦不堪，而这痛苦和失败也让我迎来重生。&lt;/p>
 &lt;h2 id="情感和身体受挫">情感和身体受挫
 &lt;/h2>&lt;p>今年年初，我面临着情感和身体上的痛苦。在年初，我和前女友分手了，我在恋爱中的过度内耗，使这段感情不欢而散。而后，我陷入了极大的痛苦之中。身体的反应也来的很快，在情绪极度悲伤时的身体激素紊乱和睡眠不足，导致我一直潜在的鼻窦炎复发了。去年夏天开始，我就一直有潜在的咳嗽和鼻炎，一直没有完全痊愈。年初那段时间，我的鼻窦炎越来越严重，止不住地头痛，1 月份很重要的大考也很自然地考砸了。那场考试我是头痛着考的，还用掉了一整抽纸巾。&lt;/p>
 &lt;p>健身一直是我的一大精神支柱，曾经一天不健身我有罪恶感，那段时间的病让我也没法健身。精神和肉体上的折磨，让我几乎看不到光。后来医生建议做鼻窦炎手术，疾病已经严重影响了生活，每天都头疼，家人决定让我做手术。&lt;/p>
@@ -71,7 +126,7 @@ alt="image.png"
 &lt;li>&lt;strong>《浴血黑帮》&lt;/strong>：一个字 帅&lt;/li>
 &lt;/ol>
 &lt;hr>
-&lt;p>2024 我经历了很多，也成长了很多。希望 2025 能继续加油，只要一直在进步，就会越来越好。&lt;/p></description></item><item><title>《当下的力量》：拯救就在此时此刻</title><link>https://blog.fiveth.cc/p/%E5%BD%93%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F%E6%8B%AF%E6%95%91%E5%B0%B1%E5%9C%A8%E6%AD%A4%E6%97%B6%E6%AD%A4%E5%88%BB/</link><pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/%E5%BD%93%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F%E6%8B%AF%E6%95%91%E5%B0%B1%E5%9C%A8%E6%AD%A4%E6%97%B6%E6%AD%A4%E5%88%BB/</guid><description>&lt;p>初看到书名时，我本以为这是一本普通的鸡汤。实则不然，在短短阅读十几页后，我就感受到了这本书强大的力量。某种角度来讲，这本书能解决一切你在生活中的问题，无论是疾病、焦虑还是痛苦。这是一本心灵之书，文章开篇就提到，不要用理性去思考文中的内容，内容也包含了很多宗教思想。到目前为止，我认为这可能是我看过收益最大的一本书，因为他撼动了我对生命的思考。今天就跟大家分享下一些内容。&lt;/p>
+&lt;p>2024 我经历了很多，也成长了很多。希望 2025 能继续加油，只要一直在进步，就会越来越好。&lt;/p></description></item><item><title>《当下的力量》：拯救就在此时此刻</title><link>https://blog.fiveth.cc/p/%E5%BD%93%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F%E6%8B%AF%E6%95%91%E5%B0%B1%E5%9C%A8%E6%AD%A4%E6%97%B6%E6%AD%A4%E5%88%BB/</link><pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/%E5%BD%93%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F%E6%8B%AF%E6%95%91%E5%B0%B1%E5%9C%A8%E6%AD%A4%E6%97%B6%E6%AD%A4%E5%88%BB/</guid><description>&lt;img src="https://p.fiveth.cc/img/2025/0109192819.png" alt="Featured image of post 《当下的力量》：拯救就在此时此刻" />&lt;p>初看到书名时，我本以为这是一本普通的鸡汤。实则不然，在短短阅读十几页后，我就感受到了这本书强大的力量。某种角度来讲，这本书能解决一切你在生活中的问题，无论是疾病、焦虑还是痛苦。这是一本心灵之书，文章开篇就提到，不要用理性去思考文中的内容，内容也包含了很多宗教思想。到目前为止，我认为这可能是我看过收益最大的一本书，因为他撼动了我对生命的思考。今天就跟大家分享下一些内容。&lt;/p>
 &lt;h3 id="你不等于你的大脑">你不等于你的大脑
 &lt;/h3>&lt;p>书中提到，我们不等于我们的大脑。因为我们使用大脑思考，我们看到的，听到的，都经过大脑，我们的想法也源自大脑，也就是思维，我们在潜意识中都误认为思维就是自己。但如果我们再往深去想，窗外的树木，它们没有大脑，他们是什么呢？同样，我们人类也是一个道理，我们的思维并不能代表我们，大脑只是我们的一个器官，一个工具。我们还有一个更深的本质，书中把它叫做“本体”。&lt;/p>
 &lt;h3 id="小我思维">小我思维

@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>干货 on Fiveth</title><link>https://blog.fiveth.cc/tags/%E5%B9%B2%E8%B4%A7/</link><description>Recent content in 干货 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Tue, 27 Feb 2024 16:03:50 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E5%B9%B2%E8%B4%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>2022款Thinkbook14+酷睿版续航优化方案</title><link>https://blog.fiveth.cc/p/4b21/</link><pubDate>Tue, 27 Feb 2024 16:03:50 +0000</pubDate><guid>https://blog.fiveth.cc/p/4b21/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/thinkbook-battery-cover.jpg" alt="Featured image of post 2022款Thinkbook14+酷睿版续航优化方案" />&lt;p>使用Thinkbook14+也有两年了，我是在22年买的。后悔自己买的太早，因为22年酷睿款的续航十分鸡肋（23及24款在续航有很大提升），相信一样用这款的朋友们应该深有体会。离电不到2小时的续航，堪比游戏本。作为一个学生，在学校中基本上只能离电使用，所以我对续航有一定需求。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>干货 on Fiveth</title><link>https://blog.fiveth.cc/tags/%E5%B9%B2%E8%B4%A7/</link><description>Recent content in 干货 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E5%B9%B2%E8%B4%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>Medium解锁：用脚本一键解锁Medium付费文章</title><link>https://blog.fiveth.cc/p/medium-unlock/</link><pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/medium-unlock/</guid><description>&lt;img src="https://p.fiveth.cc/img/2025/0109193039.png" alt="Featured image of post Medium解锁：用脚本一键解锁Medium付费文章" />&lt;p>Medium 是外网一个阅读文章的平台，他的特点是&lt;strong>文章质量高&lt;/strong>，在里面可以学到很多知识，涉及各种领域，非常适合日常浏览，打破信息差。但是很多的高质量的内容需要订阅会员才能阅读。这篇文章就给大家提供一个白嫖的方法。&lt;/p>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109174219.png"
+loading="lazy"
+alt="image.png"
+>&lt;/p>
+&lt;p>我们要用到的破解网站是 &lt;a class="link" href="https://readmedium.com/" target="_blank" rel="noopener"
+>ReadMedium&lt;/a>，在这个网站内填入 Medium 的付费文章链接，就可以自动获取隐藏的文章内容，进行阅读。网站还提供了一个方法，就是在 medium 的文章页面，把域名改成 readmedium.com 就可以跳转。网站还提供了一个 AI 概览的功能。&lt;/p>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109174335.png"
+loading="lazy"
+alt="image.png"
+>&lt;/p>
+&lt;p>但是这样还是略显麻烦，所以我们可以用油猴上的一个脚本 &lt;a class="link" href="https://greasyfork.org/zh-CN/scripts/481493-medium-unlocker-2023-12-06-updated" target="_blank" rel="noopener"
+>Medium-Unlock&lt;/a> ，它会在 medium 页面上加入一个快捷按钮，点击就会自动跳转到对应的 readmedium 页面。&lt;/p>
+&lt;p>接下来，我会教大家怎么安装这个脚本，以及如何在 ios 系统 Safari上使用这个脚本，这样我们在手机上也可以使用。&lt;/p>
+&lt;hr>
+&lt;h2 id="在chrome上安装">在Chrome上安装
+&lt;/h2>&lt;blockquote>
+&lt;p>这里演示 &lt;code>chrome 浏览器&lt;/code>（edge 同理），首先打开谷歌应用商店，然后搜索 &lt;code>Tampermonkey&lt;/code> 安装油猴扩展。&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109174736.png"
+loading="lazy"
+alt="image.png"
+>&lt;/p>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109174857.png"
+loading="lazy"
+alt="image.png"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>然后我们打开这个链接 &lt;a class="link" href="https://greasyfork.org/zh-CN/scripts/481493-medium-unlocker-2023-12-06-updated" target="_blank" rel="noopener"
+>Medium-Unlock&lt;/a> ，点击安装脚本，然后在弹出的页面再次点击安装即可。&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="ios系统在safari上安装">IOS系统在Safari上安装
+&lt;/h2>&lt;p>要在 Safari 上安装拓展，我们要先安装这个软件：&lt;code>Userscript &lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109175638.jpg"
+loading="lazy"
+alt="35999d1fb9c881cfae2615d677ad834.jpg"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>打开后，我们点击 change directory，在文件中新建一个文件夹用于储存脚本，名称随意。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>接下来，我们到 &lt;code>设置-&amp;gt;App-&amp;gt;扩展 &lt;/code> 中打开 &lt;code>userscript&lt;/code> 的权限。&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109175952.jpg"
+loading="lazy"
+alt="df532cf29104145e27ef0bd0112d777.jpg"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>然后打开浏览器，在上方扩展按钮，点管理拓展，然后打开 &lt;code>userscript&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025/0109175957.jpg"
+loading="lazy"
+alt="fd0a2a307f4b787901a94bd2b3ba0c3.jpg"
+>&lt;/p>
+&lt;p>现在我们再打开 medium，就可以看到旁边的解锁按钮啦。&lt;/p></description></item><item><title>2022款Thinkbook14+酷睿版续航优化方案</title><link>https://blog.fiveth.cc/p/4b21/</link><pubDate>Tue, 27 Feb 2024 16:03:50 +0000</pubDate><guid>https://blog.fiveth.cc/p/4b21/</guid><description>&lt;img src="https://p.fiveth.cc/img/m/thinkbook-battery-cover.jpg" alt="Featured image of post 2022款Thinkbook14+酷睿版续航优化方案" />&lt;p>使用Thinkbook14+也有两年了，我是在22年买的。后悔自己买的太早，因为22年酷睿款的续航十分鸡肋（23及24款在续航有很大提升），相信一样用这款的朋友们应该深有体会。离电不到2小时的续航，堪比游戏本。作为一个学生，在学校中基本上只能离电使用，所以我对续航有一定需求。&lt;/p>
 &lt;p>在我的一番调教下，它的续航最终达到了静置10小时，低负办公8小时的理论成绩。这对我日常使用体验的提升非常大，终于不用再频繁地把电脑放到充电仓。今天就来分享一下我自用的续航调教方案。本篇部分适用于所有笔记本，部分是针对22 Thinkbook14+酷睿版的。&lt;/p>
 &lt;p>文章部分参考自&lt;a class="link" href="https://zhuanlan.zhihu.com/p/662648384" target="_blank" rel="noopener"
 >【知乎】2022款ThinkBook 14+/16+酷睿版的电池续航优化更新&lt;/a>&lt;/p>
