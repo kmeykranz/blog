@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on Fiveth</title><link>https://blog.fiveth.cc/tags/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>关于博客框架迁移</title><link>https://blog.fiveth.cc/p/hugo/</link><pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/hugo/</guid><description>&lt;img src="https://p.fiveth.cc/img/2024/0518131750.webp" alt="Featured image of post 关于博客框架迁移" />&lt;p>hi，大家应该发现了，我的博客变样了&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on Fiveth</title><link>https://blog.fiveth.cc/tags/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on Fiveth</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Fiveth</copyright><lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Theme Cybe：分享一下我自己魔改的博客主题</title><link>https://blog.fiveth.cc/p/cybe/</link><pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/cybe/</guid><description>&lt;img src="https://p.fiveth.cc/img/2025%2F0320083703.png" alt="Featured image of post Hugo Theme Cybe：分享一下我自己魔改的博客主题" />&lt;h1 id="主题魔改">💻主题魔改
+&lt;/h1>&lt;p>前段时间我对Stack主题进行了很大的魔改，魔改内容大概如下：&lt;/p>
+&lt;ul>
+&lt;li>将原先的左侧导航栏换成了传统的顶部导航栏&lt;/li>
+&lt;li>在主页添加一个块状头图，内部显示欢迎语&lt;/li>
+&lt;li>右侧边栏添加名片卡片&lt;/li>
+&lt;li>主页文章双栏展示&lt;/li>
+&lt;li>关于页面的自我介绍卡&lt;/li>
+&lt;li>对手机端的优化&lt;/li>
+&lt;/ul>
+&lt;p>这样网站首先是继承了Stack主题的&lt;strong>卡片风格&lt;/strong>，以及&lt;strong>加载速度快&lt;/strong>的优点。而在整体布局上则是换成了现在&lt;strong>流行的博客网站布局&lt;/strong>，充分利用屏幕空间。&lt;/p>
+&lt;h1 id="主题的分享">🔗主题的分享
+&lt;/h1>&lt;p>看到有朋友对我的主题感兴趣，询问我页面的修改问题，于是我就想着发布我自己的这个主题，提供文档，让一些喜欢的朋友可以使用。&lt;/p>
+&lt;blockquote>
+&lt;p>主题仓库：&lt;a class="link" href="https://github.com/kmeykranz/hugo-theme-cybe" target="_blank" rel="noopener"
+>Hugo Theme Cybe&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h1 id="主题配置文档">👾主题配置文档
+&lt;/h1>&lt;p>下面是主题的安装方法和配置文档：&lt;/p>
+&lt;h2 id="安装">安装
+&lt;/h2>&lt;p>1.删掉默认的配置文件&lt;code>config.toml&lt;/code>&lt;/p>
+&lt;p>2.在&lt;code>blog&lt;/code>根目录打开终端输入以下命令&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git init
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#获取主题文件&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git submodule add https://github.com/kmeykranz/hugo-theme-cybe/ themes/hugo-theme-cybe
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>3.将获取到的主题文件中的&lt;code>exampleSite&lt;/code>中的所有文件拷贝到&lt;code>blog&lt;/code>根目录&lt;/p>
+&lt;p>4.打开&lt;code>hugo.yaml&lt;/code>根据自己需要进行配置&lt;/p>
+&lt;h2 id="自定义头像">自定义头像
+&lt;/h2>&lt;ol>
+&lt;li>打开主题文件中的&lt;code>\assets\img&lt;/code>文件夹&lt;/li>
+&lt;li>把里面的avatar.png换成你的头像&lt;/li>
+&lt;/ol>
+&lt;h2 id="自定义主页侧边栏名片">自定义主页侧边栏名片
+&lt;/h2>&lt;ol>
+&lt;li>（用任意编辑器）打开主题文件中的&lt;code>\layouts\partials\widget\author.html&lt;/code>&lt;/li>
+&lt;li>在里面自行修改对应文字和链接即可&lt;/li>
+&lt;/ol>
+&lt;h2 id="自定义关于页面">自定义”关于“页面
+&lt;/h2>&lt;ol>
+&lt;li>打开主题文件中的&lt;code>\layouts\page\about.html&lt;/code>&lt;/li>
+&lt;li>往下划就会找到这段代码，更换里面的文字和链接就可以了&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">    &lt;span class="c">&amp;lt;!-- ---------在这里自定义关于页面--------- --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="c">&amp;lt;!-- 卡片容器 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;author-page-content&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="c">&amp;lt;!-- 卡片 1：关于我 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        ...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="c">&amp;lt;!-- 卡片 2：我的人格 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        ...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="c">&amp;lt;!-- 卡片 3：我的爱好 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        ...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="c">&amp;lt;!-- 卡片 4：座右铭 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        ...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="c">&amp;lt;!-- 卡片 5：我的技能 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="c">&amp;lt;!-- 技能图标可以从这个网站获取 https://shields.io/ --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        ...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="c">&amp;lt;!-- 卡片 6：与我联系 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        ...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="c">&amp;lt;!-- ---------在上面自定义关于页面--------- --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="主页头图文字修改">主页头图文字修改
+&lt;/h2>&lt;p>在主题文件中打开&lt;code>layouts\index.html&lt;/code>修改&lt;/p>
+&lt;h2 id="自定义页脚">自定义页脚
+&lt;/h2>&lt;p>在主题文件中打开&lt;code>layouts\partials\footer\custom.html&lt;/code>修改&lt;/p>
+&lt;h2 id="其余设置">其余设置
+&lt;/h2>&lt;p>其余设置请参考原主题文档进行配置 &lt;a class="link" href="https://stack.jimmycai.com/" target="_blank" rel="noopener"
+>https://stack.jimmycai.com/&lt;/a>&lt;/p>
+&lt;h2 id="支持">支持
+&lt;/h2>&lt;p>如遇到问题，可以提交&lt;a class="link" href="https://github.com/kmeykranz/hugo-theme-cybe/issues" target="_blank" rel="noopener"
+>github issue&lt;/a>。&lt;/p></description></item><item><title>关于博客框架迁移</title><link>https://blog.fiveth.cc/p/hugo/</link><pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate><guid>https://blog.fiveth.cc/p/hugo/</guid><description>&lt;img src="https://p.fiveth.cc/img/2024/0518131750.webp" alt="Featured image of post 关于博客框架迁移" />&lt;p>hi，大家应该发现了，我的博客变样了&lt;/p>
 &lt;p>因为我把博客从&lt;code>Hexo&lt;/code>迁移到了&lt;code>Hugo&lt;/code>&lt;/p>
 &lt;blockquote>
 &lt;ul>
