@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>筛质数 on Fiveth's Blog</title><link>https://blog.fiveth.com/blog/%E7%AD%9B%E8%B4%A8%E6%95%B0/</link><description>Recent content in 筛质数 on Fiveth's Blog</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2025, Fiveth.</copyright><lastBuildDate>Fri, 23 Dec 2022 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://blog.fiveth.com/blog/%E7%AD%9B%E8%B4%A8%E6%95%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>欧拉筛-高效筛选质数</title><link>https://blog.fiveth.com/p/a680/</link><pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.com/p/a680/</guid><description>&lt;p>如何高效筛素数？让我们来看看&lt;/p>
+&lt;p>&lt;strong>题目&lt;/strong>：生成一个1到n范围内的质数数组&lt;/p>
+&lt;h2 id="菜鸟这样做枚举法">菜鸟这样做（枚举法）&lt;/h2>
+&lt;p>从1枚举到n，判断是素数就存入数组&lt;/p>
+&lt;p>下面是判断方法&lt;/p>
+&lt;h3 id="菜鸟">菜鸟：&lt;/h3>
+&lt;p>从2枚举到n-1，如果有能整除该数的，该数就是质数。&lt;/p>
+&lt;h3 id="进化版菜鸟">进化版菜鸟：&lt;/h3>
+&lt;p>菜鸟进化了，从2枚举到$\sqrt n$&lt;/p>
+&lt;hr>
+&lt;h2 id="高手版">高手版&lt;/h2>
+&lt;h3 id="埃氏筛">埃氏筛&lt;/h3>
+&lt;p>这样筛掉后每次下一位没被筛掉的数就都是质数&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">bool&lt;/span> numlist[&lt;span style="color:#ae81ff">100000&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//0代表质数，1代表非质数
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> prime[&lt;span style="color:#ae81ff">100000&lt;/span>], count;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">void&lt;/span> &lt;span style="color:#a6e22e">work&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> n){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>; i&lt;span style="color:#f92672">&amp;lt;=&lt;/span>n; i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>		&lt;span style="color:#66d9ef">if&lt;/span>(numlist[i]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>){ &lt;span style="color:#75715e">//如果是质数
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>			prime[&lt;span style="color:#f92672">++&lt;/span>count] &lt;span style="color:#f92672">=&lt;/span> i ; &lt;span style="color:#75715e">//就先存入
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>			&lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> j&lt;span style="color:#f92672">=&lt;/span>i; i&lt;span style="color:#f92672">*&lt;/span>j&lt;span style="color:#f92672">&amp;lt;=&lt;/span>n; j&lt;span style="color:#f92672">++&lt;/span>) numlist[i&lt;span style="color:#f92672">*&lt;/span>j] &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>; &lt;span style="color:#75715e">//然后将其平方后的所有倍数筛掉
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>		}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#66d9ef">return&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>但是这钟筛法还不是最优，因为p的倍数会重复，所以有些数会被重复筛掉。&lt;/p>
+&lt;p>那么就引出了我们的最终筛法。&lt;/p>
+&lt;h3 id="欧拉筛">欧拉筛&lt;/h3>
+&lt;img src="https://p.fiveth.cc/img/m/欧拉.webp">
+&lt;p>这个筛法避免了重复筛，思路就是：每个合数只会被其&lt;strong>最大非自身因数&lt;/strong>筛除&lt;/p>
+&lt;p>多说无益，先上代码：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">bool&lt;/span> numlist[&lt;span style="color:#ae81ff">100000&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//0代表质数，1代表非质数
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> prime[&lt;span style="color:#ae81ff">100000&lt;/span>], count;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">void&lt;/span> &lt;span style="color:#a6e22e">work&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> n){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;=&lt;/span> n; i&lt;span style="color:#f92672">++&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>		&lt;span style="color:#66d9ef">if&lt;/span> (numlist[i]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>) ans[&lt;span style="color:#f92672">++&lt;/span>count] &lt;span style="color:#f92672">=&lt;/span> i;&lt;span style="color:#75715e">//是质数就先存入数组
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>		&lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> j &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>; j &lt;span style="color:#f92672">&amp;lt;=&lt;/span> count &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> i&lt;span style="color:#f92672">*&lt;/span>prime[j] &lt;span style="color:#f92672">&amp;lt;=&lt;/span> n; j&lt;span style="color:#f92672">++&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>			numlist[prime[j] &lt;span style="color:#f92672">*&lt;/span> i] &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>; &lt;span style="color:#75715e">//每次让i乘已放入的质数，然后标记非质数
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>			&lt;span style="color:#66d9ef">if&lt;/span> (i &lt;span style="color:#f92672">%&lt;/span> prime[j] &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>) &lt;span style="color:#66d9ef">break&lt;/span>;&lt;span style="color:#75715e">//但是如果i可以被该数整除就停止（关键）
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>		}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>现在我们再来分析下。&lt;/p>
+&lt;p>从表可以看出，我们会筛掉每个质数p的平方之后的p的倍数，但是如果i是p的倍数，那就说明它们的乘积那个合数的最大非自身因数不是i，所以不筛。&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;em>i&lt;/em> 的值&lt;/th>
+ &lt;th style="text-align: left">质数表&lt;/th>
+ &lt;th style="text-align: left">筛去的数&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>2&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3&lt;/td>
+ &lt;td style="text-align: left">2, 3&lt;/td>
+ &lt;td style="text-align: left">6, 9&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>4&lt;/td>
+ &lt;td style="text-align: left">2, 3&lt;/td>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>5&lt;/td>
+ &lt;td style="text-align: left">2, 3, 5&lt;/td>
+ &lt;td style="text-align: left">10, 15, 25&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>6&lt;/td>
+ &lt;td style="text-align: left">2, 3, 5&lt;/td>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>7&lt;/td>
+ &lt;td style="text-align: left">2, 3, 5, 7&lt;/td>
+ &lt;td style="text-align: left">14, 21, 28, 35&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⋯&lt;/td>
+ &lt;td style="text-align: left">⋯&lt;/td>
+ &lt;td style="text-align: left">⋯&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>
