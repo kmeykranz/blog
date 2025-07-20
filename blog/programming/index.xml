@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Fiveth's Blog</title><link>https://blog.fiveth.cc/blog/programming/</link><description>Recent content in Programming on Fiveth's Blog</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2025, Fiveth.</copyright><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://blog.fiveth.cc/blog/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Computational Fairy Tales</title><link>https://blog.fiveth.cc/book/computational-fairy-tales/</link><pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/book/computational-fairy-tales/</guid><description>&lt;h2 id="basic">Basic&lt;/h2>
+&lt;p>&lt;strong>Computer Science:&lt;/strong> a way of thinking about problems.&lt;/p>
+&lt;p>A set of core concepts-approaches to solving fundamental problems, and how combine them to solve larger and more complex problem.&lt;/p>
+&lt;ul>
+&lt;li>Algorithm: a set of specific steps for solving a problem.&lt;/li>
+&lt;li>Variable: a place in memory where you can store a single piece of data.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>IF-ELSE statements:&lt;/strong> branch off and execute one of different blocks of code.&lt;/p>
+&lt;ul>
+&lt;li>Loops: programming constructs for repeating a set of instructions until some terminal criterion is met.&lt;/li>
+&lt;li>Boolean logic: base on two values: TRUE and FALSE&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Binary:&lt;/strong> a number system which each digit can take one of 0 or 1.&lt;/p>
+&lt;ul>
+&lt;li>Pseudocode: an informal understandable way of writing algorithms.&lt;/li>
+&lt;/ul>
+&lt;h2 id="data-structure">Data Structure&lt;/h2>
+&lt;p>&lt;strong>Arrays:&lt;/strong> like a set of bins (a box) with a fixed number of slots.&lt;/p>
+&lt;p>&lt;strong>Strings:&lt;/strong> sequences(array) of characters&lt;/p>
+&lt;p>&lt;strong>Swapping two values:&lt;/strong>&lt;/p>
+&lt;p>1.put one into temporary storage&lt;/p>
+&lt;p>2.the other in the memory location of first entry&lt;/p>
+&lt;p>3.the data from temporary storage is written to second entry.&lt;/p>
+&lt;p>&lt;strong>Pointers:&lt;/strong> variables that hold addresses in the computer memory. &lt;em>Flexible&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Linked lists:&lt;/strong> data structures that store lists of items. Use pointer to store the next and previous node.&lt;/p>
+&lt;p>&lt;strong>Stacks:&lt;/strong> last-in, first-out data structure.&lt;/p>
+&lt;p>&lt;strong>Queues:&lt;/strong> first in, first out data structure.&lt;/p>
+&lt;p>&lt;strong>Priority queues:&lt;/strong> return the highest priority data.&lt;/p>
+&lt;p>&lt;strong>Binary search trees:&lt;/strong> efficient searches by value like a tree.&lt;/p>
+&lt;p>&lt;strong>Caching data:&lt;/strong> storing a copy of data in a quickly accessible location to speed up future accesses of that data.&lt;/p>
+&lt;p>&lt;strong>Recursion:&lt;/strong> a problem-solving technique that builds a solution to a problem from solutions to smaller subproblems of the same type.&lt;/p>
+&lt;p>&lt;strong>Binary search:&lt;/strong> algorithm for efficiently finding a target value within a sorted list.&lt;/p>
+&lt;p>&lt;strong>Insertion sort:&lt;/strong> simple inefficient sorting an array of number.&lt;/p>
+&lt;p>&lt;strong>Bubble sort:&lt;/strong> Swapping adjacent elements if they are out of order.&lt;/p>
+&lt;p>&lt;strong>Merge sort:&lt;/strong> Break the data in half, sort each half separately using merge sort and merge together.&lt;/p>
+&lt;p>&lt;strong>Oracle&amp;rsquo;s Array:&lt;/strong> Using algorithms and data structures together to create complex programs.&lt;/p>
+&lt;p>&lt;strong>Graph:&lt;/strong> is defined by a set of nodes and a set of edges that link together the nodes.&lt;/p>
+&lt;p>Directed/Undirected&lt;/p>
+&lt;p>Weighted/Unweighted&lt;/p>
+&lt;p>&lt;strong>Dijkstra&amp;rsquo;s algorithm:&lt;/strong> find the shortest path from a given starting node to all other nodes in the graph.&lt;/p>
+&lt;p>&lt;strong>Representations of graphs:&lt;/strong> two common data structure representing graphs:&lt;/p>
+&lt;pre tabindex="0">&lt;code>	**adjacency matrix:** One row and one column for each node.
+
+	**adjacency list:** a separate list of neighbors for each node.
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Traveling salesman problem:&lt;/strong> find the shortest path through a graph that visits each node and return to the starting node. &lt;em>&lt;strong>NP-hard&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Depth-first search:&lt;/strong> a search algorithm that fully explores a single path before backtracking to test other paths.&lt;/p>
+&lt;p>&lt;strong>Minimum Spanning Tree:&lt;/strong> the smallest set of edges that all of the nodes are connected.&lt;/p>
+&lt;p>&lt;strong>Hamiltonian path:&lt;/strong> visits each node in a graph exactly one date. &lt;em>&lt;strong>NP-Hard&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="computational-thinking">Computational Thinking&lt;/h2>
+&lt;p>Complex algorithms build on a core set of fundamental concepts. Mastering them and learn to combine them is the key to solving to problems.&lt;/p>
+&lt;p>&lt;strong>NP-Hard:&lt;/strong> computational problems for which there are no known efficient and exact solution.&lt;/p>
+&lt;p>&lt;strong>Quicksort:&lt;/strong> a recursive sorting algorithm that is similar to merge sort but faster.&lt;/p>
+&lt;p>&lt;strong>Comments:&lt;/strong> additional text within code that improve the read ability.&lt;/p></description></item></channel></rss>

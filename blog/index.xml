@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Fiveth's Blog</title><link>https://blog.fiveth.com/blog/</link><description>Recent content in Blog on Fiveth's Blog</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2025, Fiveth.</copyright><lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://blog.fiveth.com/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Theme Cybe：分享一下我自己魔改的博客主题</title><link>https://blog.fiveth.com/p/cybe/</link><pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.com/p/cybe/</guid><description>&lt;h1 id="主题魔改">💻主题魔改&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Fiveth's Blog</title><link>https://blog.fiveth.cc/blog/</link><description>Recent content in Blog on Fiveth's Blog</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2025, Fiveth.</copyright><lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://blog.fiveth.cc/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Theme Cybe：分享一下我自己魔改的博客主题</title><link>https://blog.fiveth.cc/p/cybe/</link><pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/cybe/</guid><description>&lt;h1 id="主题魔改">💻主题魔改&lt;/h1>
 &lt;p>前段时间我对Stack主题进行了很大的魔改，魔改内容大概如下：&lt;/p>
 &lt;ul>
 &lt;li>将原先的左侧导航栏换成了传统的顶部导航栏&lt;/li>
@@ -64,13 +64,13 @@
 &lt;h2 id="其余设置">其余设置&lt;/h2>
 &lt;p>其余设置请参考原主题文档进行配置 &lt;a href="https://stack.jimmycai.com/">https://stack.jimmycai.com/&lt;/a>&lt;/p>
 &lt;h2 id="支持">支持&lt;/h2>
-&lt;p>如遇到问题，可以提交&lt;a href="https://github.com/kmeykranz/hugo-theme-cybe/issues">github issue&lt;/a>。&lt;/p></description></item><item><title>图灵完备：一款教你搭建计算机的游戏</title><link>https://blog.fiveth.com/p/turing-complete/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.com/p/turing-complete/</guid><description>&lt;p>最近在 Steam 上发现了一个神仙游戏，《Turing Complete》。&lt;/p>
+&lt;p>如遇到问题，可以提交&lt;a href="https://github.com/kmeykranz/hugo-theme-cybe/issues">github issue&lt;/a>。&lt;/p></description></item><item><title>图灵完备：一款教你搭建计算机的游戏</title><link>https://blog.fiveth.cc/p/turing-complete/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/turing-complete/</guid><description>&lt;p>最近在 Steam 上发现了一个神仙游戏，《Turing Complete》。&lt;/p>
 &lt;p>这是一款模拟电路，搭建计算机的游戏，从开始的 &lt;code>或门、非门、与门...&lt;/code>，到 &lt;code>存储器、计算引擎、条件控制器&lt;/code>，然后组出一个 &lt;code>计算机&lt;/code>，再之后用 &lt;code>汇编语言&lt;/code>，写一些简单的小游戏。&lt;/p>
 &lt;p>作为还是一个高中生的我，第一次了解了计算机电路的底层原理，电线的开（1）、关（0），被先人们运用到了极致，非常巧妙的组出了各种逻辑门，然后层层递进，到做出各种元件。&lt;/p>
 &lt;p>以前刷到过在 MC 里搭建计算机的视频，当时完全还不懂，觉得用了命令块之类的，在玩了这款游戏之后我恍然大悟，原来只要用那几个基础的红石元件，完全可以一点一点地做出一个计算机。&lt;/p>
 &lt;p>这下真的是在边玩游戏边学习了，游戏里还普及了德摩根定律：对四个基础逻辑门的输入或输出进行取反，即可互相转换。&lt;/p>
 &lt;p>这样通过玩游戏的形式，一点一点的过关斩将，模拟做出计算机，是个不错的办法。在以后实际上手的时候，或者在学习这个知识的时候，会轻松很多。&lt;/p>
-&lt;p>&lt;img src="https://p.fiveth.cc/img/2025%2F0219215324.png" alt="">&lt;/p></description></item><item><title>媒体上这么多知识，为什么还要读书？</title><link>https://blog.fiveth.com/p/why-reading/</link><pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.com/p/why-reading/</guid><description>&lt;blockquote>
+&lt;p>&lt;img src="https://p.fiveth.cc/img/2025%2F0219215324.png" alt="">&lt;/p></description></item><item><title>媒体上这么多知识，为什么还要读书？</title><link>https://blog.fiveth.cc/p/why-reading/</link><pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/why-reading/</guid><description>&lt;blockquote>
 &lt;p>在现在这个时代，媒体上知识这么多，我们为什么还要读书？&lt;/p>
 &lt;/blockquote>
 &lt;p>即使知道读书在某些方面有好处，比如对专注力有帮助，但在学习效率上，似乎还是在媒体上看知识视频的效率更高，可以在最短时间学到最多的东西。&lt;/p>
@@ -82,29 +82,7 @@
 &lt;p>进入正题，讲讲媒体上的“知识”，现今媒体发达，我们可以在媒体上高效率地获得很多信息，像短视频、文章，里面也有很多知识，甚至还可以直接听书籍的讲解，10分钟就能听完一本书，但这之中其实有一个陷阱。&lt;/p>
 &lt;p>这些媒体都是直接把现成的知识放在我们眼前，使得我们跳过了思考的步骤，直接取得别人得出来的结论，这正好迎合了我们大脑喜欢偷懒的特点。然而这样获得的知识实际上不是属于我们的，这样获得的知识是不会印象深刻的，你可以在一天之内在媒体上得到十几本书的结论，但你真的记得住他们吗？你真的能运用到生活之中吗？可以说，这些媒体在剥夺我们思考的权利，我们的大脑越来越懒，越来越不善于思考，即使我们在媒体上看到错误的信息，我们也会盲目从之。&lt;/p>
 &lt;p>这就是为什么我们要读书，不一定是读书，也可以是其他形式，重点是其深度学习的性质。我们应该能够主动地去思考，了解背后的原理，通过自己的思考得出结论。这样的知识才会成为我们知识体系的一部分，融入我们的思维和世界观之中。很多书的结论可以用很短几行字来概括，但这本书还是值得阅读，因为我们在阅读时，了解原理和推理的过程，以及在上面花的时间，都在不断的加强我们对于这个知识的记忆。换句话说，你读一本书“浪费”的时间越多，它对你可能越有帮助。&lt;/p>
-&lt;p>我曾觉得那些写影评、书评的人很厉害，因为当我自己看完一个很有感触的电影后，经常发现自己什么都写不出来，到头来只是复述了其他影评的原文，没有自己的理解和想法。这是大脑长期不经思考地接受信息导致的，本应擅长思考、发表观点的大脑，渐渐变得只能被动接受信息。这是我们需要去训练的，写不出文章不只是语言组织的问题，也可能是我们的大脑缺乏主观的思考，根本就没有一个自己清晰的观点，从来都是看别人总结出来的结论。&lt;/p></description></item><item><title>《当下的力量》：拯救就在此时此刻</title><link>https://blog.fiveth.com/p/the-power-of-now/</link><pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.com/p/the-power-of-now/</guid><description>&lt;p>初看到书名时，我本以为这是一本普通的鸡汤。实则不然，在短短阅读十几页后，我就感受到了这本书强大的力量。某种角度来讲，这本书能解决一切你在生活中的问题，无论是疾病、焦虑还是痛苦。这是一本心灵之书，文章开篇就提到，不要用理性去思考文中的内容，内容也包含了很多宗教思想。到目前为止，我认为这可能是我看过收益最大的一本书，因为他撼动了我对生命的思考。今天就跟大家分享下一些内容。&lt;/p>
-&lt;h3 id="你不等于你的大脑">你不等于你的大脑&lt;/h3>
-&lt;p>书中提到，我们不等于我们的大脑。因为我们使用大脑思考，我们看到的，听到的，都经过大脑，我们的想法也源自大脑，也就是思维，我们在潜意识中都误认为思维就是自己。但如果我们再往深去想，窗外的树木，它们没有大脑，他们是什么呢？同样，我们人类也是一个道理，我们的思维并不能代表我们，大脑只是我们的一个器官，一个工具。我们还有一个更深的本质，书中把它叫做“本体”。&lt;/p>
-&lt;h3 id="小我思维">小我思维&lt;/h3>
-&lt;p>我们把思维误认为就是自己，就叫做&lt;strong>小我思维&lt;/strong>。大脑是一个很好的工具，我们用它思考，也是它才让我们成为了高级动物。但是很多问题也产生于思维，各种情绪、痛苦、甚至疾病，都产生于思维。当我们处于小我思维的时候，我们就会被思维控制，被情绪和痛苦环绕。&lt;/p>
-&lt;h3 id="一切">一切&lt;/h3>
-&lt;p>当下时刻，就是你所拥有的一切。过去和未来都是思维幻想出来的，在当下时刻，唯一真实的就只有当下。思维是建立在过去和未来上的，当你在沉浸于过去和未来时，思维是最活跃的，这个时候它能最大化的控制你。当你完全专注当下时，思维就不会存在。因此，越是接受当下痛苦就越少。&lt;/p>
-&lt;h3 id="痛苦之身">痛苦之身&lt;/h3>
-&lt;p>你有没有想过，在你遇到不好的事情的时候，明明事情已经发生了，并且痛苦对你没有好处，为什么你还会在脑海中不断地去想自己的悲惨经历，让自己越来越痛苦？&lt;/p>
-&lt;p>书中提到一个概念，就是你被痛苦之身控制了。实际上，你在从痛苦中获得的快感，你的思维创造出了一个悲惨人物的形象，你认为他就是你（自我认同），你的大脑恐惧失去自我认同，所以会抗拒你的摆脱。&lt;/p>
-&lt;h3 id="幸福">幸福&lt;/h3>
-&lt;p>我们一生都在追求幸福，我们总会有不满足的地方，然后憧憬着未来的生活，以此获得心理上的满足和快感。这其实是一个循环，当你真正到了想象中的未来生活的时候，你还会有不满足的地方，还会期盼未来，你永远在思维的陷阱之中，无法获得解脱以及内心的宁静。我们很多人都在时间里寻求拯救，但拯救并不在时间和空间上，真正的拯救就在此时此刻。&lt;/p>
-&lt;p>我们思维认为的喜悦并非喜悦，那只是痛苦和欢乐的循环，我们一旦失去了那件事就会痛苦。每一次欢乐的内部都隐含着痛苦的种子，这个对立面迟早会显化。真正的喜悦来自于内心的宁静，他是永恒的。&lt;/p>
-&lt;h3 id="实践">实践&lt;/h3>
-&lt;p>这本书的思想需要我花很长的去实践和理解。&lt;/p>
-&lt;p>日常生活中不断实践：&lt;/p>
-&lt;ul>
-&lt;li>聆听思维的声音（不要去批判思维，在批判思维的时候另一个声音（思维）就会出来）&lt;/li>
-&lt;li>当下时刻就是你所拥有的一切，把生活重心完全放到这一刻。&lt;/li>
-&lt;li>思维会批判当下，产生痛苦。不管当下情况如何，我们都应该接受当下，和当下共事，采取行动。把当下当成盟友而不是敌人。&lt;/li>
-&lt;li>保持临在状态（观察者视角），对痛苦保持关注，感受它的力量，不让他控制思维。痛苦之身会不断创造新的痛苦，或者伤害他人。他会假装让你认为你就是他，让你认同他。察觉自己从痛苦中获得的快感，以及想谈论他或是琢磨他的冲动，这会让他消失。&lt;/li>
-&lt;li>练习冥想，感受当下。&lt;/li>
-&lt;/ul></description></item><item><title>颈椎训练：每个人都应该将其加入日常</title><link>https://blog.fiveth.com/p/train-neck/</link><pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.com/p/train-neck/</guid><description>&lt;p>hi大家好，作为一个学生的我，一直对体态问题有关注。&lt;/p>
+&lt;p>我曾觉得那些写影评、书评的人很厉害，因为当我自己看完一个很有感触的电影后，经常发现自己什么都写不出来，到头来只是复述了其他影评的原文，没有自己的理解和想法。这是大脑长期不经思考地接受信息导致的，本应擅长思考、发表观点的大脑，渐渐变得只能被动接受信息。这是我们需要去训练的，写不出文章不只是语言组织的问题，也可能是我们的大脑缺乏主观的思考，根本就没有一个自己清晰的观点，从来都是看别人总结出来的结论。&lt;/p></description></item><item><title>颈椎训练：每个人都应该将其加入日常</title><link>https://blog.fiveth.cc/p/train-neck/</link><pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/train-neck/</guid><description>&lt;p>hi大家好，作为一个学生的我，一直对体态问题有关注。&lt;/p>
 &lt;p>每天都长时间坐着学习、看电脑，颈椎难免出现问题，如头前倾、颈椎生理曲度变直、富贵包，所以有一套固定的&lt;code>颈椎保健训练&lt;/code>很重要。&lt;/p>
 &lt;p>⭐&lt;a href="https://space.bilibili.com/408907896">脊医博士鹏哥&lt;/a>作为中国奥委会备战特聘的运动脊医专家，给出的&lt;code>训练方案&lt;/code>非常科学全面，让看过很多相关视频的我眼前一新。没想到加入平衡训练和眼睛训练，对我们的脊椎和脊柱有很大帮助。其次颈椎的问题还和我们大脑的压力息息相关。&lt;/p>
 &lt;blockquote>
@@ -143,7 +121,7 @@
 &lt;p>&lt;code>颈胸椎结合处（富贵包）：强支撑&lt;/code> 这个很重要&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>将&lt;code>颈胸椎结合处&lt;/code>撑在枕头最硬的突起处，做牵引。&lt;/p></description></item><item><title>关于博客框架迁移</title><link>https://blog.fiveth.com/p/hugo/</link><pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.com/p/hugo/</guid><description>&lt;p>hi，大家应该发现了，我的博客变样了&lt;/p>
+&lt;p>将&lt;code>颈胸椎结合处&lt;/code>撑在枕头最硬的突起处，做牵引。&lt;/p></description></item><item><title>关于博客框架迁移</title><link>https://blog.fiveth.cc/p/hugo/</link><pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/hugo/</guid><description>&lt;p>hi，大家应该发现了，我的博客变样了&lt;/p>
 &lt;p>因为我把博客从&lt;code>Hexo&lt;/code>迁移到了&lt;code>Hugo&lt;/code>&lt;/p>
 &lt;blockquote>
 &lt;ul>
@@ -194,10 +172,10 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;p>&lt;strong>我在自动部署处做了些改动&lt;/strong>：&lt;/p>
-&lt;p>把&lt;code>deploy_key&lt;/code>那行换成&lt;code>PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}&lt;/code>，然后在仓库设置添加secret变量&lt;code>PERSONAL_TOKEN&lt;/code>，里面填&lt;code>token&lt;/code>。&lt;code>token&lt;/code>在用户设置中创建，要勾选&lt;code>repo&lt;/code>和&lt;code>workflow&lt;/code>权限。&lt;/p></description></item><item><title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title><link>https://blog.fiveth.com/p/138e/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.com/p/138e/</guid><description>&lt;ul>
-&lt;li>本篇前文：&lt;a href="https://blog.fiveth.com/p/bb32.html">如何用Hexo搭建个人博客?&lt;/a>&lt;/li>
+&lt;p>把&lt;code>deploy_key&lt;/code>那行换成&lt;code>PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}&lt;/code>，然后在仓库设置添加secret变量&lt;code>PERSONAL_TOKEN&lt;/code>，里面填&lt;code>token&lt;/code>。&lt;code>token&lt;/code>在用户设置中创建，要勾选&lt;code>repo&lt;/code>和&lt;code>workflow&lt;/code>权限。&lt;/p></description></item><item><title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title><link>https://blog.fiveth.cc/p/138e/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/138e/</guid><description>&lt;ul>
+&lt;li>本篇前文：&lt;a href="https://blog.fiveth.cc/p/bb32.html">如何用Hexo搭建个人博客?&lt;/a>&lt;/li>
 &lt;li>本文基于&lt;a href="https://www.fomal.cc/posts/4aa2d85f.html">Hexo博客搭建基础教程(二)&lt;/a>修改，部分转载&lt;/li>
-&lt;li>我的&lt;strong>Hexo优化系列&lt;/strong>：&lt;a href="https://blog.fiveth.com/tags/hexo">Hexo文章目录&lt;/a>&lt;/li>
+&lt;li>我的&lt;strong>Hexo优化系列&lt;/strong>：&lt;a href="https://blog.fiveth.cc/tags/hexo">Hexo文章目录&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>我的博客搭建教程是一年前写的了，非常感谢&lt;a href="https://www.fomal.cc/">fomalhaut&lt;/a>，当时我是跟着他的教程一步步搭建的。最近我终于在b站发了视频版的博客搭建教程，有很多朋友想进一步优化博客。这篇文章接上一篇，教大家将博客部署到vercel、主题安装、Hexo博客的基础用法。&lt;/p>
 &lt;h2 id="vercel部署">Vercel部署&lt;/h2>
@@ -532,21 +510,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">enable&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">subtitle&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;页面沒有找到&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">background&lt;/span>: 
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr></description></item><item><title>《认知觉醒》：一本让我觉醒的书</title><link>https://blog.fiveth.com/p/9c7a/</link><pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.com/p/9c7a/</guid><description>&lt;p>最近我读了《认知觉醒》这本书，作者是周岭。我非常感谢这本书，对我帮助非常大。如果你想改变自己现在的生活，变得更加优秀，这本书一定会帮到你。书中给出了许多提升自己的方法，其中的每个章节都让我有所感悟。这篇文章我会讲其中一些让我最受感触的点。&lt;/p>
-&lt;h2 id="元认知">元认知&lt;/h2>
-&lt;p>书中提到了“元认知”这个概念，当我们开启元认知，就会不断的进步、提升。开启元认知，就是&lt;strong>开启第三人称，时刻审视自己在做什么、在想什么&lt;/strong>。有了这种觉知，你就会在玩游戏的时候意识到自己正在过度放纵，并且思考自己的大脑为什么会沉迷于游戏当中；当你分手后无比沮丧的时候，就会思考自己现在处于一个怎样的状态，为什么不开心。当你开启这样一个能力之后，你就会无限进步，你能一直审视自己的行为和思维，在错误的时候意识到并改进。这就相当于自己开了上帝视角，时刻地在监督自己。&lt;/p>
-&lt;p>当你知道了这个概念之后，你就可以开始行动、练习，时刻审视自己。当你受到任何感触，比如开心或沮丧时，问问自己是什么原因，这会让你变得更加了解自己。最近我看到一个句子让我很有感触，&amp;quot;&lt;strong>who looks outisde, dreams; who looks inside, awakes.&lt;/strong>&amp;quot;-Carl Jung，当你开始挖掘自己内心时，你就会清醒，明白自己到底想要什么，了解自己的思维方式，这会帮你打开自我提升的大门。写日记、写每日反思是一个很好的方法，在每天的结尾反思自己做了什么，无需置疑，这绝对是一个改变终身的习惯，孔子说过”吾日三省吾身“。其次，&lt;strong>练习元认知最好的方法是冥想&lt;/strong>，具体关于冥想的知识，大家可以自行去搜索，之后我会单独写一篇文章来讲我的冥想心得，总之这是一个非常有益的习惯，在冥想中，我们会练习将注意力放在呼吸和身体上，当有杂念的时候，我们就需要意识到并注意力拉回。可见冥想是练习元认知能力最直接的方法。&lt;/p>
-&lt;h2 id="行动">行动&lt;/h2>
-&lt;p>”&lt;strong>真正的成长不在于自己懂了多少道理，而在于自己做了多少改变&lt;/strong>“&lt;/p>
-&lt;p>很多时候，我们会从书中或者视频中学到很多知识，在读后我们都会恍然大悟，觉得很有道理，但是，你可以回忆一下其中有多少是你真正为之做出改变的，运用到了生活之中的。我们很容易就会陷入到只停留在懂了，但没有去做的阶段。所以，当你学到任何知识让你受到感触的，那就开始行动，思考如何做出改变。这个道理很使用于读书，很多人读书会做大量的笔记，甚至思维导图，但他们只是将作者的思路整理列了个大纲，而在做完之后他们认为懂了就再也没翻阅过，即使翻阅，大量的内容也会让他们头晕目眩，这点我也深有感悟。真正好的读书方法是：&lt;/p>
-&lt;p>&lt;strong>在书中取一个你最受感触的点并为之做出改变，这远远比你把一大堆知识记下来要有用得多&lt;/strong>。想想，一本书只要让你改变了一点点，那它就已经发挥了它的巨大价值。&lt;/p>
-&lt;p>所以，在读完这本书后我改进了自己的读书方法，在读完后只记下最受感触的几个点，并尝试将他们运用起来，做出改变。而不是大量梳理（可能适用于课程学习，但肯定不适用于读书），告诉自己我懂了。其次，我为什么会写这篇文章，分享读书知识，那就是费曼学习法。&lt;/p>
-&lt;h2 id="费曼">费曼&lt;/h2>
-&lt;p>费曼学习法就是&lt;strong>将自己学到的知识，用自己的话讲述给他人&lt;/strong>，在这个过程中知识会在你的大脑中得到加工和巩固，如果你能非常清晰地讲述给他人，那说明你真正懂了。这本书我是上周读的，而我现在并没有拿着这本书写博客，我只是将自己从这本书中得到的最受感触的，进入我记忆中的，用自己的话写了出来。&lt;/p>
-&lt;h2 id="关联">关联&lt;/h2>
-&lt;p>&lt;strong>能与自己产生关联的知识，是记得最深的&lt;/strong>。从一本书中你可能会学到很多有道理的知识，但你不一定会记住每一个。这个知识需要和你以往某个经历，或者存在于你知识体系中的某个点练习起来，才会被记得非常深。如果和你大脑中的知识没有任何关联，即使很有道理，也很容易忘记。所以，利用好这点，当你看到某个很受感触的知识时，有什么你已知的知识与其相关联，将你的想法记下来。如果你现在是一个学生，你读到职场的一些知识，那么就把它先放一放吧。&lt;/p>
-&lt;hr>
-&lt;p>以上就是这本书我深受感触的一些知识点，当然这些只是对我来说最受感触的，和我有关联的，其中还有非常多有用的知识，非常推荐大家自行去阅读这本书。如果大家喜欢这篇文章，可以关注本站，我会每周分享自己读到的好书。&lt;/p></description></item><item><title>Hexo博客优化：批量修改md文件名</title><link>https://blog.fiveth.com/p/fbe8/</link><pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.com/p/fbe8/</guid><description>&lt;p>今天整理博客，发现我给文章取的文件名比较混乱，要找文章的时候会很不方便。&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr></description></item><item><title>Hexo博客优化：批量修改md文件名</title><link>https://blog.fiveth.cc/p/fbe8/</link><pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/fbe8/</guid><description>&lt;p>今天整理博客，发现我给文章取的文件名比较混乱，要找文章的时候会很不方便。&lt;/p>
 &lt;p>一般我们都是用&lt;code>hexo new file_name&lt;/code>创建文章的md文件的，然后文章的标题是在md文件的信息栏定义的。而我们很多时候是开始写文章才想好标题，随着写作标题也会发生变动，这导致最后我们文章标题和文件名是不同的，加大了我们的管理难度。&lt;/p>
 &lt;p>所以我们会在改动文章标题的时候，将文件名也改成一样的。但是这样手动改非常麻烦。因此我配合ChatGPT用Python写了个一键批量修改文件名的小脚本。这样我们就可以很方便的一键将文件名全部都同步成文章的标题。&lt;/p>
 &lt;p>&lt;img src="https://p.fiveth.cc/img/2024/04/09144430.webp" alt="image1">&lt;/p>
@@ -611,7 +575,7 @@
 &lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;p>另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊&lt;/p></description></item><item><title>2022款Thinkbook14+酷睿版续航优化方案</title><link>https://blog.fiveth.com/p/4b21/</link><pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.com/p/4b21/</guid><description>&lt;p>使用Thinkbook14+也有两年了，我是在22年买的。后悔自己买的太早，因为22年酷睿款的续航十分鸡肋（23及24款在续航有很大提升），相信一样用这款的朋友们应该深有体会。离电不到2小时的续航，堪比游戏本。作为一个学生，在学校中基本上只能离电使用，所以我对续航有一定需求。&lt;/p>
+&lt;p>另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊&lt;/p></description></item><item><title>2022款Thinkbook14+酷睿版续航优化方案</title><link>https://blog.fiveth.cc/p/4b21/</link><pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/4b21/</guid><description>&lt;p>使用Thinkbook14+也有两年了，我是在22年买的。后悔自己买的太早，因为22年酷睿款的续航十分鸡肋（23及24款在续航有很大提升），相信一样用这款的朋友们应该深有体会。离电不到2小时的续航，堪比游戏本。作为一个学生，在学校中基本上只能离电使用，所以我对续航有一定需求。&lt;/p>
 &lt;p>在我的一番调教下，它的续航最终达到了静置10小时，低负办公8小时的理论成绩。这对我日常使用体验的提升非常大，终于不用再频繁地把电脑放到充电仓。今天就来分享一下我自用的续航调教方案。本篇部分适用于所有笔记本，部分是针对22 Thinkbook14+酷睿版的。&lt;/p>
 &lt;p>文章部分参考自&lt;a href="https://zhuanlan.zhihu.com/p/662648384">【知乎】2022款ThinkBook 14+/16+酷睿版的电池续航优化更新&lt;/a>&lt;/p>
 &lt;h2 id="基础">基础&lt;/h2>
@@ -684,4 +648,79 @@
 &lt;p>如果需要进一步提升续航，还可以在FIVR中限制CPU的电压，硬核延长续航，此操作有一定风险，并且新版BIOS限制了电压控制的功能，还需要先解锁电压控制，此处不做展开。&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;p>我的个人调教方案到这里就结束了，我们已经非常大程度提升了续航，可以带着笔记本出门放心耍啦😎&lt;/p></description></item></channel></rss>
+&lt;p>我的个人调教方案到这里就结束了，我们已经非常大程度提升了续航，可以带着笔记本出门放心耍啦😎&lt;/p></description></item><item><title>Hexo博客优化：如何优化Hexo的网站性能？</title><link>https://blog.fiveth.cc/p/95d6/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/95d6/</guid><description>&lt;p>对一个网站来说，性能是非常重要的，它决定了用户在网页停留的时长。&lt;/p>
+&lt;p>如果网页的加载速度很慢的话，用户很容易就会离去。&lt;/p>
+&lt;p>有朋友说我的博客速度挺快的，这篇文章就讲讲我是如何&lt;strong>优化我的网站性能&lt;/strong>的。&lt;/p>
+&lt;h2 id="性能检测">性能检测&lt;/h2>
+&lt;p>首先我们可以使用网站性能检测工具，来获取网站的性能报告，这样我们就可以知道是哪部分拖慢了网站速度，从而对其进行优化。&lt;/p>
+&lt;p>我用的工具是&lt;strong>Chrome开发者工具&lt;/strong>中自带的&lt;strong>Lighthouse&lt;/strong>，给出性能报告的同时，它还会给出一些优化的建议。&lt;/p>
+&lt;img src="https://p.fiveth.cc/img/m/lighthouse.webp" alt="lighthouse"/>
+&lt;h2 id="vercel网站托管">Vercel网站托管&lt;/h2>
+&lt;p>我使用的是&lt;a href="https://vercel.com/dashboard">Vercel&lt;/a>来托管我的网站，它在全球以及国内都有非常优秀的速度。如果想要让其在国内可以浏览的话，需要准备一个域名。&lt;/p>
+&lt;blockquote>
+&lt;p>具体如何使用可以参考&lt;a href="https://www.fomal.cc/">Fomalhaut&lt;/a>的文章&lt;a href="https://www.fomal.cc/posts/4aa2d85f.html">Hexo博客搭建基础教程(二)&lt;/a>中有详细教程。&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;code>注意&lt;/code>：cname的解析方法目前会导致无法在国内访问，需要做一些修改
+**失效方法：**记录值类型cname，值为cname.vercel-dns.com
+**解决方法：**记录值类型A类型，值为76.223.126.88&lt;/p>
+&lt;img src="https://p.fiveth.cc/img/m/jiexi.webp" alt="解析记录" />
+&lt;h2 id="vercel加速节点新">Vercel加速节点（新）&lt;/h2>
+&lt;blockquote>
+&lt;p>此章为2024.4新添加内容&lt;/p>
+&lt;/blockquote>
+&lt;p>这是一个vercel加速节点，使用是会自动解析至附近可用节点，尽可能的选择优质节点。&lt;/p>
+&lt;p>&lt;strong>食用方法&lt;/strong>：将原来解析至 &lt;code>cname.vercel.com&lt;/code> 改为 &lt;code>vercel.cdn.yt-blog.top&lt;/code>（CNAME记录）&lt;/p>
+&lt;blockquote>
+&lt;p>由&lt;a href="https://www.yt-blog.top/">Fgaoxing&lt;/a>提供，原文链接：&lt;a href="https://www.yt-blog.top/9952/">【推一下Vercel加速节点】&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="图片压缩">图片压缩&lt;/h2>
+&lt;p>在我们的博客中，最消耗流量的应该就是图片了。所以为了提升加载速度，对图片的压缩非常重要。&lt;/p>
+&lt;p>1.每次将图片上传到图床之前，我都会对其进行压缩（控制在50kb以下）&lt;/p>
+&lt;p>2.同时，将图片转换成webp格式也会大大提高加载速度。&lt;/p>
+&lt;blockquote>
+&lt;p>这里推荐一个我一直在用的&lt;a href="https://imagestool.com/webp2jpg-online/">多功能在线图片压缩&lt;/a>工具，非常方便快捷。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="lazyload">lazyload&lt;/h2>
+&lt;p>**lazyload(懒加载)**是一个对提升性能非常有效的功能，它会优先加载处于屏幕显示区域内的资源，而不是等待一整个页面的资源加载完毕。这让许多资源可以在用户边浏览的时候边加载，节省时间。&lt;/p>
+&lt;p>我给我的评论模块开启了lazyload，因为很多时候评论模块加载都会慢，导致用户要在加载页面等待。&lt;/p>
+&lt;h2 id="gulp压缩">gulp压缩&lt;/h2>
+&lt;p>&lt;a href="https://www.gulpjs.com.cn/">gulp插件&lt;/a>可以帮助我们自动压缩博客静态资源。&lt;/p>
+&lt;blockquote>
+&lt;p>具体如何安装使用可以参考&lt;a href="https://akilar.top/">Akilar&lt;/a>的文章&lt;a href="https://akilar.top/posts/49b73b87/">【使用gulp压缩博客静态资源】&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="cdn">CDN&lt;/h2>
+&lt;p>让所有的静态资源通过**CDN(内容分发网络)**加载，可以提高资源加载速度。&lt;/p>
+&lt;blockquote>
+&lt;p>我使用的是&lt;a href="https://blog.zhheo.com/">HEO&lt;/a>大佬分享的&lt;a href="https://blog.zhheo.com/p/790087d9.html">【Butterfly CDN链接更改指南】&lt;/a>中给出的cdn&lt;/p>
+&lt;/blockquote>
+&lt;p>这里给出我在butterfly中的cdn列表：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">pjax&lt;/span>: &lt;span style="color:#ae81ff">https://lib.baomitu.com/pjax/0.2.8/pjax.min.js&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">twikoo&lt;/span>: &lt;span style="color:#ae81ff">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/twikoo/1.4.18/twikoo.all.min.js&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">sharejs&lt;/span>: &lt;span style="color:#ae81ff">https://lib.baomitu.com/social-share.js/1.0.16/js/social-share.min.js&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">sharejs_css&lt;/span>: &lt;span style="color:#ae81ff">https://lib.baomitu.com/social-share.js/1.0.16/css/share.min.css&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">lazyload&lt;/span>: &lt;span style="color:#ae81ff">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">instantpage&lt;/span>: &lt;span style="color:#ae81ff">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">typed&lt;/span>: &lt;span style="color:#ae81ff">https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.min.js&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">snackbar_css&lt;/span>: &lt;span style="color:#ae81ff">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">snackbar&lt;/span>: &lt;span style="color:#ae81ff">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.js&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">fontawesome&lt;/span>: &lt;span style="color:#ae81ff">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">justifiedGallery_js&lt;/span>: &lt;span style="color:#ae81ff">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">justifiedGallery_css&lt;/span>: &lt;span style="color:#ae81ff">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/justifiedGallery/3.8.1/css/justifiedGallery.min.css&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">aplayer_css&lt;/span>: &lt;span style="color:#ae81ff">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">aplayer_js&lt;/span>: &lt;span style="color:#ae81ff">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">meting_js&lt;/span>: &lt;span style="color:#ae81ff">https://npm.elemecdn.com/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>这些大概就是我对我的网站做的优化总结了，其实还有很多地方可以再提升，但是对我来说已经够用了。&lt;/p>
+&lt;p>希望大家都可以积极地去优化网站的性能，这样才可以收获更多的游客🙂&lt;/p></description></item><item><title>摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖</title><link>https://blog.fiveth.cc/p/134b/</link><pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/134b/</guid><description>&lt;p>经常白嫖游戏的小伙伴应该都对&lt;a href="https://www.3dmgame.com/">3DM&lt;/a>不陌生，里面有很多盗版游戏资源。但是呢，很多3dm下来的游戏都要用3dm启动器去打开，你说用你启动器打开就算了，就多点两下的事对吧。但是每次打开你启动器，你都要下载个“笑傲江湖”到我电脑里，删了还没用，下次启动的时候又会跳出来，这跟流氓软件有什么区别。今天就教大家怎么摆脱3DM流氓启动器，直接打开游戏。&lt;/p>
+&lt;img src="https://p.fiveth.cc/img/m/xiaoao.webp" />
+&lt;p>首先我们打开3dm启动器目录，如图，打开&lt;code>3dmConfig.ini&lt;/code>文件，找到游戏exe文件的路径。&lt;/p>
+&lt;img src="https://p.fiveth.cc/img/m/3dmpath.webp"/>
+&lt;p>接下来我们顺着路径去寻找，会发现根本就找不到游戏的exe文件。别慌，这是3dm耍的小把戏，把游戏启动的exe文件给隐藏了。我们要做的就是把被隐藏的文件给显示出来。&lt;/p>
+&lt;p>我们打开cmd窗口，进入对应的目录，然后执行dos命令：&lt;/p>
+&lt;blockquote>
+&lt;p>如何打开cmd窗口？win+r，然后输入cmd，点确定&lt;/p>
+&lt;/blockquote>
+&lt;pre tabindex="0">&lt;code>attrib -s -a -h -r {name}.exe
+&lt;/code>&lt;/pre>&lt;img src="https://p.fiveth.cc/img/m/cmd.webp"/>
+&lt;p>然后我们就能看到游戏的exe文件在目录中显示出来了，我们可以右键然后将快捷方式创建到桌面，之后我们就不需要用3dm启动器来打开游戏了😎。&lt;/p>
+&lt;img src="https://p.fiveth.cc/img/m/3dmexe.webp"/></description></item></channel></rss>
