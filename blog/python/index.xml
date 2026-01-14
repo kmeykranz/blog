@@ -52,15 +52,9 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i &lt;span style="color:#f92672">+=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print(i)
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>然后将文件名后缀修改成&lt;code>.py&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>在文件夹空白处右键，点击&lt;code>在终端中打开&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>在终端中输入&lt;code>python rename.py&lt;/code>即可运行脚本&lt;/p>
-&lt;/li>
+&lt;li>然后将文件名后缀修改成&lt;code>.py&lt;/code>&lt;/li>
+&lt;li>在文件夹空白处右键，点击&lt;code>在终端中打开&lt;/code>&lt;/li>
+&lt;li>在终端中输入&lt;code>python rename.py&lt;/code>即可运行脚本&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;p>另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊&lt;/p></description></item></channel></rss>

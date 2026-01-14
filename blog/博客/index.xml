@@ -77,26 +77,24 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="原因">😯原因&lt;/h2>
+&lt;h2 id="原因">原因&lt;/h2>
 &lt;h3 id="优点">优点&lt;/h3>
 &lt;ol>
 &lt;li>相比&lt;code>Hexo&lt;/code>，&lt;code>Hugo&lt;/code>的静态&lt;code>生成速度更快&lt;/code>。在本地运行后半秒不到就能在本地生成完页面，方便调试。&lt;/li>
-&lt;li>看了L1nSn0w大佬的博客后，被&lt;code>Stack主题&lt;/code>这个&lt;code>简约舒适&lt;/code>的博客页面狠狠种草了。个人觉得这样的页面阅读体验非常好，没有其他花里胡哨的东西吸引眼球，进来就是一排文章，方便阅读。&lt;/li>
 &lt;li>最主要是为了&lt;code>减少折腾&lt;/code>，这让我可以&lt;code>专心地写文章&lt;/code>。不再反复折腾博客页面。&lt;/li>
 &lt;/ol>
 &lt;h3 id="缺点">缺点&lt;/h3>
 &lt;ol>
-&lt;li>&lt;code>Hugo&lt;/code>在国内的&lt;code>社区&lt;/code>没有&lt;code>Hexo&lt;/code>的大，意味着遇到问题比较难找到解决方法，需要一定Debug能力。&lt;/li>
+&lt;li>&lt;code>Hugo&lt;/code>在国内的&lt;code>社区&lt;/code>没有&lt;code>Hexo&lt;/code>的大，意味着遇到问题比较难找到解决方法，需要一定Debug能力&lt;/li>
 &lt;li>没有&lt;code>Hexo&lt;/code>那么多&lt;code>插件功能&lt;/code>&lt;/li>
 &lt;/ol>
-&lt;h3 id="so">So&lt;/h3>
-&lt;p>对我来说，Hugo会更加适合我。&lt;/p>
+&lt;h3 id="所以">所以&lt;/h3>
 &lt;p>大家可以根据个人需求和喜好选择，看看自己是要简约的，还是多功能、自定义化高的。&lt;/p>
 &lt;blockquote>
 &lt;p>这里奉上我的&lt;a href="https://blog.fiveth.cc/tags/hexo/">Hexo博客搭建教程&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="关于hugo安装">😎关于Hugo安装&lt;/h2>
+&lt;h2 id="关于hugo安装">关于Hugo安装&lt;/h2>
 &lt;p>这里列出我在hugo博客搭建过程中阅读的文章：&lt;/p>
 &lt;blockquote>
 &lt;ul>
@@ -114,8 +112,8 @@
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
-&lt;p>&lt;strong>我在自动部署处做了些改动&lt;/strong>：&lt;/p>
-&lt;p>把&lt;code>deploy_key&lt;/code>那行换成&lt;code>PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}&lt;/code>，然后在仓库设置添加secret变量&lt;code>PERSONAL_TOKEN&lt;/code>，里面填&lt;code>token&lt;/code>。&lt;code>token&lt;/code>在用户设置中创建，要勾选&lt;code>repo&lt;/code>和&lt;code>workflow&lt;/code>权限。&lt;/p></description></item><item><title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title><link>https://blog.fiveth.cc/p/138e/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/138e/</guid><description>&lt;ul>
+&lt;p>&lt;strong>我在自动部署处做了些改动&lt;/strong>：
+把&lt;code>deploy_key&lt;/code>那行换成&lt;code>PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}&lt;/code>，然后在仓库设置添加secret变量&lt;code>PERSONAL_TOKEN&lt;/code>，里面填&lt;code>token&lt;/code>。&lt;code>token&lt;/code>在用户设置中创建，要勾选&lt;code>repo&lt;/code>和&lt;code>workflow&lt;/code>权限。&lt;/p></description></item><item><title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title><link>https://blog.fiveth.cc/p/138e/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/138e/</guid><description>&lt;ul>
 &lt;li>本篇前文：&lt;a href="https://blog.fiveth.cc/p/bb32.html">如何用Hexo搭建个人博客?&lt;/a>&lt;/li>
 &lt;li>本文基于&lt;a href="https://www.fomal.cc/posts/4aa2d85f.html">Hexo博客搭建基础教程(二)&lt;/a>修改，部分转载&lt;/li>
 &lt;li>我的&lt;strong>Hexo优化系列&lt;/strong>：&lt;a href="https://blog.fiveth.cc/tags/hexo">Hexo文章目录&lt;/a>&lt;/li>
@@ -507,15 +505,9 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i &lt;span style="color:#f92672">+=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print(i)
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>然后将文件名后缀修改成&lt;code>.py&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>在文件夹空白处右键，点击&lt;code>在终端中打开&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>在终端中输入&lt;code>python rename.py&lt;/code>即可运行脚本&lt;/p>
-&lt;/li>
+&lt;li>然后将文件名后缀修改成&lt;code>.py&lt;/code>&lt;/li>
+&lt;li>在文件夹空白处右键，点击&lt;code>在终端中打开&lt;/code>&lt;/li>
+&lt;li>在终端中输入&lt;code>python rename.py&lt;/code>即可运行脚本&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;p>另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊&lt;/p></description></item><item><title>Hexo博客优化：如何优化Hexo的网站性能？</title><link>https://blog.fiveth.cc/p/95d6/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/95d6/</guid><description>&lt;p>对一个网站来说，性能是非常重要的，它决定了用户在网页停留的时长。&lt;/p>
