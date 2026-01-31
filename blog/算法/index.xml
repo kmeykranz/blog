@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>算法 on Fiveth's Blog</title><link>https://blog.fiveth.cc/blog/%E7%AE%97%E6%B3%95/</link><description>Recent content in 算法 on Fiveth's Blog</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2026, Fiveth.</copyright><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://blog.fiveth.cc/blog/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>排序算法</title><link>https://blog.fiveth.cc/p/92b9/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/92b9/</guid><description>&lt;h4 id="各种排序">各种排序&lt;/h4>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>算法 on Fiveth</title><link>https://fiveth.cc/blog/%E7%AE%97%E6%B3%95/</link><description>Recent content in 算法 on Fiveth</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2026, Fiveth.</copyright><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://fiveth.cc/blog/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>排序算法</title><link>https://fiveth.cc/p/92b9/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/p/92b9/</guid><description>&lt;h4 id="各种排序">各种排序&lt;/h4>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -78,7 +78,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>当然也可以直接用algorithm头文件中的sort函数，&lt;/p>
 &lt;p>我们学会自己写是为了理解原理，提升思维，&lt;/p>
-&lt;p>同时在有特殊需求的时候可以更自定义化。&lt;/p></description></item><item><title>链表</title><link>https://blog.fiveth.cc/p/c8a8/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/c8a8/</guid><description>&lt;p>我们存储很多数的时候，通常使用数组，但是数组不够灵活。&lt;/p>
+&lt;p>同时在有特殊需求的时候可以更自定义化。&lt;/p></description></item><item><title>链表</title><link>https://fiveth.cc/p/c8a8/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/p/c8a8/</guid><description>&lt;p>我们存储很多数的时候，通常使用数组，但是数组不够灵活。&lt;/p>
 &lt;p>哦？为什么说不灵活？&lt;/p>
 &lt;p>我们如果要在一个数组前面或者中间插入一个数，就会很麻烦。&lt;/p>
 &lt;p>假设我们有一个数组a,里面是排序好的数字,我们要将7按大小顺序插入数组&lt;/p>
@@ -160,7 +160,7 @@
 &lt;p>讲讲&lt;strong>malloc函数&lt;/strong>，malloc函数的作用是&lt;strong>动态分配内存&lt;/strong>。&lt;/p>
 &lt;p>每次输入数据前，我们就用p指向一个动态申请的新空间，然后存入数据。&lt;/p>
 &lt;p>程序的最后，我们用&lt;strong>free()函数&lt;/strong>来&lt;strong>释放&lt;/strong>动态申请的&lt;strong>空间&lt;/strong>，这样可以让我们的程序更安全。&lt;/p>
-&lt;p>我们学习c语言和c++应该追求最大程度地优化，排除可能出现的问题。&lt;/p></description></item><item><title>欧拉筛-高效筛选质数</title><link>https://blog.fiveth.cc/p/a680/</link><pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/a680/</guid><description>&lt;p>如何高效筛素数？让我们来看看&lt;/p>
+&lt;p>我们学习c语言和c++应该追求最大程度地优化，排除可能出现的问题。&lt;/p></description></item><item><title>欧拉筛-高效筛选质数</title><link>https://fiveth.cc/p/a680/</link><pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/p/a680/</guid><description>&lt;p>如何高效筛素数？让我们来看看&lt;/p>
 &lt;p>&lt;strong>题目&lt;/strong>：生成一个1到n范围内的质数数组&lt;/p>
 &lt;h2 id="菜鸟这样做枚举法">菜鸟这样做（枚举法）&lt;/h2>
 &lt;p>从1枚举到n，判断是素数就存入数组&lt;/p>
@@ -249,7 +249,7 @@
  &lt;td style="text-align: left">⋯&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>算法：高精度运算</title><link>https://blog.fiveth.cc/p/e08/</link><pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/e08/</guid><description>&lt;p>我们知道每种数据类型的储存空间是有限的，如果我们要储存非常大的数可以用long long，更大则unsigned long long，再大就是有些编译器提供的_int128类型，但是要是比这还要大呢?我们就需要用到&lt;strong>高精度运算&lt;/strong>，&lt;strong>用数组来模拟非常大的整数&lt;/strong>。&lt;/p>
+&lt;/table></description></item><item><title>算法：高精度运算</title><link>https://fiveth.cc/p/e08/</link><pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/p/e08/</guid><description>&lt;p>我们知道每种数据类型的储存空间是有限的，如果我们要储存非常大的数可以用long long，更大则unsigned long long，再大就是有些编译器提供的_int128类型，但是要是比这还要大呢?我们就需要用到&lt;strong>高精度运算&lt;/strong>，&lt;strong>用数组来模拟非常大的整数&lt;/strong>。&lt;/p>
 &lt;p>我们只要定义一个数组，把数字分别放入数组序列中就可以储存非常大的数。&lt;/p>
 &lt;p>接下来我们看看怎么使用高精度运算。&lt;/p>
 &lt;p>（注意以下都是我个人的解法，不一定是最优解，借鉴学习即可）&lt;/p>
@@ -369,7 +369,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
-&lt;p>灵活掌握，举一反三才能在程序竞赛中绽放自我。&lt;/p></description></item><item><title>辗转相除法-求最大公因数</title><link>https://blog.fiveth.cc/p/72c/</link><pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/72c/</guid><description>&lt;p>辗转相除法是一种求最大公因数的计算方法。&lt;/p>
+&lt;p>灵活掌握，举一反三才能在程序竞赛中绽放自我。&lt;/p></description></item><item><title>辗转相除法-求最大公因数</title><link>https://fiveth.cc/p/72c/</link><pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/p/72c/</guid><description>&lt;p>辗转相除法是一种求最大公因数的计算方法。&lt;/p>
 &lt;p>这种方法在编程中很常用，在数学计算中也可以用来求很复杂的最大公因数问题。&lt;/p>
 &lt;h2 id="如何使用">如何使用&lt;/h2>
 &lt;p>题目：求最大公因数(36,14)&lt;/p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on Fiveth's Blog</title><link>https://blog.fiveth.cc/blog/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on Fiveth's Blog</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2026, Fiveth.</copyright><lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://blog.fiveth.cc/blog/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Theme Cybe：分享一下我自己魔改的博客主题</title><link>https://blog.fiveth.cc/p/cybe/</link><pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/cybe/</guid><description>&lt;h1 id="主题魔改">💻主题魔改&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on Fiveth</title><link>https://fiveth.cc/blog/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on Fiveth</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2026, Fiveth.</copyright><lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://fiveth.cc/blog/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Theme Cybe：分享一下我自己魔改的博客主题</title><link>https://fiveth.cc/p/cybe/</link><pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/p/cybe/</guid><description>&lt;h1 id="主题魔改">💻主题魔改&lt;/h1>
 &lt;p>前段时间我对Stack主题进行了很大的魔改，魔改内容大概如下：&lt;/p>
 &lt;ul>
 &lt;li>将原先的左侧导航栏换成了传统的顶部导航栏&lt;/li>
@@ -64,7 +64,7 @@
 &lt;h2 id="其余设置">其余设置&lt;/h2>
 &lt;p>其余设置请参考原主题文档进行配置 &lt;a href="https://stack.jimmycai.com/">https://stack.jimmycai.com/&lt;/a>&lt;/p>
 &lt;h2 id="支持">支持&lt;/h2>
-&lt;p>如遇到问题，可以提交&lt;a href="https://github.com/kmeykranz/hugo-theme-cybe/issues">github issue&lt;/a>。&lt;/p></description></item><item><title>关于博客框架迁移</title><link>https://blog.fiveth.cc/p/hugo/</link><pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/hugo/</guid><description>&lt;p>hi，大家应该发现了，我的博客变样了&lt;/p>
+&lt;p>如遇到问题，可以提交&lt;a href="https://github.com/kmeykranz/hugo-theme-cybe/issues">github issue&lt;/a>。&lt;/p></description></item><item><title>关于博客框架迁移</title><link>https://fiveth.cc/p/hugo/</link><pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/p/hugo/</guid><description>&lt;p>hi，大家应该发现了，我的博客变样了&lt;/p>
 &lt;p>因为我把博客从&lt;code>Hexo&lt;/code>迁移到了&lt;code>Hugo&lt;/code>&lt;/p>
 &lt;blockquote>
 &lt;ul>
@@ -113,10 +113,10 @@
 &lt;/ul>
 &lt;/blockquote>
 &lt;p>&lt;strong>我在自动部署处做了些改动&lt;/strong>：
-把&lt;code>deploy_key&lt;/code>那行换成&lt;code>PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}&lt;/code>，然后在仓库设置添加secret变量&lt;code>PERSONAL_TOKEN&lt;/code>，里面填&lt;code>token&lt;/code>。&lt;code>token&lt;/code>在用户设置中创建，要勾选&lt;code>repo&lt;/code>和&lt;code>workflow&lt;/code>权限。&lt;/p></description></item><item><title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title><link>https://blog.fiveth.cc/p/138e/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/138e/</guid><description>&lt;ul>
-&lt;li>本篇前文：&lt;a href="https://blog.fiveth.cc/p/bb32.html">如何用Hexo搭建个人博客?&lt;/a>&lt;/li>
+把&lt;code>deploy_key&lt;/code>那行换成&lt;code>PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}&lt;/code>，然后在仓库设置添加secret变量&lt;code>PERSONAL_TOKEN&lt;/code>，里面填&lt;code>token&lt;/code>。&lt;code>token&lt;/code>在用户设置中创建，要勾选&lt;code>repo&lt;/code>和&lt;code>workflow&lt;/code>权限。&lt;/p></description></item><item><title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title><link>https://fiveth.cc/p/138e/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/p/138e/</guid><description>&lt;ul>
+&lt;li>本篇前文：&lt;a href="https://fiveth.cc/p/bb32.html">如何用Hexo搭建个人博客?&lt;/a>&lt;/li>
 &lt;li>本文基于&lt;a href="https://www.fomal.cc/posts/4aa2d85f.html">Hexo博客搭建基础教程(二)&lt;/a>修改，部分转载&lt;/li>
-&lt;li>我的&lt;strong>Hexo优化系列&lt;/strong>：&lt;a href="https://blog.fiveth.cc/tags/hexo">Hexo文章目录&lt;/a>&lt;/li>
+&lt;li>我的&lt;strong>Hexo优化系列&lt;/strong>：&lt;a href="https://fiveth.cc/tags/hexo">Hexo文章目录&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>我的博客搭建教程是一年前写的了，非常感谢&lt;a href="https://www.fomal.cc/">fomalhaut&lt;/a>，当时我是跟着他的教程一步步搭建的。最近我终于在b站发了视频版的博客搭建教程，有很多朋友想进一步优化博客。这篇文章接上一篇，教大家将博客部署到vercel、主题安装、Hexo博客的基础用法。&lt;/p>
 &lt;h2 id="vercel部署">Vercel部署&lt;/h2>
@@ -451,7 +451,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">enable&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">subtitle&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;页面沒有找到&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">background&lt;/span>: 
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr></description></item><item><title>Hexo博客优化：批量修改md文件名</title><link>https://blog.fiveth.cc/p/fbe8/</link><pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/fbe8/</guid><description>&lt;p>今天整理博客，发现我给文章取的文件名比较混乱，要找文章的时候会很不方便。&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr></description></item><item><title>Hexo博客优化：批量修改md文件名</title><link>https://fiveth.cc/p/fbe8/</link><pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/p/fbe8/</guid><description>&lt;p>今天整理博客，发现我给文章取的文件名比较混乱，要找文章的时候会很不方便。&lt;/p>
 &lt;p>一般我们都是用&lt;code>hexo new file_name&lt;/code>创建文章的md文件的，然后文章的标题是在md文件的信息栏定义的。而我们很多时候是开始写文章才想好标题，随着写作标题也会发生变动，这导致最后我们文章标题和文件名是不同的，加大了我们的管理难度。&lt;/p>
 &lt;p>所以我们会在改动文章标题的时候，将文件名也改成一样的。但是这样手动改非常麻烦。因此我配合ChatGPT用Python写了个一键批量修改文件名的小脚本。这样我们就可以很方便的一键将文件名全部都同步成文章的标题。&lt;/p>
 &lt;p>&lt;img src="https://p.fiveth.cc/img/2024/04/09144430.webp" alt="image1">&lt;/p>
@@ -510,7 +510,7 @@
 &lt;li>在终端中输入&lt;code>python rename.py&lt;/code>即可运行脚本&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;p>另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊&lt;/p></description></item><item><title>Hexo博客优化：如何优化Hexo的网站性能？</title><link>https://blog.fiveth.cc/p/95d6/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/95d6/</guid><description>&lt;p>对一个网站来说，性能是非常重要的，它决定了用户在网页停留的时长。&lt;/p>
+&lt;p>另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊&lt;/p></description></item><item><title>Hexo博客优化：如何优化Hexo的网站性能？</title><link>https://fiveth.cc/p/95d6/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/p/95d6/</guid><description>&lt;p>对一个网站来说，性能是非常重要的，它决定了用户在网页停留的时长。&lt;/p>
 &lt;p>如果网页的加载速度很慢的话，用户很容易就会离去。&lt;/p>
 &lt;p>有朋友说我的博客速度挺快的，这篇文章就讲讲我是如何&lt;strong>优化我的网站性能&lt;/strong>的。&lt;/p>
 &lt;h2 id="性能检测">性能检测&lt;/h2>
@@ -573,7 +573,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">meting_js&lt;/span>: &lt;span style="color:#ae81ff">https://npm.elemecdn.com/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="总结">总结&lt;/h2>
 &lt;p>这些大概就是我对我的网站做的优化总结了，其实还有很多地方可以再提升，但是对我来说已经够用了。&lt;/p>
-&lt;p>希望大家都可以积极地去优化网站的性能，这样才可以收获更多的游客🙂&lt;/p></description></item><item><title>如何用Hexo搭建个人博客?</title><link>https://blog.fiveth.cc/p/bb32/</link><pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/bb32/</guid><description>&lt;blockquote>
+&lt;p>希望大家都可以积极地去优化网站的性能，这样才可以收获更多的游客🙂&lt;/p></description></item><item><title>如何用Hexo搭建个人博客?</title><link>https://fiveth.cc/p/bb32/</link><pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/p/bb32/</guid><description>&lt;blockquote>
 &lt;p>&lt;code>2024.4&lt;/code> 我出了视频版教程啦：&lt;a href="https://www.bilibili.com/video/BV1Ju4m1c7WR/">bilibili视频链接&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>我的个人博客搭建成功啦！&lt;/p>
@@ -694,6 +694,6 @@ hexo d
 &lt;p>大家可以参阅主题文档进行安装配置&lt;/p>
 &lt;p>有什么问题的话欢迎评论。&lt;/p>
 &lt;blockquote>
-&lt;p>本篇下文：&lt;a href="https://blog.fiveth.cc/p/138e.html">Hexo搭建进阶：Vercel部署、主题安装、基础用法&lt;/a>
+&lt;p>本篇下文：&lt;a href="https://fiveth.cc/p/138e.html">Hexo搭建进阶：Vercel部署、主题安装、基础用法&lt;/a>
 我的&lt;strong>Hexo优化系列&lt;/strong>：&lt;a href="https://www.fomal.cc/posts/4aa2d85f.html">Hexo文章目录&lt;/a>&lt;/p>
 &lt;/blockquote></description></item></channel></rss>

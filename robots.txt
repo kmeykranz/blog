@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://blog.fiveth.cc/sitemap.xml
+Sitemap: https://fiveth.cc/sitemap.xml
