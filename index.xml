@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>about on Fiveth's Blog</title><link>https://blog.fiveth.cc/</link><description>Recent content in about on Fiveth's Blog</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2026, Fiveth.</copyright><lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://blog.fiveth.cc/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-09</title><link>https://blog.fiveth.cc/now/2025-09/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/now/2025-09/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>about on Fiveth's Blog</title><link>https://blog.fiveth.cc/</link><description>Recent content in about on Fiveth's Blog</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2026, Fiveth.</copyright><lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://blog.fiveth.cc/index.xml" rel="self" type="application/rss+xml"/><item><title>DuckChat</title><link>https://blog.fiveth.cc/projects/duck-chat/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/duck-chat/</guid><description>&lt;h1 id="duckchat">DuckChat&lt;/h1>
+&lt;p>05/2023&lt;/p>
+&lt;blockquote>
+&lt;p>A simple chat app based on TCP network made with C++ and Qt.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://github.com/kmeykranz/DuckChat">Github Link&lt;/a> | &lt;a href="https://www.bilibili.com/video/BV1pg4y177y4/">Video Showcase&lt;/a>&lt;/p>
+&lt;p>A practice project for tcp network in Qt.&lt;/p></description></item><item><title>LivelyKitchen</title><link>https://blog.fiveth.cc/projects/lively-kitchen/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/lively-kitchen/</guid><description>&lt;h1 id="livelykitchen">LivelyKitchen&lt;/h1>
+&lt;p>07/2025&lt;/p>
+&lt;blockquote>
+&lt;p>10th place out of 48 teams in 2025 CiGA Game Jam (the Chinese largest 48-hour game development hackathon).&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://github.com/MamboJiang/LivelyKitchen">Github Link&lt;/a> | &lt;a href="https://mambojiang.itch.io/livelykitchen">Play on itch.io&lt;/a>&lt;/p>
+&lt;p>Game Features:&lt;/p>
+&lt;ul>
+&lt;li>Soul-Possession Mechanic: Play as a wandering spirit that possesses your units to unleash unique abilities.&lt;/li>
+&lt;li>Unit Abilities:
+&lt;ul>
+&lt;li>🔪 Chef’s Knife: Slice through enemies with a deadly swipe!&lt;/li>
+&lt;li>🍲 Pot: Shield your entire team with a protective barrier!&lt;/li>
+&lt;li>🥛 Milk Carton: Heal allies in a splash of creamy goodness!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Victory Condition: Eliminate ALL opposing units to win!&lt;/li>
+&lt;/ul>
+&lt;p>Made with: Godot 4.4.1 | Asperite&lt;/p></description></item><item><title>RectMan</title><link>https://blog.fiveth.cc/projects/rect-man/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/rect-man/</guid><description>&lt;h1 id="rectman">RectMan&lt;/h1>
+&lt;p>07/2023&lt;/p>
+&lt;blockquote>
+&lt;p>A TCP‑Based Local Multiplayer Game built with C++ and the Qt 6.2.4 framework.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://github.com/kmeykranz/RectMans">Github Link&lt;/a> | &lt;a href="https://www.bilibili.com/video/BV1oL411h7Ms">Showcase Video&lt;/a>&lt;/p>
+&lt;p>• Built a real time multiplayer system with TCP synchronization.
+• Designed a pseudo 3D world with dynamic camera tracking and AI zombies.&lt;/p>
+&lt;p>I made this game when I was in grade 10. It’s one of the games I developed without using a game engine. After learning about the tcp functions in Qt. I used them to make this game for practicing.&lt;/p></description></item><item><title>ScreenBro</title><link>https://blog.fiveth.cc/projects/screen-bro/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/screen-bro/</guid><description>&lt;h1 id="screenbro">ScreenBro&lt;/h1>
+&lt;p>04/2024&lt;/p>
+&lt;blockquote>
+&lt;p>A Cross‑Window Shooting Game built with C++ and SDL2 render library.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://www.bilibili.com/video/BV1JS411N7eV/">Showcase Video&lt;/a> | &lt;a href="https://github.com/kmeykranz/ScreenBro">Github Link&lt;/a>&lt;/p>
+&lt;p>• Entirely coded from scratch without any game engine.&lt;br>
+• Implemented a unique mechanic allowing characters to move across overlapping OS windows.
+• Techniques: state machines, scene management, and optimized movement logic.&lt;/p></description></item><item><title>Self‑Media on Digital Productivity &amp; AI Learning</title><link>https://blog.fiveth.cc/projects/self-media/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/self-media/</guid><description>&lt;h1 id="selfmedia-on-digital-productivity--ai-learning">Self‑Media on Digital Productivity &amp;amp; AI Learning&lt;/h1>
+&lt;p>Ongoing&lt;/p>
+&lt;blockquote>
+&lt;p>Coaching &amp;amp; knowledge-sharing with a growing community of 176k+ followers across major platforms.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://space.bilibili.com/358065206">Bilibili&lt;/a> | &lt;a href="https://www.xiaohongshu.com/user/profile/610ffa94000000002002f971">RedNote&lt;/a> | &lt;a href="https://www.douyin.com/user/MS4wLjABAAAA1uyDMa-Bzw76mU9fCH2j-rRzf88eFeW_E2glGXzA0tE">Douyin&lt;/a>&lt;/p>
+&lt;p>I create tutorials on Obsidian, helping people organize their life, work, and knowledge.&lt;/p>
+&lt;p>I also provide guidance on leveraging AI for smarter learning, showing practical methods to integrate AI into personal growth and productivity.&lt;/p></description></item><item><title>Untitled</title><link>https://blog.fiveth.cc/p/untitled/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/untitled/</guid><description>&lt;h1 id="untitled">Untitled&lt;/h1></description></item><item><title>V-Ray</title><link>https://blog.fiveth.cc/projects/v-ray/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/v-ray/</guid><description>&lt;h1 id="v-ray">V-Ray&lt;/h1>
+&lt;p>10/2022&lt;/p>
+&lt;blockquote>
+&lt;p>Finalist Team in 2022-2023 Conrad Challenge China&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Designed and developed V-Ray, a solar-powered 3D vision education device aimed at enhancing interactive learning experiences.&lt;/li>
+&lt;li>Selected as a finalist in the Conrad Challenge China for innovative application of renewable energy and 3D visualization in education.&lt;/li>
+&lt;li>Collaborated in a multidisciplinary team to conceptualize, prototype, and present the device to an international panel of judges.&lt;/li>
+&lt;/ul></description></item><item><title>VEX Robotics Programming</title><link>https://blog.fiveth.cc/projects/vex-robotics/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/vex-robotics/</guid><description>&lt;h1 id="vex-robotics-programming">VEX Robotics Programming&lt;/h1>
+&lt;p>02/2023&lt;/p>
+&lt;blockquote>
+&lt;p>2023 VEX Robotics Asia Open Finals&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Programmed and optimized the robot’s operating system using C++, focusing on motor velocity control and responsive controller key mapping.&lt;/li>
+&lt;li>Ensured reliable performance during competition by debugging and refining code under time constraints.&lt;/li>
+&lt;li>Collaborated with teammates to integrate hardware and software, contributing to overall team success at the finals.&lt;/li>
+&lt;li>Gained hands-on experience in robotics programming, control systems, and competitive engineering problem-solving.&lt;/li>
+&lt;/ul></description></item><item><title>ZooTodo</title><link>https://blog.fiveth.cc/projects/zoo-todo/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/zoo-todo/</guid><description>&lt;h1 id="zootodo">ZooTodo&lt;/h1>
+&lt;p>03/2024&lt;/p>
+&lt;blockquote>
+&lt;p>Gamified Productivity To‑Do App with Virtual Rewards made with C++ and Qt.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://github.com/kmeykranz/ZooTodo">Github Link&lt;/a> | &lt;a href="https://www.bilibili.com/video/BV16j421D7yJ/">Showcase Video&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Designed a motivational to do system where users earn interactive virtual animals.&lt;/li>
+&lt;li>Supports usage record checking and global shortcut keys for high efficiency.&lt;/li>
+&lt;li>Strongly aligns with my interest in productivity, knowledge systems, and user motivation.&lt;/li>
+&lt;/ul></description></item><item><title>2025-09</title><link>https://blog.fiveth.cc/now/2025-09/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/now/2025-09/</guid><description>&lt;blockquote>
 &lt;p>Updated 2025-09-06&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="新的旅程">🏫新的旅程&lt;/h3>
@@ -12,345 +88,4 @@
 &lt;h3 id="删掉社媒">📱删掉社媒&lt;/h3>
 &lt;p>最近做的最正确的一件事是把手机上的社媒（bilibili、小红书）删了，只允许自己在笔记本上的网页版使用（有时候要查询一些信息）。这让我的时间和精力都大大提高，完全是质变的程度。社交媒体不只占用了我们大量的时间，还消耗了很多的能量和精力，要知道我们一天的能量是有限的。&lt;/p>
 &lt;h3 id="前路漫漫">🚶‍♂️前路漫漫&lt;/h3>
-&lt;p>来到这个人生阶段，感慨万千，无数条路摆在我的面前，加油吧少年。去探索，去绽放。&lt;/p></description></item><item><title>2025-07</title><link>https://blog.fiveth.cc/now/2025-07/</link><pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/now/2025-07/</guid><description>&lt;blockquote>
-&lt;p>Updated 2025-07-20&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="-毕业暑假">☀️ 毕业暑假&lt;/h3>
-&lt;p>在考完高三最后的几场考试后，我迎来了高中毕业后的暑假。这是一个重大的人生节点，我从一个高中生转变成了一名准大学生。暑假应该让生活步入正轨，锻炼实用的技能。&lt;/p>
-&lt;h3 id="-等待结果">💭 等待结果&lt;/h3>
-&lt;p>考试成绩在8月中旬才出来，所以最后的择校也要等到那时才能确定。最近在做一些大学入学的准备（材料递交、宿舍申请、签证申请）。&lt;/p>
-&lt;h3 id="-新战友">💻 新战友&lt;/h3>
-&lt;p>入手了Macbook Air M4，从今天起它就是我的新战友，我们一起前行。慢慢的已经熟悉了macos，配置了iTerm终端，装了RayCast，用Orbstack装上了Linux虚拟机。&lt;/p>
-&lt;h3 id="-lets-rust">🦀 Let&amp;rsquo;s Rust&lt;/h3>
-&lt;p>回顾高中时期，我熟悉了C++的基础和面向对象编程，写了很多程序和游戏，也是时候往深处走了，学习底层的原理和更深的知识。最近开始学习Rust，不只因为Rust是一个非常有前景的语言，对它的学习还可以提升我写C++的程序设计能力。&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> 学习&lt;a href="https://course.rs/about-book.html">《Rust语言圣经》&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="-生命在于运动">🏋️‍♂️ 生命在于运动&lt;/h3>
-&lt;p>因为考试一个月多月没运动了，本来热爱健身的我，现在也懒了起来。久坐在家中，身体也传来不详的信号，意识到不对，最近重启了健身习惯。&lt;/p></description></item><item><title>《刻意暂停》</title><link>https://blog.fiveth.cc/book/%E5%88%BB%E6%84%8F%E6%9A%82%E5%81%9C/</link><pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/book/%E5%88%BB%E6%84%8F%E6%9A%82%E5%81%9C/</guid><description>&lt;h1 id="the-book-in-3-sentences">🚀The Book in 3 Sentences&lt;/h1>
-&lt;ul>
-&lt;li>学会刻意暂停，在状态不对时进行重启，在一番整顿后带着高动力和正确的策略重回战场&lt;/li>
-&lt;li>经常重新审视自己的目的，了解自己想要什么，我们很容易在他人的影响下脱离初衷&lt;/li>
-&lt;li>设计自己的人生，树立自己的核心价值观，不要随波逐流&lt;/li>
-&lt;/ul>
-&lt;h1 id="-impressions">🎨 Impressions&lt;/h1>
-&lt;p>看到书名时还以为讲的是番茄工作法、冥想恢复精力之类的。没想到和想的不一样，讲了一个全新的维度，颇有收获。我们在努力去学习的时候很容易三分钟热度，这时候要做的不是硬撑，而是“重启”，让自己再次找到动力、目标、状态，学会定期重启，就能让自己长期保持高效。&lt;/p>
-&lt;h1 id="quotes">🗨Quotes&lt;/h1>
-&lt;blockquote>
-&lt;p>如果一个人想要什么就可以获得什么，那他随时都可能陷入万劫不复的陷阱。-巴菲特的儿子&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>我们经常失去自我，在人群中随波逐流。大多数人想要什么，就误认为自己也想要什么。&lt;/p>
-&lt;/blockquote>
-&lt;h1 id="notes">📒Notes&lt;/h1>
-&lt;h2 id="何时重启">何时重启&lt;/h2>
-&lt;ol>
-&lt;li>当迫切感消失时&lt;/li>
-&lt;li>觉得自己没什么可学了&lt;/li>
-&lt;li>采用过去的经验但没有效果&lt;/li>
-&lt;/ol>
-&lt;h2 id="6阶段重启法">6阶段重启法&lt;/h2>
-&lt;h3 id="1暂停-观点重启">1.暂停-观点重启&lt;/h3>
-&lt;p>找出是什么让自己感到疲惫，是不是有错误的观点&lt;/p>
-&lt;p>&lt;strong>问自己&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>我遇到了什么问题？&lt;/li>
-&lt;li>为什么会这样？&lt;/li>
-&lt;li>我需要反省和放下什么？&lt;/li>
-&lt;/ul>
-&lt;h3 id="2调整-目的重启">2.调整-目的重启&lt;/h3>
-&lt;p>重新审视自己的目的，以免在他人的影响下脱离了初衷。&lt;/p>
-&lt;p>&lt;strong>了解自己想要什么&lt;/strong>&lt;/p>
-&lt;h3 id="3定位-方向重启">3.定位-方向重启&lt;/h3>
-&lt;p>找到自己认为最重要的价值观，一个引领自己去努力的方向&lt;/p>
-&lt;p>只要方向正确，就不用担心结果&lt;/p>
-&lt;p>我们要留给子孙后代的不应该是有限的金钱，而是引领人生过得堂堂正正的方向。&lt;/p>
-&lt;h3 id="4再出发-流程重启">4.再出发-流程重启&lt;/h3>
-&lt;p>在一开始成功的人容易懈怠，而失败的人会分析问题，越挫越勇。&lt;/p>
-&lt;p>不管我们是否成功，都应该重新审视自己的流程，不断地去&lt;strong>优化&lt;/strong>。&lt;/p>
-&lt;h3 id="5贯彻-自我重启">5.贯彻-自我重启&lt;/h3>
-&lt;p>现在不做，何时做？
-不在这里做，在哪里做？
-做吗？我不做，谁可以做？&lt;/p>
-&lt;h3 id="6飞跃-行动重启">6.飞跃-行动重启&lt;/h3>
-&lt;p>行动起来
-&lt;strong>Tip&lt;/strong>：先做困难的事情，再做简单的&lt;/p></description></item><item><title>《未来简史》</title><link>https://blog.fiveth.cc/book/%E6%9C%AA%E6%9D%A5%E7%AE%80%E5%8F%B2/</link><pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/book/%E6%9C%AA%E6%9D%A5%E7%AE%80%E5%8F%B2/</guid><description>&lt;h1 id="the-book-in-3-sentences">🚀The Book in 3 Sentences&lt;/h1>
-&lt;ul>
-&lt;li>人类社会过去的三大议题，和未来的三大议题&lt;/li>
-&lt;li>人类和动物的区别&lt;/li>
-&lt;li>人文主义的发展以及未来的数据主义&lt;/li>
-&lt;/ul>
-&lt;h1 id="-impressions">🎨 Impressions&lt;/h1>
-&lt;p>在豆瓣上看到对这本评价褒贬不一，但经验告诉我不要管他们的评价，我花了几个小时把这本书过完了，我觉得还是有收获的。我了解了人文主义不同流派的争辩、历史发展，还了解了科技将会对人文主义带来的巨大影响。&lt;/p>
-&lt;h1 id="notes">📒Notes&lt;/h1>
-&lt;h2 id="人类过去和未来的议题">人类过去和未来的议题&lt;/h2>
-&lt;p>&lt;strong>人类的过去三大议题&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>饥荒&lt;/li>
-&lt;li>传染病&lt;/li>
-&lt;li>战争
-&lt;strong>未来新议题&lt;/strong>：&lt;/li>
-&lt;li>客服死亡&lt;/li>
-&lt;li>幸福快乐&lt;/li>
-&lt;li>成为“神”&lt;/li>
-&lt;/ul>
-&lt;h2 id="人文主义发展">人文主义发展&lt;/h2>
-&lt;p>泛神论（过去）-&amp;gt;人文主义（现在）-&amp;gt;数据主义（预测未来）&lt;/p>
-&lt;h3 id="人文主义流派">人文主义流派&lt;/h3>
-&lt;p>&lt;strong>自由人文主义&lt;/strong>：
-- 每个人的意见都很有价值
-- 每个人的意志是独立、不可分割的
-- 自己是最优先的
-- 政治体现：选民投票
-&lt;strong>社会人文主义&lt;/strong>：
-- 对整个社会好的才是有价值的
-- 他人是最优先的
-- 政治体现：交给政府部门做出对社会最优的选择
-&lt;strong>进化人文主义&lt;/strong>：
-- 优秀的人的意见才有价值
-- 保留好的，淘汰坏的&lt;/p>
-&lt;h3 id="科技带来的流派">科技带来的流派&lt;/h3>
-&lt;p>&lt;strong>科技人文主义&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>用科技辅助人类
-在未来科技影响下，比如记忆传输、人工多巴胺…人的认知将会变化，情绪、欲望也可被人工操控调整。
-生物科学告诉我们个人的意志是可以分割的，所以推翻了自由人文主义。举例子，当我们人工抑制右脑，只用左脑思考时候，我们会有不同决策。
-&lt;strong>数据主义&lt;/strong>：&lt;/li>
-&lt;li>一切由数据决定&lt;/li>
-&lt;li>对数据有贡献的就是有价值的
-数据主义中，人的意见不再具有价值，分析计算出来的最优数据才是价值所在。举例子，把一切决策交给AI来做。&lt;/li>
-&lt;/ul></description></item><item><title>《你当像鸟飞往你的山》</title><link>https://blog.fiveth.cc/book/%E4%BD%A0%E5%BD%93%E5%83%8F%E9%B8%9F%E9%A3%9E%E5%BE%80%E4%BD%A0%E7%9A%84%E5%B1%B1/</link><pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/book/%E4%BD%A0%E5%BD%93%E5%83%8F%E9%B8%9F%E9%A3%9E%E5%BE%80%E4%BD%A0%E7%9A%84%E5%B1%B1/</guid><description>&lt;h1 id="the-book-in-3-sentences">🚀The Book in 3 Sentences&lt;/h1>
-&lt;ul>
-&lt;li>一个女孩从一个封建迷信、霸权主义、反社会的山中家庭中走出来的故事她被迫在教育和家人中做出选择，背弃家人接受教育，或者是蒙蔽双眼回到家中&lt;/li>
-&lt;li>她在大学中受到了正确的教育，但每当她再次回到家中，她就再次陷入其中，仿佛变回16岁时那个对父母深信不疑的女孩，仿佛她从未走出去过&lt;/li>
-&lt;li>十几年的挣扎，最后的她，从家里脱离出来了，不只是物理上的，更重要的是精神上的&lt;/li>
-&lt;/ul>
-&lt;h1 id="-impressions">🎨 Impressions&lt;/h1>
-&lt;p>看完这本书，泪目了。家是每个人的避风港，但当你的家人反对世界的时候，你会选择家人还是世界呢？&lt;/p>
-&lt;p>这本书鼓励人们敢于对抗原生家庭，打破陋习，活出自己。&lt;/p></description></item><item><title>《被讨厌的勇气》</title><link>https://blog.fiveth.cc/book/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94/</link><pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/book/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94/</guid><description>&lt;h1 id="the-book-in-3-sentences">🚀The Book in 3 Sentences&lt;/h1>
-&lt;ul>
-&lt;li>否定原因论，一切都是目的论&lt;/li>
-&lt;li>一切的烦恼都来源于人际关系&lt;/li>
-&lt;li>学会课题分离&lt;/li>
-&lt;/ul>
-&lt;h1 id="notes">📒Notes&lt;/h1>
-&lt;h2 id="目的论">目的论&lt;/h2>
-&lt;p>阿德勒心理学=勇气心理学&lt;/p>
-&lt;p>核心：❌原因论-&amp;gt;✔目的论
-不存在心理创伤，那都是为了达到”避免一些事情“的目的的借口。&lt;/p>
-&lt;p>不要说”如果“，说出这句话代表着不会去改变。
-“如果我认真学的话，早考过了。“&lt;/p>
-&lt;p>很多人没有勇气去开始，因为他们怕开始了后失败，只要没开始，就永远可以找借口。&lt;/p>
-&lt;p>很多人用自己的”不幸“来当作武器，通过诉说自己的不幸来支配周围的朋友家人，获取利益。&lt;/p>
-&lt;blockquote>
-&lt;p>不在于被给予了什么，而在于如何去使用被给予的东西。&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="人际关系">人际关系&lt;/h2>
-&lt;blockquote>
-&lt;p>一切烦恼都来源于人际关系。&lt;/p>
-&lt;/blockquote>
-&lt;p>只要人际关系中存在竞争，就永远摆脱不了不幸。
-不要把他人的幸福看作自己的失败。&lt;/p>
-&lt;p>当你在意他人对你的看法时，你不是在关心他人，你其实只是在关心你自己。&lt;/p>
-&lt;h2 id="课题分离">课题分离&lt;/h2>
-&lt;blockquote>
-&lt;p>不干涉他人的课题&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>你关心他人 是你的课题；别人如何对待你的关心 是别人的课题&lt;/li>
-&lt;li>你怎么走自己的路 是你的课题；别人如何评价你的选择 是别人的课题&lt;/li>
-&lt;/ul>
-&lt;p>深厚的关系来源于无条件的信赖。你应该做的就是信赖她，而她背不背叛你是她的课题，这不是你需要干涉的。&lt;/p>
-&lt;p>“可以把马带到水边，但不能强迫其喝水”
-能改变自己的只有自己。&lt;/p>
-&lt;blockquote>
-&lt;p>自由就是被别人讨厌&lt;/p>
-&lt;/blockquote>
-&lt;p>良好的关系，需要一定距离。&lt;strong>分离课题&lt;/strong>是人际关系的出发点。&lt;/p>
-&lt;h2 id="共同体">共同体&lt;/h2>
-&lt;p>我是世界的一部分&lt;/p>
-&lt;p>当你在人际关系中遇到困难时，你应该倾听更大的共同体的声音
-&lt;em>例子&lt;/em>：&lt;/p>
-&lt;ul>
-&lt;li>当你被公司老板指责时，在公司这个单位中他是最大的，但是在世界这个单位中我们都是平等的人。&lt;/li>
-&lt;li>当你去其他国家时，从国家角度看，你是个外国人，但从更大的世界角度来看，我们都是地球人，是一个共同体。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>自我价值&lt;/strong>：来源于对共同体的贡献&lt;/p>
-&lt;ul>
-&lt;li>关心他人&lt;/li>
-&lt;li>鼓励他人&lt;/li>
-&lt;li>建立良好的横向关系&lt;/li>
-&lt;/ul>
-&lt;h2 id="不批评不表扬">不批评、不表扬&lt;/h2>
-&lt;p>&lt;strong>表扬&lt;/strong>-这个行为本身带有一种俯视的性质
-其背后的目的实际上是在：操控&lt;/p>
-&lt;p>正确的做法是：不表扬，而是鼓励&lt;/p>
-&lt;p>要把一切&lt;strong>纵向关系&lt;/strong>转向&lt;strong>横向关系&lt;/strong>&lt;/p>
-&lt;p>在一个家庭中：公司职员和家庭主妇，他们只是劳动任务不同，他们虽不同应该是平等的。&lt;/p></description></item><item><title>How to take smart notes</title><link>https://blog.fiveth.cc/book/how-to-take-smart-notes/</link><pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/book/how-to-take-smart-notes/</guid><description>&lt;h1 id="notes">📒Notes&lt;/h1>
-&lt;h2 id="1fleeting-notes">1.fleeting notes&lt;/h2>
-&lt;p>随时记录想法&lt;/p>
-&lt;h2 id="2literature-notes">2.literature notes&lt;/h2>
-&lt;p>非常&lt;strong>简洁&lt;/strong>，转化成自己的话写下来。&lt;/p>
-&lt;ul>
-&lt;li>目的主要是帮助在阅读的时候思考&lt;/li>
-&lt;li>在写main notes的时候可以有个参照物，看着literature notes去写。&lt;/li>
-&lt;/ul>
-&lt;h2 id="3permanent-notes">3.Permanent notes&lt;/h2>
-&lt;p>看fleeting notes和literature notes中有没有对你来说值得做成卡片笔记的：&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>可以去和其他内容形成关联的&lt;/strong>（改正、反驳、支持）&lt;/li>
-&lt;li>如果你知道以后你不会再看这张卡了，那就不要做&lt;/li>
-&lt;/ol>
-&lt;p>永久卡片应该写的详细一些，可以独立存在。
-最重要的不是去收集，而是去发展想法。&lt;/p>
-&lt;p>确保这个笔记可以在后续被你找到：一种是链接到index，另一种是链接到一个链接到index的笔记&lt;/p>
-&lt;h2 id="second-brain">Second brain&lt;/h2>
-&lt;p>把笔记库当成一个人，去和他讨论内容、讨论不同的话题。你的每张卡片都是你要和他说的话。&lt;/p>
-&lt;h2 id="new-insight">New insight&lt;/h2>
-&lt;p>在旧系统，问题是：我要把这个笔记存放在哪个主题下
-在新系统：我在什么情况想再次发现这个笔记&lt;/p></description></item><item><title>Make it stick</title><link>https://blog.fiveth.cc/book/make-it-stick/</link><pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/book/make-it-stick/</guid><description>&lt;h2 id="learning-is-misunderstood">Learning is Misunderstood&lt;/h2>
-&lt;p>learning is an acquired skill, most effective strategies are often counter-intuitive 反直觉的&lt;/p>
-&lt;blockquote>
-&lt;p>Learning is deeper and stronger when it&amp;rsquo;s effortfull.&lt;/p>
-&lt;/blockquote>
-&lt;p>least productive: rereading text, massed practice (Easy but weak, last short)&lt;/p>
-&lt;h4 id="best-learning-techniques">Best Learning Techniques:&lt;/h4>
-&lt;p>Key:&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>Retrieval Practice&lt;/strong>
-Retrieval practice is to recall knowledge from memory (includes quizzing, self-testing). It is the best thing to do for learning.&lt;/li>
-&lt;li>&lt;strong>Spaced practice&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Interleaved practice&lt;/strong>&lt;/li>
-&lt;/ol>
-&lt;p>Tips:&lt;/p>
-&lt;ul>
-&lt;li>Connection between knowledge&lt;/li>
-&lt;li>Trying to solve a problem before being taught&lt;/li>
-&lt;li>Distilling the underlying principles&lt;/li>
-&lt;/ul>
-&lt;p>要点：retrieval, spacing, interleaving, variation, Reflection, and elaboration.&lt;/p>
-&lt;h2 id="reflection">Reflection&lt;/h2>
-&lt;p>Reflection is a form of retrieval practice
-(What happened? What did I do? How did it work out?)&lt;/p>
-&lt;p>&lt;strong>Reflection involves&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>Retrieval Practice (recalling recently learned knowledge to mind),&lt;/li>
-&lt;li>Elaboration (for example, connecting new knowledge to what you already know)&lt;/li>
-&lt;li>Generation (for example, rephrasing key ideas in your own words or visualizing and mentally rehearsing what you might do differently next date).&lt;/li>
-&lt;/ul></description></item><item><title>《人类简史》</title><link>https://blog.fiveth.cc/book/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/book/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/</guid><description>&lt;h1 id="人类群体的数量上限">人类群体的数量上限&lt;/h1>
-&lt;p>在远古时代，人类群体一般在20～50人，再多的话就会分崩离析。&lt;br>
-人们学会八卦后，人类群体的上限到了&lt;strong>150人&lt;/strong>，人们可以通过互相八卦来形成关系链。&lt;br>
-一旦超过了150人，就需要人类编故事的力量&lt;/p>
-&lt;h1 id="人类编故事的力量">人类编故事的力量&lt;/h1>
-&lt;p>以前的人通过把他们整体想象成一个村庄、一个国家，想出来的法律，来让人类群体能够达到如此大的规模。&lt;/p>
-&lt;p>概念上来讲，我们现在的军队、公司、国家都是我们想象出来的，也就是我们编的故事。&lt;/p>
-&lt;p>它们不是一个实体，即使公司的楼被拆了，成员散了，这个公司也法律性的存在。法律也是我们想象出来的。我们就是通过这些来形成了现在安稳的社会。&lt;/p>
-&lt;h1 id="人类对未来的准备">人类对未来的准备&lt;/h1>
-&lt;p>当人们从采集时代转向农业时代，人们开始了不断的为未来准备，原来采集时代的想吃就去抓，变成了提前为以后种粮食，人们希望这样能让他们未来更安稳。（实际上没有，农业时代让人们只能长期定居某地，而且极度依赖天气）&lt;/p>
-&lt;h1 id="自由和平等">自由和平等&lt;/h1>
-&lt;p>自由和平等是冲突的&lt;br>
-美国民主党：社会平等，劫富济贫&lt;br>
-美国共和党：最大化社会自由，代价是加大贫富差距&lt;/p>
-&lt;h1 id="佛教思想">佛教思想&lt;/h1>
-&lt;p>佛教的自然法则：痛苦来自欲望。我们希望躲开悲伤，维持快乐。&lt;/p>
-&lt;blockquote>
-&lt;p>释迦牟尼找到一种方法可以跳出这种恶性循环。在事物带来快乐或痛苦的时候，重点是要看清事物的本质，而不是着重在它带来的感受，于是就能不再为此所困。虽然感受悲伤，但不要希望悲伤结束，于是虽然仍有悲伤，也能不再为此所困。虽然感受快乐，但不要希望快乐继续，于是虽然仍有快乐，也不能失去心中的平静。&lt;/p>
-&lt;/blockquote>
-&lt;p>主张 不杀生，不邪淫，不偷盗，因为这些不好的行为会让欲望如野火燎原。&lt;/p>
-&lt;h1 id="科学革命">科学革命&lt;/h1>
-&lt;p>从1945年第一颗原子弹出现时，人类拥有了终止历史进程的能力。&lt;br>
-以前的人认为人类已经过了黄金时代，不会再进步，古人的智慧是至上的。&lt;/p>
-&lt;h1 id="欧洲的崛起">欧洲的崛起&lt;/h1>
-&lt;p>欧洲帝国是如何短时间超越亚洲帝国的？
-最本质的区别是，欧洲人的思想不同，他们承认自己对世界是未知的。
-亚洲帝国是为了传播文化，而欧洲人的远行是为了探索和征服世界。&lt;/p>
-&lt;h1 id="人类存在的意义">人类存在的意义&lt;/h1>
-&lt;p>从纯粹的科学角度来说，人类的存在本身没有任何意义。&lt;br>
-即使人类全部灭亡，宇宙依旧在运行，人类的存在只是自然变迁。&lt;/p>
-&lt;p>科学家们研究科学，军人保护国家，教徒信奉神明&amp;hellip;实际上都是人类幻想出来的意义。&lt;br>
-人类的出现没有被赋予一个集体的意义。&lt;/p>
-&lt;p>如此来讲，从某种角度来说，我们作为人类最重要的是快乐。&lt;/p>
-&lt;h2 id="快乐的来源">快乐的来源&lt;/h2>
-&lt;p>快乐可以来源于实际感受，也可以来源于对意义的感受。
-（如果感觉自己做的事有意义的话，就会快乐，即使做这件事很苦）&lt;/p>
-&lt;ul>
-&lt;li>部分来源 客观：衣食温饱，财富&amp;hellip;&lt;/li>
-&lt;li>主要来源 主观：我们自己对生活的满意度&amp;hellip;&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>新时代教派&lt;/strong>：（快乐不在于客观，在于主管）快乐不在于外在条件，而在于内心的感受。&lt;br>
-&lt;strong>佛教&lt;/strong>：（快乐不在于乐观，也不在于主管）越在意内心感受，越会感受到痛苦&lt;/p>
-&lt;h1 id="关于未来的人类">关于未来的人类&lt;/h1>
-&lt;p>人类有可能会在2050年实现长生，或者是在下个世纪。&lt;/p>
-&lt;p>可能改变生命法则的科技有三种：&lt;/p>
-&lt;ul>
-&lt;li>生物工程：干预生物基因&lt;/li>
-&lt;li>仿生工程：装上机械组织&lt;/li>
-&lt;li>创造无机生命：如人工智能，电子大脑&lt;/li>
-&lt;/ul>
-&lt;p>未来的人类可能会实现大脑互通，记忆共享，未来的人类也许不再是和我们一样的智人，他们有和我们不一样的思维方式，更强大的大脑，他们看我们就像我们看猿人一般。&lt;/p></description></item><item><title>Hugo Theme Cybe：分享一下我自己魔改的博客主题</title><link>https://blog.fiveth.cc/p/cybe/</link><pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/p/cybe/</guid><description>&lt;h1 id="主题魔改">💻主题魔改&lt;/h1>
-&lt;p>前段时间我对Stack主题进行了很大的魔改，魔改内容大概如下：&lt;/p>
-&lt;ul>
-&lt;li>将原先的左侧导航栏换成了传统的顶部导航栏&lt;/li>
-&lt;li>在主页添加一个块状头图，内部显示欢迎语&lt;/li>
-&lt;li>右侧边栏添加名片卡片&lt;/li>
-&lt;li>主页文章双栏展示&lt;/li>
-&lt;li>关于页面的自我介绍卡&lt;/li>
-&lt;li>对手机端的优化&lt;/li>
-&lt;/ul>
-&lt;p>这样网站首先是继承了Stack主题的&lt;strong>卡片风格&lt;/strong>，以及&lt;strong>加载速度快&lt;/strong>的优点。而在整体布局上则是换成了现在&lt;strong>流行的博客网站布局&lt;/strong>，充分利用屏幕空间。&lt;/p>
-&lt;h1 id="主题的分享">🔗主题的分享&lt;/h1>
-&lt;p>看到有朋友对我的主题感兴趣，询问我页面的修改问题，于是我就想着发布我自己的这个主题，提供文档，让一些喜欢的朋友可以使用。&lt;/p>
-&lt;blockquote>
-&lt;p>主题仓库：&lt;a href="https://github.com/kmeykranz/hugo-theme-cybe">Hugo Theme Cybe&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;h1 id="主题配置文档">👾主题配置文档&lt;/h1>
-&lt;p>下面是主题的安装方法和配置文档：&lt;/p>
-&lt;h2 id="安装">安装&lt;/h2>
-&lt;p>1.删掉默认的配置文件&lt;code>config.toml&lt;/code>&lt;/p>
-&lt;p>2.在&lt;code>blog&lt;/code>根目录打开终端输入以下命令&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git init
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#获取主题文件&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule add https://github.com/kmeykranz/hugo-theme-cybe/ themes/hugo-theme-cybe
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>3.将获取到的主题文件中的&lt;code>exampleSite&lt;/code>中的所有文件拷贝到&lt;code>blog&lt;/code>根目录&lt;/p>
-&lt;p>4.打开&lt;code>hugo.yaml&lt;/code>根据自己需要进行配置&lt;/p>
-&lt;h2 id="自定义头像">自定义头像&lt;/h2>
-&lt;ol>
-&lt;li>打开主题文件中的&lt;code>\assets\img&lt;/code>文件夹&lt;/li>
-&lt;li>把里面的avatar.png换成你的头像&lt;/li>
-&lt;/ol>
-&lt;h2 id="自定义主页侧边栏名片">自定义主页侧边栏名片&lt;/h2>
-&lt;ol>
-&lt;li>（用任意编辑器）打开主题文件中的&lt;code>\layouts\partials\widget\author.html&lt;/code>&lt;/li>
-&lt;li>在里面自行修改对应文字和链接即可&lt;/li>
-&lt;/ol>
-&lt;h2 id="自定义关于页面">自定义”关于“页面&lt;/h2>
-&lt;ol>
-&lt;li>打开主题文件中的&lt;code>\layouts\page\about.html&lt;/code>&lt;/li>
-&lt;li>往下划就会找到这段代码，更换里面的文字和链接就可以了&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>    &lt;span style="color:#75715e">&amp;lt;!-- ---------在这里自定义关于页面--------- --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>    &lt;span style="color:#75715e">&amp;lt;!-- 卡片容器 --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>    &amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;author-page-content&amp;#34;&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        &lt;span style="color:#75715e">&amp;lt;!-- 卡片 1：关于我 --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        ...
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        &lt;span style="color:#75715e">&amp;lt;!-- 卡片 2：我的人格 --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        ...
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        &lt;span style="color:#75715e">&amp;lt;!-- 卡片 3：我的爱好 --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        ...
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        &lt;span style="color:#75715e">&amp;lt;!-- 卡片 4：座右铭 --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        ...
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        &lt;span style="color:#75715e">&amp;lt;!-- 卡片 5：我的技能 --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        &lt;span style="color:#75715e">&amp;lt;!-- 技能图标可以从这个网站获取 https://shields.io/ --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        ...
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        &lt;span style="color:#75715e">&amp;lt;!-- 卡片 6：与我联系 --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>        ...
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>    &amp;lt;&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>    &lt;span style="color:#75715e">&amp;lt;!-- ---------在上面自定义关于页面--------- --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="主页头图文字修改">主页头图文字修改&lt;/h2>
-&lt;p>在主题文件中打开&lt;code>layouts\index.html&lt;/code>修改&lt;/p>
-&lt;h2 id="自定义页脚">自定义页脚&lt;/h2>
-&lt;p>在主题文件中打开&lt;code>layouts\partials\footer\custom.html&lt;/code>修改&lt;/p>
-&lt;h2 id="其余设置">其余设置&lt;/h2>
-&lt;p>其余设置请参考原主题文档进行配置 &lt;a href="https://stack.jimmycai.com/">https://stack.jimmycai.com/&lt;/a>&lt;/p>
-&lt;h2 id="支持">支持&lt;/h2>
-&lt;p>如遇到问题，可以提交&lt;a href="https://github.com/kmeykranz/hugo-theme-cybe/issues">github issue&lt;/a>。&lt;/p></description></item></channel></rss>
+&lt;p>来到这个人生阶段，感慨万千，无数条路摆在我的面前，加油吧少年。去探索，去绽放。&lt;/p></description></item></channel></rss>

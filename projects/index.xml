@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Fiveth's Blog</title><link>https://blog.fiveth.cc/projects/</link><description>Recent content in Projects on Fiveth's Blog</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2026, Fiveth.</copyright><lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://blog.fiveth.cc/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>DuckChat</title><link>https://blog.fiveth.cc/projects/duck-chat/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/duck-chat/</guid><description>&lt;h1 id="duckchat">DuckChat&lt;/h1>
+&lt;p>05/2023&lt;/p>
+&lt;blockquote>
+&lt;p>A simple chat app based on TCP network made with C++ and Qt.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://github.com/kmeykranz/DuckChat">Github Link&lt;/a> | &lt;a href="https://www.bilibili.com/video/BV1pg4y177y4/">Video Showcase&lt;/a>&lt;/p>
+&lt;p>A practice project for tcp network in Qt.&lt;/p></description></item><item><title>LivelyKitchen</title><link>https://blog.fiveth.cc/projects/lively-kitchen/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/lively-kitchen/</guid><description>&lt;h1 id="livelykitchen">LivelyKitchen&lt;/h1>
+&lt;p>07/2025&lt;/p>
+&lt;blockquote>
+&lt;p>10th place out of 48 teams in 2025 CiGA Game Jam (the Chinese largest 48-hour game development hackathon).&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://github.com/MamboJiang/LivelyKitchen">Github Link&lt;/a> | &lt;a href="https://mambojiang.itch.io/livelykitchen">Play on itch.io&lt;/a>&lt;/p>
+&lt;p>Game Features:&lt;/p>
+&lt;ul>
+&lt;li>Soul-Possession Mechanic: Play as a wandering spirit that possesses your units to unleash unique abilities.&lt;/li>
+&lt;li>Unit Abilities:
+&lt;ul>
+&lt;li>🔪 Chef’s Knife: Slice through enemies with a deadly swipe!&lt;/li>
+&lt;li>🍲 Pot: Shield your entire team with a protective barrier!&lt;/li>
+&lt;li>🥛 Milk Carton: Heal allies in a splash of creamy goodness!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Victory Condition: Eliminate ALL opposing units to win!&lt;/li>
+&lt;/ul>
+&lt;p>Made with: Godot 4.4.1 | Asperite&lt;/p></description></item><item><title>RectMan</title><link>https://blog.fiveth.cc/projects/rect-man/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/rect-man/</guid><description>&lt;h1 id="rectman">RectMan&lt;/h1>
+&lt;p>07/2023&lt;/p>
+&lt;blockquote>
+&lt;p>A TCP‑Based Local Multiplayer Game built with C++ and the Qt 6.2.4 framework.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://github.com/kmeykranz/RectMans">Github Link&lt;/a> | &lt;a href="https://www.bilibili.com/video/BV1oL411h7Ms">Showcase Video&lt;/a>&lt;/p>
+&lt;p>• Built a real time multiplayer system with TCP synchronization.
+• Designed a pseudo 3D world with dynamic camera tracking and AI zombies.&lt;/p>
+&lt;p>I made this game when I was in grade 10. It’s one of the games I developed without using a game engine. After learning about the tcp functions in Qt. I used them to make this game for practicing.&lt;/p></description></item><item><title>ScreenBro</title><link>https://blog.fiveth.cc/projects/screen-bro/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/screen-bro/</guid><description>&lt;h1 id="screenbro">ScreenBro&lt;/h1>
+&lt;p>04/2024&lt;/p>
+&lt;blockquote>
+&lt;p>A Cross‑Window Shooting Game built with C++ and SDL2 render library.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://www.bilibili.com/video/BV1JS411N7eV/">Showcase Video&lt;/a> | &lt;a href="https://github.com/kmeykranz/ScreenBro">Github Link&lt;/a>&lt;/p>
+&lt;p>• Entirely coded from scratch without any game engine.&lt;br>
+• Implemented a unique mechanic allowing characters to move across overlapping OS windows.
+• Techniques: state machines, scene management, and optimized movement logic.&lt;/p></description></item><item><title>Self‑Media on Digital Productivity &amp; AI Learning</title><link>https://blog.fiveth.cc/projects/self-media/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/self-media/</guid><description>&lt;h1 id="selfmedia-on-digital-productivity--ai-learning">Self‑Media on Digital Productivity &amp;amp; AI Learning&lt;/h1>
+&lt;p>Ongoing&lt;/p>
+&lt;blockquote>
+&lt;p>Coaching &amp;amp; knowledge-sharing with a growing community of 176k+ followers across major platforms.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://space.bilibili.com/358065206">Bilibili&lt;/a> | &lt;a href="https://www.xiaohongshu.com/user/profile/610ffa94000000002002f971">RedNote&lt;/a> | &lt;a href="https://www.douyin.com/user/MS4wLjABAAAA1uyDMa-Bzw76mU9fCH2j-rRzf88eFeW_E2glGXzA0tE">Douyin&lt;/a>&lt;/p>
+&lt;p>I create tutorials on Obsidian, helping people organize their life, work, and knowledge.&lt;/p>
+&lt;p>I also provide guidance on leveraging AI for smarter learning, showing practical methods to integrate AI into personal growth and productivity.&lt;/p></description></item><item><title>V-Ray</title><link>https://blog.fiveth.cc/projects/v-ray/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/v-ray/</guid><description>&lt;h1 id="v-ray">V-Ray&lt;/h1>
+&lt;p>10/2022&lt;/p>
+&lt;blockquote>
+&lt;p>Finalist Team in 2022-2023 Conrad Challenge China&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Designed and developed V-Ray, a solar-powered 3D vision education device aimed at enhancing interactive learning experiences.&lt;/li>
+&lt;li>Selected as a finalist in the Conrad Challenge China for innovative application of renewable energy and 3D visualization in education.&lt;/li>
+&lt;li>Collaborated in a multidisciplinary team to conceptualize, prototype, and present the device to an international panel of judges.&lt;/li>
+&lt;/ul></description></item><item><title>VEX Robotics Programming</title><link>https://blog.fiveth.cc/projects/vex-robotics/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/vex-robotics/</guid><description>&lt;h1 id="vex-robotics-programming">VEX Robotics Programming&lt;/h1>
+&lt;p>02/2023&lt;/p>
+&lt;blockquote>
+&lt;p>2023 VEX Robotics Asia Open Finals&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Programmed and optimized the robot’s operating system using C++, focusing on motor velocity control and responsive controller key mapping.&lt;/li>
+&lt;li>Ensured reliable performance during competition by debugging and refining code under time constraints.&lt;/li>
+&lt;li>Collaborated with teammates to integrate hardware and software, contributing to overall team success at the finals.&lt;/li>
+&lt;li>Gained hands-on experience in robotics programming, control systems, and competitive engineering problem-solving.&lt;/li>
+&lt;/ul></description></item><item><title>ZooTodo</title><link>https://blog.fiveth.cc/projects/zoo-todo/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/zoo-todo/</guid><description>&lt;h1 id="zootodo">ZooTodo&lt;/h1>
+&lt;p>03/2024&lt;/p>
+&lt;blockquote>
+&lt;p>Gamified Productivity To‑Do App with Virtual Rewards made with C++ and Qt.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://github.com/kmeykranz/ZooTodo">Github Link&lt;/a> | &lt;a href="https://www.bilibili.com/video/BV16j421D7yJ/">Showcase Video&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Designed a motivational to do system where users earn interactive virtual animals.&lt;/li>
+&lt;li>Supports usage record checking and global shortcut keys for high efficiency.&lt;/li>
+&lt;li>Strongly aligns with my interest in productivity, knowledge systems, and user motivation.&lt;/li>
+&lt;/ul></description></item><item><title>FighterDuck</title><link>https://blog.fiveth.cc/projects/fighter-duck/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/fighter-duck/</guid><description>&lt;h1 id="fighter-duck">Fighter Duck&lt;/h1>
+&lt;p>04/2023&lt;/p>
+&lt;blockquote>
+&lt;p>A fun 2D fighting game built with C++ and the Qt 6.2.4 framework, without relying on a game engine.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://github.com/kmeykranz/fighter-duck">Github Link&lt;/a> | &lt;a href="https://www.bilibili.com/video/BV1Qc411n7ii/">Showcase Video&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Designed and implemented core gameplay mechanics entirely from scratch, applying object-oriented programming principles to structure code efficiently.&lt;/li>
+&lt;li>Created all original hand-drawn art assets, showcasing both technical and artistic skills.&lt;/li>
+&lt;li>Overcame challenges of low-level development, gaining experience in graphics rendering, input handling, and game logic design.&lt;/li>
+&lt;/ul></description></item><item><title>inspiration</title><link>https://blog.fiveth.cc/projects/inspiration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://blog.fiveth.cc/projects/inspiration/</guid><description>&lt;h1 id="inspiration">INSPIRATION∞&lt;/h1>
+&lt;p>06/2024&lt;/p>
+&lt;blockquote>
+&lt;p>5th place out of 24 teams in 2024 CiGA Game Jam (the Chinese largest 48-hour game development hackathon).&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://github.com/kmeykranz/JamTime-CIGA24">Github Link&lt;/a> | &lt;a href="https://mambojiang.itch.io/limitless-inspiration">itch.io&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Led a 5-member team (2 developers, 1 artist, 1 planner, 1 sound designer) through the full cycle of rapid game development.&lt;/li>
+&lt;li>Coordinated team roles, facilitated collaboration, and maintained project direction to deliver a playable product within 48 hours.&lt;/li>
+&lt;li>Gained valuable experience in team leadership, agile development, and cross-disciplinary collaboration.&lt;/li>
+&lt;/ul></description></item></channel></rss>
