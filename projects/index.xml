@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Fiveth</title><link>https://fiveth.cc/projects/</link><description>Recent content in Projects on Fiveth</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2026, Fiveth.</copyright><lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://fiveth.cc/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>DuckChat</title><link>https://fiveth.cc/projects/duck-chat/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/projects/duck-chat/</guid><description>&lt;h1 id="duckchat">DuckChat&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Fiveth</title><link>https://fiveth.cc/projects/</link><description>Recent content in Projects on Fiveth</description><generator>Hugo</generator><language>en-US</language><managingEditor>kmeykranz@qq.com (Fiveth)</managingEditor><webMaster>kmeykranz@qq.com (Fiveth)</webMaster><copyright>Copyright © 2022-2026, Fiveth.</copyright><lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate><follow_challenge><feedId>00000000000000000</feedId><userId>00000000000000000</userId></follow_challenge><atom:link href="https://fiveth.cc/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Dream Detective</title><link>https://fiveth.cc/projects/dream-detective/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/projects/dream-detective/</guid><description>&lt;h1 id="dream-detective-梦境侦探">Dream Detective 梦境侦探&lt;/h1>
+&lt;p>02/2026&lt;/p>
+&lt;blockquote>
+&lt;p>GGJ China 2026 Game Project&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://globalgamejam.org/games/2026/mengjingzhentan-0">GGJ Webpage&lt;/a> | &lt;a href="https://mambojiang.itch.io/dream-detective">Play on itch.io&lt;/a>&lt;/p>
+&lt;p>《梦境侦探》是一款2D剧情解谜游戏，你将成为一位拥有特殊能力的侦探，走进生者与死者的“梦境”。你将戴上面具，伪装成他们熟悉的人（或是小猫！），在人们的潜意识中寻找被刻意隐藏的线索。&lt;br>
+随着调查的深入，你竟发现，这起诡异的案件也与你的身份息息相关……&lt;br>
+面具之下，你能找到真相吗？&lt;/p>
+&lt;p>Dream Detective is a 2D narrative puzzle game. You take on the role of a detective with special abilities, stepping into the “dreams” of both the living and the dead. By wearing masks, you disguise yourself as someone familiar to them (or even a little cat!) and search within their subconscious for clues deliberately hidden away.&lt;/p>
+&lt;p>As the investigation deepens, you uncover that this strange case is closely tied to your own identity… Behind the mask, can you discover the truth?&lt;/p></description></item><item><title>DuckChat</title><link>https://fiveth.cc/projects/duck-chat/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/projects/duck-chat/</guid><description>&lt;h1 id="duckchat">DuckChat&lt;/h1>
 &lt;p>05/2023&lt;/p>
 &lt;blockquote>
 &lt;p>A simple chat app based on TCP network made with C++ and Qt.&lt;/p>
@@ -84,14 +94,4 @@
 &lt;li>Designed and implemented core gameplay mechanics entirely from scratch, applying object-oriented programming principles to structure code efficiently.&lt;/li>
 &lt;li>Created all original hand-drawn art assets, showcasing both technical and artistic skills.&lt;/li>
 &lt;li>Overcame challenges of low-level development, gaining experience in graphics rendering, input handling, and game logic design.&lt;/li>
-&lt;/ul></description></item><item><title>inspiration</title><link>https://fiveth.cc/projects/inspiration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author><guid>https://fiveth.cc/projects/inspiration/</guid><description>&lt;h1 id="inspiration">INSPIRATION∞&lt;/h1>
-&lt;p>06/2024&lt;/p>
-&lt;blockquote>
-&lt;p>5th place out of 24 teams in 2024 CiGA Game Jam (the Chinese largest 48-hour game development hackathon).&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;a href="https://github.com/kmeykranz/JamTime-CIGA24">Github Link&lt;/a> | &lt;a href="https://mambojiang.itch.io/limitless-inspiration">itch.io&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>Led a 5-member team (2 developers, 1 artist, 1 planner, 1 sound designer) through the full cycle of rapid game development.&lt;/li>
-&lt;li>Coordinated team roles, facilitated collaboration, and maintained project direction to deliver a playable product within 48 hours.&lt;/li>
-&lt;li>Gained valuable experience in team leadership, agile development, and cross-disciplinary collaboration.&lt;/li>
 &lt;/ul></description></item></channel></rss>
